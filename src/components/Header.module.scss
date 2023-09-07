@@ -11,6 +11,7 @@
     box-shadow: 0 4px 6px -4px rgba(26, 32, 38, 0.12),
       0px 8px 8px -4px rgba(26, 32, 38, 0.08);
     margin: auto;
+    z-index: 1;
   }
 
   &__img {
@@ -23,7 +24,7 @@
     display: flex;
     margin: 0 70px 0;
     padding: 0;
-    height: 52px;
+    height: 47px;
   }
 
   &__navList {
