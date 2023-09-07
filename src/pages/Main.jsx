@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "../styles/Main.module.scss"
+import Card from "../components/Card"
 
 const Main = () => {
   return <div>
@@ -10,44 +11,7 @@ const Main = () => {
       <button className={styles.intro__button}>ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ</button>
       </div>
     </section>
-    <section className={styles.cards}>
-      <div className={styles.card}>
-        <div>
-          <a href=""></a>
-          <div></div>
-        </div>
-      </div>
-      <div className={styles.card}>
-        <div>
-          <a href=""></a>
-          <div></div>
-        </div>
-      </div>
-      <div className={styles.card}>
-        <div>
-          <a href=""></a>
-          <div></div>
-        </div>
-      </div>
-      <div className={styles.card}>
-        <div>
-          <a href=""></a>
-          <div></div>
-        </div>
-      </div>
-      <div className={styles.card}>
-        <div>
-          <a href=""></a>
-          <div></div>
-        </div>
-      </div>
-      <div className={styles.card}>
-        <div>
-          <a href=""></a>
-          <div></div>
-        </div>
-      </div>
-    </section>
+    <Card/>
   </div>;
 };
 
