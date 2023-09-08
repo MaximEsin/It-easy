@@ -1,11 +1,12 @@
 import React from "react";
-import styles from "../styles/Main.module.scss"
-import Card from "../components/Card"
-import Bank from "../images/Bank.svg"
-import Dom from "../images/Dom.svg"
-import Medal from "../images/Medal.svg"
-import Papka from "../images/Papka.svg"
-import Server from "../images/Server.svg"
+import styles from "../styles/Main.module.scss";
+import Card from "../components/Card";
+import Bank from "../images/Bank.svg";
+import Dom from "../images/Dom.svg";
+import Medal from "../images/Medal.svg";
+import Papka from "../images/Papka.svg";
+import Server from "../images/Server.svg";
+import ContactUs from "../components/ContactUs";
 
 const Main = () => {
   return <div className={styles.main}>
@@ -24,6 +25,7 @@ const Main = () => {
     <Card heading="tfyguhijokp" description="dgfhjnggdfhg" img={Papka}/>
     <Card heading="tfyguhijokp" description="dgfhjnggdfhg" img={Server}/>
     </div>
+    <ContactUs/>
   </div>;
 };
 
