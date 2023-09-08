@@ -16,7 +16,11 @@ const Header = () => {
 
       <nav className={styles.header__nav}>
         <ul className={styles.header__navList}>
-          <li className={styles.header__navItem}>ИТ-Услуги</li>
+          <li className={styles.header__navItem}>
+            <Link className={styles.header__navItem} to="/services">
+              ИТ-Услуги
+            </Link>
+          </li>
           <li className={styles.header__navItem}>
             <Link className={styles.header__navItem} to="/products">
               Наши продукты
