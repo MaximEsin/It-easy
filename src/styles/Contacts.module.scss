@@ -1,0 +1,43 @@
+.contacts {
+  &__container {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+  }
+
+  &__heading {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 49px;
+    text-transform: uppercase;
+    color: #1a2026;
+    margin: 100px 0 100px;
+  }
+
+  &__infoContainer {
+    display: flex;
+    gap: 30px;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  &__name {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 150%;
+    text-transform: uppercase;
+    color: #1a2026;
+  }
+
+  &__text {
+    color: #4a586e;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    text-decoration: none;
+  }
+}
