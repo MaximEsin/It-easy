@@ -49,5 +49,19 @@
     background: blue;
   }
 }
+
+.cards {
+  margin-top: -290px;
+  max-width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 80px;
 }
 
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
