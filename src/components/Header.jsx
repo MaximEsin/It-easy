@@ -18,7 +18,11 @@ const Header = () => {
         <ul className={styles.header__navList}>
           <li className={styles.header__navItem}>ИТ-Услуги</li>
           <li className={styles.header__navItem}>Наши продукты</li>
-          <li className={styles.header__navItem}>О компании</li>
+          <li className={styles.header__navItem}>
+            <Link className={styles.header__navItem} to="/about">
+              О компании
+            </Link>
+          </li>
           <li className={styles.header__navItem}>
             <Link className={styles.header__navItem} to="/contacts">
               Контакты
