@@ -5,7 +5,11 @@ import intro from "../images/ContactIntro.svg";
 const Contacts = () => {
   return (
     <div className={styles.contacts__container}>
-      <img src={intro} alt="Recieved new messages" />
+      <img
+        src={intro}
+        alt="Recieved new messages"
+        className={styles.contacts__img}
+      />
       <h1 className={styles.contacts__heading}>Наши контакты</h1>
       <div className={styles.contacts__infoContainer}>
         <p className={styles.contacts__name}>Центральный офис:</p>
