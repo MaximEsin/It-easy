@@ -5,35 +5,40 @@ import ThaiFlag from "../images/ThaiFlag.webp";
 import UKFlag from "../images/UKFlag.webp";
 import RusFlag from "../images/RusFlag.png";
 import { Link } from "react-router-dom";
+import { useSelector } from "react-redux";
+import { useDispatch } from "react-redux";
+import { getLanguage } from "../services/actions";
+import { English, Russian } from "../data/Data";
 
 const Header = () => {
+  const { data } = useSelector((state) => state.dataReducer);
+  const dispatch = useDispatch();
   return (
     <div className={styles.header__container}>
       <Link className={styles.header__logoContainer} to="/">
         <img src={logo} alt="It easy logo" className={styles.header__img} />
         <p className={styles.header__companyName}>It-easy international</p>
       </Link>
-
       <nav className={styles.header__nav}>
         <ul className={styles.header__navList}>
           <li className={styles.header__navItem}>
             <Link className={styles.header__navItem} to="/services">
-              ИТ-Услуги
+              {data.navOne}
             </Link>
           </li>
           <li className={styles.header__navItem}>
             <Link className={styles.header__navItem} to="/products">
-              Наши продукты
+              {data.navTwo}
             </Link>
           </li>
           <li className={styles.header__navItem}>
             <Link className={styles.header__navItem} to="/about">
-              О компании
+              {data.navThree}
             </Link>
           </li>
           <li className={styles.header__navItem}>
             <Link className={styles.header__navItem} to="/contacts">
-              Контакты
+              {data.navFour}
             </Link>
           </li>
         </ul>
@@ -48,11 +53,19 @@ const Header = () => {
           src={UKFlag}
           alt="Flag of England"
           className={styles.header__flag}
+          onClick={() => {
+            dispatch(getLanguage(English));
+            localStorage.setItem("language", "English");
+          }}
         />
         <img
           src={RusFlag}
           alt="Flag of Russia"
           className={styles.header__flag}
+          onClick={() => {
+            dispatch(getLanguage(Russian));
+            localStorage.setItem("language", "Russian");
+          }}
         />
       </div>
     </div>

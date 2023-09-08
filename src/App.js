@@ -7,8 +7,26 @@ import Contacts from "./pages/Contacts";
 import About from "./pages/About";
 import OurProducts from "./pages/OurProducts";
 import Services from "./pages/Services";
+import { useDispatch } from "react-redux";
+import { English, Russian } from "./data/Data";
+import { useEffect } from "react";
+import { getLanguage } from "./services/actions";
 
 function App() {
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    if (localStorage.language === "Russian") {
+      dispatch(getLanguage(Russian));
+    } else if (localStorage.language === "English") {
+      dispatch(getLanguage(English));
+    } else {
+      dispatch(getLanguage(Russian));
+      localStorage.setItem("language", "Russian");
+    }
+  }, []);
+  console.log(localStorage);
+
   return (
     <div className={styles.appContainer}>
       <Header />

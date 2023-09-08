@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "../UI/UX/button/Button";
+import Button from "../UI/button/Button";
 import styles from "./ContactUs.module.scss";
 
 const ContactUs = () => {

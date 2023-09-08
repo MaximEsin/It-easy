@@ -1,0 +1,17 @@
+.loader {
+  &__container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__text {
+    max-width: 484px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 150%;
+    text-transform: uppercase;
+  }
+}
