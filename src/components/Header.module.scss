@@ -18,6 +18,7 @@
     width: 80px;
     height: 80px;
     padding: 0 0 2px;
+    cursor: pointer;
   }
 
   &__nav {
@@ -47,6 +48,7 @@
     position: relative;
     transition: border-bottom 0.2s ease;
     cursor: pointer;
+    text-decoration: none;
   }
 
   &__navItem:hover {
@@ -57,5 +59,25 @@
     margin: 0 30px 0 10px;
     color: blue;
     font-size: 25px;
+    cursor: pointer;
+  }
+
+  &__languageContainer {
+    display: flex;
+    gap: 10px;
+    margin-left: 10vw;
+    padding: 10px;
+  }
+
+  &__flag {
+    width: 30px;
+    height: 20px;
+    cursor: pointer;
+  }
+
+  &__logoContainer {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
   }
 }

@@ -7,7 +7,7 @@ const Footer = () => {
     <section className={styles.footer__section}>
       <div className={styles.footer__container}>
         <img src={logo} alt="it easy logo" className={styles.footer__logo} />
-        <p className={styles.footer__companyName}>It easy international</p>
+        <p className={styles.footer__companyName}>It-easy international</p>
         <nav className={styles.footer__nav}>
           <p className={styles.footer__navItem}>ИТ-Услуги</p>
           <p className={styles.footer__navItem}>Наши продукты</p>
