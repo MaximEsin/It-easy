@@ -13,6 +13,7 @@ const Header = () => {
         <img src={logo} alt="It easy logo" className={styles.header__img} />
         <p className={styles.header__companyName}>It-easy international</p>
       </Link>
+
       <nav className={styles.header__nav}>
         <ul className={styles.header__navList}>
           <li className={styles.header__navItem}>ИТ-Услуги</li>
