@@ -1,8 +1,10 @@
 import React from "react";
 import styles from "../styles/Contacts.module.scss";
 import intro from "../images/CI.svg";
+import { useSelector } from "react-redux";
 
 const Contacts = () => {
+  const { data } = useSelector((state) => state.dataReducer);
   return (
     <div className={styles.contacts__container}>
       <img
@@ -10,9 +12,9 @@ const Contacts = () => {
         alt="Recieved new messages"
         className={styles.contacts__img}
       />
-      <h1 className={styles.contacts__heading}>Наши контакты</h1>
+      <h1 className={styles.contacts__heading}>{data.contactsHeading}</h1>
       <div className={styles.contacts__infoContainer}>
-        <p className={styles.contacts__name}>Центральный офис:</p>
+        <p className={styles.contacts__name}>{data.contactsOne}</p>
         <a
           href="https://goo.gl/maps/APTn3FWYXvhb2bMJ8"
           target="_blank"
@@ -24,7 +26,7 @@ const Contacts = () => {
       </div>
       <div className={styles.contacts__infoContainer}>
         <p className={styles.contacts__name}>
-          Общие вопросы и предложения к нам :
+        {data.contactsTwo}
         </p>
         <p className={styles.contacts__text}>bikesharingtai@gmail.com</p>
       </div>

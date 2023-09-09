@@ -28,6 +28,9 @@ export const Russian = {
     "Создаем межотраслевое ПО для автоматизации универскльных бизнесс-процессов",
   contactUsDescription: "Свяжитесь с нами чтобы узнать больше",
   contactUsButtonText: "СВЯЗАТЬСЯ С НАМИ",
+  contactsHeading: "НАШИ КОНТАКТЫ",
+  contactsOne: "ЦЕНТРАЛЬНЫЙ ОФИС:",
+  contactsTwo: "ОБЩИЕ ВОПРОСЫ И ПРЕДЛОЖЕНИЯ К НАМ :",
 };
 
 export const English = {
@@ -62,4 +65,7 @@ export const English = {
     "We create cross-industry software for automating universal business processes",
   contactUsDescription: "Contact us to find out more",
   contactUsButtonText: "CONTACT WITH US",
+  contactsHeading: "OUR CONTACTS",
+  contactsOne: "HEAD OFFICE:",
+  contactsTwo: "GENERAL QUESTIONS :",
 };
