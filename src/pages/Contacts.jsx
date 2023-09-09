@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "../styles/Contacts.module.scss";
-import intro from "../images/ContactIntro.svg";
+import intro from "../images/CI.svg";
 
 const Contacts = () => {
   return (
