@@ -9,7 +9,7 @@ const About = () => {
   return <div>
     <section className={styles.about}>
       <div className={styles.about__text}>
-        <h1 className={styles.about__heading}>ИСТОРИЯ MotoSharing</h1>
+        <h1 className={styles.about__heading}>ИСТОРИЯ it-easy</h1>
         <p className={styles.about__description}>С 2000 года выполняем цифровое преобразование важнейших отраслей экономики и государственных ведомств. НАШЕ КРЕДО: Индивидуальность в деталях, безупречность во всем!</p>
         <Button text="ПOЛУЧИТЬ КОНСУЛЬТАЦИЮ"/>
       </div>
