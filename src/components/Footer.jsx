@@ -1,18 +1,20 @@
 import React from "react";
 import styles from "./Footer.module.scss";
 import logo from "../images/logo.jpeg";
+import { useSelector } from "react-redux";
 
 const Footer = () => {
+  const { data } = useSelector((state) => state.dataReducer);
   return (
     <section className={styles.footer__section}>
       <div className={styles.footer__container}>
         <img src={logo} alt="it easy logo" className={styles.footer__logo} />
-        <p className={styles.footer__companyName}>It-easy international</p>
+        <p className={styles.footer__companyName}>it-easy international</p>
         <nav className={styles.footer__nav}>
-          <p className={styles.footer__navItem}>ИТ-Услуги</p>
-          <p className={styles.footer__navItem}>Наши продукты</p>
-          <p className={styles.footer__navItem}>О компании</p>
-          <p className={styles.footer__navItem}>Контакты</p>
+          <p className={styles.footer__navItem}>{data.footerOne}</p>
+          <p className={styles.footer__navItem}>{data.footerTwo}</p>
+          <p className={styles.footer__navItem}>{data.footerThree}</p>
+          <p className={styles.footer__navItem}>{data.footerFour}</p>
         </nav>
       </div>
       <div className={styles.footer__container}>

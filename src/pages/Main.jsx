@@ -7,26 +7,56 @@ import Medal from "../images/Medal.svg";
 import Papka from "../images/Papka.svg";
 import Server from "../images/Server.svg";
 import ContactUs from "../components/ContactUs";
+import { useSelector } from "react-redux";
 
 const Main = () => {
-  return <div className={styles.main}>
-    <section className={styles.intro}>
-      <div className={styles.intro__text}>
-      <h1 className={styles.intro__heading}>Добро пожаловать в MotoSharing</h1>
-      <p className={styles.intro__description}>Байки в Тайланде</p>
-      <button className={styles.intro__button}>ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ</button>
+  const { data } = useSelector((state) => state.dataReducer);
+  return (
+    <div className={styles.main}>
+      <section className={styles.intro}>
+        <div className={styles.intro__text}>
+          <h1 className={styles.intro__heading}>{data.mainHeading}</h1>
+          <p className={styles.intro__description}>{data.mainDescription}</p>
+          <button className={styles.intro__button}>
+            {data.mainButtonText}
+          </button>
+        </div>
+      </section>
+      <div className={styles.cards}>
+        <Card
+          heading={data.cardOneHeading}
+          description={data.cardOneText}
+          img={Bank}
+        />
+        <Card
+          heading={data.cardTwoHeading}
+          description={data.cardTwoText}
+          img={Dom}
+        />
+        <Card
+          heading={data.cardThreeHeading}
+          description={data.cardThreeText}
+          img={Medal}
+        />
+        <Card
+          heading={data.cardFourHeading}
+          description={data.cardFourText}
+          img={Server}
+        />
+        <Card
+          heading={data.cardFiveHeading}
+          description={data.cardFiveText}
+          img={Papka}
+        />
+        <Card
+          heading={data.cardSixHeading}
+          description={data.cardSixText}
+          img={Server}
+        />
       </div>
-    </section>
-    <div className={styles.cards}>
-    <Card heading="tfyguhijokp" description="dgfhjnggdfhg" img={Bank}/>
-    <Card heading="tfyguhijokp" description="dgfhjnggdfhg" img={Dom}/>
-    <Card heading="tfyguhijokp" description="dgfhjnggdfhg" img={Medal}/>
-    <Card heading="tfyguhijokp" description="dgfhjnggdfhg" img={Server}/>
-    <Card heading="tfyguhijokp" description="dgfhjnggdfhg" img={Papka}/>
-    <Card heading="tfyguhijokp" description="dgfhjnggdfhg" img={Server}/>
+      <ContactUs />
     </div>
-    <ContactUs/>
-  </div>;
+  );
 };
 
 export default Main;
