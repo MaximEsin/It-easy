@@ -11,7 +11,7 @@ const Header = () => {
     <div className={styles.header__container}>
       <Link className={styles.header__logoContainer} to="/">
         <img src={logo} alt="It easy logo" className={styles.header__img} />
-        <p className={styles.header__companyName}>It-easy international</p>
+        <p className={styles.header__companyName}>it-easy international</p>
       </Link>
 
       <nav className={styles.header__nav}>
