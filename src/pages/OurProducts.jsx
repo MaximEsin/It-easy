@@ -9,6 +9,7 @@ import three from "../images/products/3.svg";
 import four from "../images/products/4.svg";
 import five from "../images/products/5.svg";
 import six from "../images/products/6.svg";
+import { Link } from "react-router-dom";
 
 const OurProducts = () => {
   return (
@@ -19,7 +20,9 @@ const OurProducts = () => {
           Готовые прикладные решения, адаптируемые <br />
           под бизнес-задачи различных отраслей
         </p>
-        <Button text="Связаться с нами" />
+        <Link to="/contacts">
+          <Button text="Связаться с нами" />
+        </Link>
       </div>
       <div className={styles.products__mainContainer}>
         <p className={styles.products__mainHeading}>Наши продукты</p>

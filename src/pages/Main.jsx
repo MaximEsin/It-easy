@@ -8,6 +8,7 @@ import Papka from "../images/Papka.svg";
 import Server from "../images/Server.svg";
 import ContactUs from "../components/ContactUs";
 import { useSelector } from "react-redux";
+import { Link } from "react-router-dom";
 
 const Main = () => {
   const { data } = useSelector((state) => state.dataReducer);
@@ -17,9 +18,11 @@ const Main = () => {
         <div className={styles.intro__text}>
           <h1 className={styles.intro__heading}>{data.mainHeading}</h1>
           <p className={styles.intro__description}>{data.mainDescription}</p>
-          <button className={styles.intro__button}>
-            {data.mainButtonText}
-          </button>
+          <Link to="/contacts">
+            <button className={styles.intro__button}>
+              {data.mainButtonText}
+            </button>
+          </Link>
         </div>
       </section>
       <div className={styles.cards}>
