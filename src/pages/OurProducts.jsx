@@ -32,11 +32,13 @@ const OurProducts = () => {
             heading="Архимед"
             description="qqqqqqqqqqqqqqqqqqqqqq qqqqqqqqqqqqqqqqqqqqqqq qqqqqqqqqqqqqq"
           />
-          <Product
-            image={two}
-            heading="Мониторинг пожарной сигнализации"
-            description="qqqqqqqqqqqqqqqqqqq qqqqqqqqqqqqqqqqqqqqqqq qqqqqqqqqqqqqq"
-          />
+          <Link className={styles.products__link} to="/fire-alarm">
+            <Product
+              image={two}
+              heading="Мониторинг пожарной сигнализации"
+              description="qqqqqqqqqqqqqqqqqqq qqqqqqqqqqqqqqqqqqqqqqq qqqqqqqqqqqqqq"
+            />
+          </Link>
           <Product
             image={three}
             heading="Цифровая трансформаци государства"
