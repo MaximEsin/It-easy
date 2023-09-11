@@ -1,3 +1,5 @@
+import OurProducts from "../pages/OurProducts";
+
 export const Russian = {
   navOne: "ИТ-Услуги",
   navTwo: "Наши продукты",
@@ -50,6 +52,23 @@ export const Russian = {
   aboutList13: "Проект по созданию системы казначейских платежей для Федерального казначейства, объявлен «Уникальным IT-проектом года», 2021",
   aboutList14: "«Универсальный сервер безопасности» включен в Единый реестр российского ПО , 2021",
   aboutList15: "2-е место в рейтинге «Лучший ИТ-работодатель среди крупнейших ИТ-компаний России» (TAdviser), 2021",
+  ourProductsTitle: "Наши продукты",
+  ourProductsDescription: "Готовые прикладные решения, адаптируемые под бизнес-задачи различных отраслей",
+  ourProductsButton: "СВЯЗАТЬСЯ С НАМИ",
+  ourProductsList: "НАШИ ПРОДУКТЫ", 
+  ourProductsTitleList1: "Архимед",
+  ourProductsDescription1: "рррррррррррррррррр рррррррррррррррр рррррррррррр",
+  ourProductsButtonList: "ПОДРОБНЕЕ...",
+  ourProductsTitleList2: "Мониторинг пожарной сигнализации",
+  ourProductsDescription2: "рррррррррррррррррр рррррррррррррррр рррррррррррр",
+  ourProductsTitleList3: "Цифровая трансформаци государства",
+  ourProductsDescription3: "рррррррррррррррррр рррррррррррррррр рррррррррррр",
+  ourProductsTitleList4: "Цифровой ассистент сотрудника",
+  ourProductsDescription4: "рррррррррррррррррр рррррррррррррррр рррррррррррр",
+  ourProductsTitleList5: "Управление учетными записями и правами доступа",
+  ourProductsDescription5: "рррррррррррррррррр рррррррррррррррр рррррррррррр",
+  ourProductsTitleList6: "Сбор и анализ информации СМИ",
+  ourProductsDescription6: "рррррррррррррррррр рррррррррррррррр рррррррррррр",
 
 };
 
@@ -107,4 +126,21 @@ export const English = {
   aboutList13: "The project to create a treasury payment system for the Federal Treasury was declared a “Unique IT project of the year”, 2021",
   aboutList14: "Universal Security Server is included in the Unified Register of Russian Software, 2021",
   aboutList15: "2nd place in the rating “Best IT employer among the largest IT companies in Russia” (TAdviser), 2021",
+  ourProductsTitle: "Our products",
+  ourProductsDescription: "Ready-made application solutions adaptable to business tasks of various industries",
+  ourProductsButton: "CONTACT US",
+  ourProductsList: "OUR PRODUCTS", 
+  ourProductsTitleList1: "Archimedes",
+  ourProductsDescription1: "qqqqqqqqqqqqqqqqqqqqqq qqqqqqqqqqqqqqqqqqqqqqq qqqqqqqqqqqqqq",
+  ourProductsButtonList: "LEARN MORE...",
+  ourProductsTitleList2: "Fire alarm monitoring",
+  ourProductsDescription2: "qqqqqqqqqqqqqqqqqqqqqq qqqqqqqqqqqqqqqqqqqqqqq qqqqqqqqqqqqqq",
+  ourProductsTitleList3: "Digital transformation of the state",
+  ourProductsDescription3: "qqqqqqqqqqqqqqqqqqqqqq qqqqqqqqqqqqqqqqqqqqqqq qqqqqqqqqqqqqq",
+  ourProductsTitleList4: "Digital employee assistant",
+  ourProductsDescription4: "qqqqqqqqqqqqqqqqqqqqqq qqqqqqqqqqqqqqqqqqqqqqq qqqqqqqqqqqqqq",
+  ourProductsTitleList5: "Managing accounts and access rights",
+  ourProductsDescription5: "qqqqqqqqqqqqqqqqqqqqqq qqqqqqqqqqqqqqqqqqqqqqq qqqqqqqqqqqqqq",
+  ourProductsTitleList6: "Collection and analysis of media information",
+  ourProductsDescription6: "qqqqqqqqqqqqqqqqqqqqqq qqqqqqqqqqqqqqqqqqqqqqq qqqqqqqqqqqqqq",
 };

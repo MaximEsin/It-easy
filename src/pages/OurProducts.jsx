@@ -10,52 +10,53 @@ import four from "../images/products/4.svg";
 import five from "../images/products/5.svg";
 import six from "../images/products/6.svg";
 import { Link } from "react-router-dom";
+import { useSelector } from "react-redux";
 
 const OurProducts = () => {
+  const { data } = useSelector((state) => state.dataReducer);
   return (
     <div className={styles.products__container}>
       <div className={styles.products__introContainer}>
-        <h1 className={styles.products__heading}>Наши продукты</h1>
+        <h1 className={styles.products__heading}>{data.ourProductsTitle}</h1>
         <p className={styles.products__description}>
-          Готовые прикладные решения, адаптируемые <br />
-          под бизнес-задачи различных отраслей
+          {data.ourProductsDescription}
         </p>
         <Link to="/contacts">
-          <Button text="Связаться с нами" />
+          <Button text={data.ourProductsButton} />
         </Link>
       </div>
       <div className={styles.products__mainContainer}>
-        <p className={styles.products__mainHeading}>Наши продукты</p>
+        <p className={styles.products__mainHeading}>{data.ourProductsList}</p>
         <div className={styles.products__web}>
           <Product
             image={one}
-            heading="Архимед"
-            description="qqqqqqqqqqqqqqqqqqqqqq qqqqqqqqqqqqqqqqqqqqqqq qqqqqqqqqqqqqq"
+            heading={data.ourProductsTitleList1}
+            description={data.ourProductsDescription1}
           />
           <Product
             image={two}
-            heading="Мониторинг пожарной сигнализации"
-            description="qqqqqqqqqqqqqqqqqqq qqqqqqqqqqqqqqqqqqqqqqq qqqqqqqqqqqqqq"
+            heading={data.ourProductsTitleList2}
+            description={data.ourProductsDescription2}
           />
           <Product
             image={three}
-            heading="Цифровая трансформаци государства"
-            description="qqqqqqqqqqqqqqqqqqq qqqqqqqqqqqqqqqqqqqqqqq qqqqqqqqqqqqqq"
+            heading={data.ourProductsTitleList3}
+            description={data.ourProductsDescription3}
           />
           <Product
             image={four}
-            heading="Цифровой ассистент сотрудника"
-            description="qqqqqqqqqqqqqqqqqqqq qqqqqqqqqqqqqqqqqqqqqqq qqqqqqqqqqqqqq"
+            heading={data.ourProductsTitleList4}
+            description={data.ourProductsDescription4}
           />
           <Product
             image={five}
-            heading="Управление учетными записями и правами доступа"
-            description="qqqqqqqqqqqqqqqqqq qqqqqqqqqqqqqqqqqqqqqqq qqqqqqqqqqqqqq"
+            heading={data.ourProductsTitleList5}
+            description={data.ourProductsDescription5}
           />
           <Product
             image={six}
-            heading="Сбор и анализ информации СМИ"
-            description="qqqqqqqqqqqqqqqqqqqqq qqqqqqqqqqqqqqqqqqqqqqq qqqqqqqqqqqqqq"
+            heading={data.ourProductsTitleList6}
+            description={data.ourProductsDescription6}
           />
         </div>
       </div>
