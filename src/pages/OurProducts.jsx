@@ -33,11 +33,13 @@ const OurProducts = () => {
             heading={data.ourProductsTitleList1}
             description={data.ourProductsDescription1}
           />
-          <Product
+          <Link className={styles.products__link} to="/fire-alarm">
+            <Product
             image={two}
             heading={data.ourProductsTitleList2}
             description={data.ourProductsDescription2}
           />
+          </Link>
           <Product
             image={three}
             heading={data.ourProductsTitleList3}

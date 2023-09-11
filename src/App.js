@@ -11,6 +11,7 @@ import { useDispatch } from "react-redux";
 import { English, Russian } from "./data/Data";
 import { useEffect } from "react";
 import { getLanguage } from "./services/actions";
+import FireAlarm from "./pages/projects/FireAlarm";
 
 function App() {
   const dispatch = useDispatch();
@@ -25,7 +26,6 @@ function App() {
       localStorage.setItem("language", "Russian");
     }
   }, []);
-  console.log(localStorage);
 
   return (
     <div className={styles.appContainer}>
@@ -36,6 +36,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/products" element={<OurProducts />} />
         <Route path="/services" element={<Services />} />
+        <Route path="/fire-alarm" element={<FireAlarm />} />
       </Routes>
       <Footer />
     </div>
