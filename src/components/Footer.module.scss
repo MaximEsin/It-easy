@@ -67,4 +67,10 @@
     display: flex;
     margin-left: 50px;
   }
+
+  &__link {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+  }
 }
