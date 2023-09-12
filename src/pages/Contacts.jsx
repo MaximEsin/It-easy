@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "../styles/Contacts.module.scss";
-import intro from "../images/CI.svg";
+import intro from "../images/ContactImg.svg";
 import { useSelector } from "react-redux";
 
 const Contacts = () => {
@@ -25,9 +25,7 @@ const Contacts = () => {
         </a>
       </div>
       <div className={styles.contacts__infoContainer}>
-        <p className={styles.contacts__name}>
-        {data.contactsTwo}
-        </p>
+        <p className={styles.contacts__name}>{data.contactsTwo}</p>
         <p className={styles.contacts__text}>bikesharingtai@gmail.com</p>
       </div>
     </div>
