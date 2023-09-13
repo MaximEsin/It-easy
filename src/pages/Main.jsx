@@ -9,6 +9,7 @@ import Server from "../images/Server.svg";
 import ContactUs from "../components/ContactUs";
 import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
+import Button from "../UI/button/Button";
 
 const Main = () => {
   const { data } = useSelector((state) => state.dataReducer);
@@ -56,6 +57,20 @@ const Main = () => {
           description={data.cardSixText}
           img={Server}
         />
+      </div>
+      <div className={styles.IP}>
+        <div className={styles.IP__container}>
+          <div className={styles.IP__content}>
+            <h1 className={styles.IP__title}>{data.ipTitle}</h1>
+            <p className={styles.IP__description}>{data.ipDescription}</p>
+            <div className={styles.IP__section}>
+              <p className={styles.IP__info}>{data.ipInfo1}</p>
+              <p className={styles.IP__info}>{data.ipInfo2}</p>
+              <p className={styles.IP__info}>{data.ipInfo3}</p>
+            </div>
+            <Link to="/IP"><Button text="УЗНАТЬ БОЛЬШЕ"></Button></Link>
+          </div>
+        </div>
       </div>
       <ContactUs />
     </div>
