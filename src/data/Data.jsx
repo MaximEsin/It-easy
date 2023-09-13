@@ -145,6 +145,7 @@ export const Russian = {
   ipInfo1: "Быстро",
   ipInfo2: "Качественно",
   ipInfo3: "Надёжно",
+  ipButton: "УЗНАТЬ БОЛЬШЕ",
 };
 
 export const English = {
@@ -298,4 +299,5 @@ export const English = {
   ipInfo1: "Fast",
   ipInfo2: "Quality",
   ipInfo3: "Secure",
+  ipButton: "LEARN MORE"
 };

@@ -68,7 +68,7 @@ const Main = () => {
               <p className={styles.IP__info}>{data.ipInfo2}</p>
               <p className={styles.IP__info}>{data.ipInfo3}</p>
             </div>
-            <Link to="/IP"><Button text="УЗНАТЬ БОЛЬШЕ"></Button></Link>
+            <Link to="/IP"><Button text={data.ipButton}></Button></Link>
           </div>
         </div>
       </div>
