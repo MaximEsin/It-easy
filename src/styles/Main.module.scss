@@ -67,3 +67,53 @@
   justify-content: center;
 }
 
+.IP {
+  position: relative;
+  min-height: 640px;
+  overflow: hidden;
+  width: 100%;
+  background-image: url(../images/IP.png);
+  background-position: contain;
+  &__container {
+    max-width: 1180px;
+    width: 100%;
+    padding: 0 35px;
+    margin: 0 auto;
+  }
+  &__content {
+    margin: 75px 0 74px;
+    max-width: 620px;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+  }
+  &__title {
+    max-width: 519px;
+    display: block;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 150%;
+    text-transform: uppercase;
+  }
+  &__description {
+    max-width: 508px;
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+  }
+  &__section {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 40px;
+  }
+  &__info {
+    max-width: 107px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+  }
+}
