@@ -12,6 +12,7 @@ import { English, Russian } from "./data/Data";
 import { useEffect } from "react";
 import { getLanguage } from "./services/actions";
 import FireAlarm from "./pages/projects/FireAlarm";
+import IP from "./pages/IP";
 
 function App() {
   const dispatch = useDispatch();
@@ -36,6 +37,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/products" element={<OurProducts />} />
         <Route path="/services" element={<Services />} />
+        <Route path="/IP" element={<IP />} />
         <Route path="/fire-alarm" element={<FireAlarm />} />
       </Routes>
       <Footer />

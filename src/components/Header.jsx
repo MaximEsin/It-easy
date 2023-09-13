@@ -32,6 +32,11 @@ const Header = () => {
             </Link>
           </li>
           <li className={styles.header__navItem}>
+            <Link className={styles.header__navItem} to="/IP">
+              {data.navFive}
+            </Link>
+          </li>
+          <li className={styles.header__navItem}>
             <Link className={styles.header__navItem} to="/about">
               {data.navThree}
             </Link>

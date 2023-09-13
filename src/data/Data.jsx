@@ -3,6 +3,7 @@ export const Russian = {
   navTwo: "Наши продукты",
   navThree: "О компании",
   navFour: "Контакты",
+  navFive: "Регистрация ИС",
   footerOne: "ИТ-Услуги",
   footerTwo: "Наши продукты",
   footerThree: "О компании",
@@ -134,6 +135,11 @@ export const Russian = {
     "Для больших площадей необходимо устанавливать ретрансляторы, которые можно увидеть на карте в геомодуле.",
   fATextTwentyEight:
     "Преимущество нашей беспроводной системы в том, что она ускоряет установку и эта установка обходится намного дешевле, чем установка проводной системы. Эффективность заметна на объектах площадью более 150 квадратных метров.",
+  ipHeading: "Зарегестрировать интеллектуальную собственность",
+  ipTextOne:
+    "К интеллектуальной собственности относятся объекты авторского права (например, произведения науки, искусства и литературы, программное обеспечение, базы данных, топологии интегральных микросхем и др.), которые охраняются по умолчанию: регистрация прав интеллектуальной собственности в области авторского права осуществляется по желанию, зачастую — с целью защиты произведений от притязаний со стороны. При этом имущественные права автора, в том числе, на воспроизведение, тиражирование, переводы на другие языки и т.д., могут быть переданы при заключении специального договора или завещаны наследникам в то время, как личные неимущественные права, то есть, право авторства, право на имя, обнародование и защиту репутации, не подлежат передаче и отказ от них ничтожен. Кроме того, государственной регистрации подлежат объекты промышленной собственности, а именно: изобретения, полезные модели, промышленные образцы, товарные знаки и знаки обслуживания, селекционные достижения. На эти объекты интеллектуальной собственности правообладатель может получить патент или свидетельство, подтверждающие фиксацию в патентном ведомстве.",
+  ipTextTwo:
+    "Мы можем зарегестрировать вам интелектуальную собственность на любой продукт.",
 };
 
 export const English = {
@@ -141,6 +147,7 @@ export const English = {
   navTwo: "Our products",
   navThree: "About",
   navFour: "Contacts",
+  navFive: "Register IP",
   footerOne: "IT-Services",
   footerTwo: "Our products",
   footerThree: "About",
@@ -277,4 +284,8 @@ export const English = {
     "For large areas, you need to install repeaters, which can be seen on the map in the geomodule.",
   fATextTwentyEight:
     "The advantage of our wireless system is that it speeds up installation and this installation becomes much cheaper than installing a wired system. The efficiency is noticeable in facilities with an area of more than 150 square meters.",
+  ipHeading: "Registration of intellectual property",
+  ipTextOne:
+    "Intellectual property includes objects of copyright (for example, works of science,arts and literature, software, databases, topologies of integrated circuits, etc.), which are protected by default: registration of intellectual property rights in the field of copyright is exercised at will, often for the purpose of protecting works from outside claims. At the same time, property rights author, including for reproduction, duplication, translations into other languages, etc., can be transferred upon conclusion of special agreement or bequeathed to the heirs at the time as personal non-property rights, that is, the right of authorship, the right to name, publicity and protection of reputation are non-transferable and void. In addition, objects of industrial property are subject to state registration, namely: inventions, utility models, industrial designs, trademarks and service marks, selection achievements. For these intellectual property items, the copyright holder can obtain a patent or a certificate confirming registration in the patent office.",
+  ipTextTwo: "We can provide you with intellectual property for any product",
 };
