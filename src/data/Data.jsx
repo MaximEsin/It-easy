@@ -146,6 +146,8 @@ export const Russian = {
   ipInfo2: "Качественно",
   ipInfo3: "Надёжно",
   ipButton: "УЗНАТЬ БОЛЬШЕ",
+  news: "НОВОСТИ",
+  newsTitle1: "ПОЛИЦИЯ ПРИШЛА С ПРОВЕРКОЙ В РУССКИЙ МОТОПРОКАТ НА ПХУКЕТЕ",
 };
 
 export const English = {
@@ -299,5 +301,7 @@ export const English = {
   ipInfo1: "Fast",
   ipInfo2: "Quality",
   ipInfo3: "Secure",
-  ipButton: "LEARN MORE"
+  ipButton: "LEARN MORE",
+  news: "NEWS",
+  newsTitle1: "THE POLICE CAME TO CHECK A RUSSIAN MOTOR RENTAL IN PHUKET",
 };
