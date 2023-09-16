@@ -82,7 +82,8 @@ export const Russian = {
   ourProductsTitleList3: "Цифровая трансформаци государства",
   ourProductsDescription3: "рррррррррррррррррр рррррррррррррррр рррррррррррр",
   ourProductsTitleList4: "Цифровой ассистент сотрудника",
-  ourProductsDescription4: "рррррррррррррррррр рррррррррррррррр рррррррррррр",
+  ourProductsDescription4:
+    "Продукт помогает автоматизировать коммуникации и бизнес-процессы, снижает рутинную нагрузку на персонал.",
   ourProductsTitleList5: "Управление учетными записями и правами доступа",
   ourProductsDescription5:
     "Система обеспечивает централизованное управление доступом и контроль информационной безопасности.",
@@ -245,7 +246,7 @@ export const English = {
     "qqqqqqqqqqqqqqqqqqqqqq qqqqqqqqqqqqqqqqqqqqqqq qqqqqqqqqqqqqq",
   ourProductsTitleList4: "Digital employee assistant",
   ourProductsDescription4:
-    "qqqqqqqqqqqqqqqqqqqqqq qqqqqqqqqqqqqqqqqqqqqqq qqqqqqqqqqqqqq",
+    "The product helps automate communications and business processes and reduces routine workload on staff.",
   ourProductsTitleList5: "Managing accounts and access rights",
   ourProductsDescription5:
     "The system provides centralized access control and information security control.",
