@@ -10,7 +10,7 @@ import ContactUs from "../components/ContactUs";
 import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 import Button from "../UI/button/Button";
-import img from "../images/Polis.jpeg"
+import img from "../images/Polis.jpeg";
 
 const Main = () => {
   const { data } = useSelector((state) => state.dataReducer);
@@ -70,8 +70,11 @@ const Main = () => {
             </div>
             <div className={styles.news__container}>
               <h3 className={styles.news__about}>{data.newsTitle1}</h3>
-              <a href="https://www.novostiphuketa.com/policiya-prishla-s-proverkoy-v-russkiy-motoprokat-na-phukete-18281.php?PDPA_accept=1">
-              <img className={styles.news__img} src={img} alt="news" />
+              <a
+                href="https://www.novostiphuketa.com/policiya-prishla-s-proverkoy-v-russkiy-motoprokat-na-phukete-18281.php?PDPA_accept=1"
+                target="_blank"
+              >
+                <img className={styles.news__img} src={img} alt="news" />
               </a>
             </div>
           </div>
@@ -87,7 +90,9 @@ const Main = () => {
               <p className={styles.IP__info}>{data.ipInfo2}</p>
               <p className={styles.IP__info}>{data.ipInfo3}</p>
             </div>
-            <Link to="/IP"><Button text={data.ipButton}></Button></Link>
+            <Link to="/IP">
+              <Button text={data.ipButton}></Button>
+            </Link>
           </div>
         </div>
       </section>

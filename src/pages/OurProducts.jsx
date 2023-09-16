@@ -37,6 +37,7 @@ const OurProducts = () => {
           <a
             className={styles.products__link}
             href="https://www.bikesharingtai.com/"
+            target="_blank"
           >
             <Product
               image={seven}
