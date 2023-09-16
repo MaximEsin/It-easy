@@ -71,6 +71,8 @@ export const Russian = {
     "Готовые прикладные решения, адаптируемые под бизнес-задачи различных отраслей",
   ourProductsButton: "СВЯЗАТЬСЯ С НАМИ",
   ourProductsList: "НАШИ ПРОДУКТЫ",
+  ourProductsWebTitle1: "Наши продукты в Таиланде",
+  ourProductsWebTitle2: "Продукты на продажу",
   ourProductsTitleList1: "Архимед",
   ourProductsDescription1: "рррррррррррррррррр рррррррррррррррр рррррррррррр",
   ourProductsButtonList: "ПОДРОБНЕЕ...",
@@ -82,9 +84,12 @@ export const Russian = {
   ourProductsTitleList4: "Цифровой ассистент сотрудника",
   ourProductsDescription4: "рррррррррррррррррр рррррррррррррррр рррррррррррр",
   ourProductsTitleList5: "Управление учетными записями и правами доступа",
-  ourProductsDescription5: "Система обеспечивает централизованное управление доступом и контроль информационной безопасности.",
+  ourProductsDescription5:
+    "Система обеспечивает централизованное управление доступом и контроль информационной безопасности.",
   ourProductsTitleList6: "Сбор и анализ информации СМИ",
   ourProductsDescription6: "рррррррррррррррррр рррррррррррррррр рррррррррррр",
+  ourProductsTitleList7: "Мотошеринг",
+  ourProductsDescription7: "Аренда мотобайков в Таиланде",
   fAHeading: "Система мониторинга пожарной сигнализации",
   fADescription:
     "Эта система сканирует все датчики пожарной безопасности на предприятии",
@@ -141,7 +146,8 @@ export const Russian = {
   ipTextTwo:
     "Мы можем зарегестрировать вам интелектуальную собственность на любой продукт.",
   ipTitle: "ИНТЕЛЛЕКТУАЛЬНАЯ СОБСТВЕННОСТЬ",
-  ipDescription: "У нас вы можете оформить международную интеллектуальную собственность на любой продукт.",
+  ipDescription:
+    "У нас вы можете оформить международную интеллектуальную собственность на любой продукт.",
   ipInfo1: "Быстро",
   ipInfo2: "Качественно",
   ipInfo3: "Надёжно",
@@ -225,6 +231,8 @@ export const English = {
     "Ready-made application solutions adaptable to business tasks of various industries",
   ourProductsButton: "CONTACT US",
   ourProductsList: "OUR PRODUCTS",
+  ourProductsWebTitle1: "Our products in Thailand",
+  ourProductsWebTitle2: "Products for sale",
   ourProductsTitleList1: "Archimedes",
   ourProductsDescription1:
     "qqqqqqqqqqqqqqqqqqqqqq qqqqqqqqqqqqqqqqqqqqqqq qqqqqqqqqqqqqq",
@@ -244,6 +252,8 @@ export const English = {
   ourProductsTitleList6: "Collection and analysis of media information",
   ourProductsDescription6:
     "qqqqqqqqqqqqqqqqqqqqqq qqqqqqqqqqqqqqqqqqqqqqq qqqqqqqqqqqqqq",
+  ourProductsTitleList7: "Motorbike sharing",
+  ourProductsDescription7: "Motorbike rental in Thailand",
   fAHeading: "Fire alarm monitoring system",
   fADescription: "This system scans all fire safety sensors in the enterprise",
   fABtn: "Contact Us",
@@ -297,7 +307,8 @@ export const English = {
     "Intellectual property includes objects of copyright (for example, works of science,arts and literature, software, databases, topologies of integrated circuits, etc.), which are protected by default: registration of intellectual property rights in the field of copyright is exercised at will, often for the purpose of protecting works from outside claims. At the same time, property rights author, including for reproduction, duplication, translations into other languages, etc., can be transferred upon conclusion of special agreement or bequeathed to the heirs at the time as personal non-property rights, that is, the right of authorship, the right to name, publicity and protection of reputation are non-transferable and void. In addition, objects of industrial property are subject to state registration, namely: inventions, utility models, industrial designs, trademarks and service marks, selection achievements. For these intellectual property items, the copyright holder can obtain a patent or a certificate confirming registration in the patent office.",
   ipTextTwo: "We can provide you with intellectual property for any product",
   ipTitle: "INTELLECTUAL PROPERTY",
-  ipDescription: "With us you can register international intellectual property for any product.",
+  ipDescription:
+    "With us you can register international intellectual property for any product.",
   ipInfo1: "Fast",
   ipInfo2: "Quality",
   ipInfo3: "Secure",

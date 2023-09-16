@@ -50,6 +50,19 @@
     gap: 30px;
   }
 
+  &__webNameContainer {
+    display: flex;
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto 0;
+  }
+
+  &__webName {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+  }
+
   &__link {
     text-decoration: none;
     color: #1a2026;

@@ -9,6 +9,7 @@ import three from "../images/products/3.svg";
 import four from "../images/products/4.svg";
 import five from "../images/products/5.svg";
 import six from "../images/products/6.svg";
+import seven from "../images/products/7.svg";
 import { Link } from "react-router-dom";
 import { useSelector } from "react-redux";
 
@@ -27,6 +28,28 @@ const OurProducts = () => {
       </div>
       <div className={styles.products__mainContainer}>
         <p className={styles.products__mainHeading}>{data.ourProductsList}</p>
+        <div className={styles.products__webNameContainer}>
+          <p className={styles.products__webName}>
+            {data.ourProductsWebTitle1}
+          </p>
+        </div>
+        <div className={styles.products__web}>
+          <a
+            className={styles.products__link}
+            href="https://www.bikesharingtai.com/"
+          >
+            <Product
+              image={seven}
+              heading={data.ourProductsTitleList7}
+              description={data.ourProductsDescription7}
+            />
+          </a>
+        </div>
+        <div className={styles.products__webNameContainer}>
+          <p className={styles.products__webName}>
+            {data.ourProductsWebTitle2}
+          </p>
+        </div>
         <div className={styles.products__web}>
           <Product
             image={one}
@@ -35,10 +58,10 @@ const OurProducts = () => {
           />
           <Link className={styles.products__link} to="/fire-alarm">
             <Product
-            image={two}
-            heading={data.ourProductsTitleList2}
-            description={data.ourProductsDescription2}
-          />
+              image={two}
+              heading={data.ourProductsTitleList2}
+              description={data.ourProductsDescription2}
+            />
           </Link>
           <Product
             image={three}
@@ -50,11 +73,14 @@ const OurProducts = () => {
             heading={data.ourProductsTitleList4}
             description={data.ourProductsDescription4}
           />
-          <Link to="/security" className={styles.products__link}> <Product
-            image={five}
-            heading={data.ourProductsTitleList5}
-            description={data.ourProductsDescription5}
-          /></Link>
+          <Link to="/security" className={styles.products__link}>
+            {" "}
+            <Product
+              image={five}
+              heading={data.ourProductsTitleList5}
+              description={data.ourProductsDescription5}
+            />
+          </Link>
           <Product
             image={six}
             heading={data.ourProductsTitleList6}
