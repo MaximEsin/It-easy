@@ -7,8 +7,10 @@ const Product = ({ image, heading, description }) => {
   return (
     <div className={styles.product__container}>
       <img src={image} alt="Image of product" className={styles.product__img} />
-      <p className={styles.product__heading}>{heading}</p>
-      <p className={styles.product__description}>{description}</p>
+      <div className={styles.product__content}>
+        <p className={styles.product__heading}>{heading}</p>
+        <p className={styles.product__description}>{description}</p>
+      </div>
       <button className={styles.product__btn}>{data.ourProductsButtonList}</button>
     </div>
   );

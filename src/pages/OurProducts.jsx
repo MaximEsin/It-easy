@@ -50,11 +50,11 @@ const OurProducts = () => {
             heading={data.ourProductsTitleList4}
             description={data.ourProductsDescription4}
           />
-          <Product
+          <Link to="/security" className={styles.products__link}> <Product
             image={five}
             heading={data.ourProductsTitleList5}
             description={data.ourProductsDescription5}
-          />
+          /></Link>
           <Product
             image={six}
             heading={data.ourProductsTitleList6}

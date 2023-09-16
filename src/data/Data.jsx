@@ -82,7 +82,7 @@ export const Russian = {
   ourProductsTitleList4: "Цифровой ассистент сотрудника",
   ourProductsDescription4: "рррррррррррррррррр рррррррррррррррр рррррррррррр",
   ourProductsTitleList5: "Управление учетными записями и правами доступа",
-  ourProductsDescription5: "рррррррррррррррррр рррррррррррррррр рррррррррррр",
+  ourProductsDescription5: "Система обеспечивает централизованное управление доступом и контроль информационной безопасности.",
   ourProductsTitleList6: "Сбор и анализ информации СМИ",
   ourProductsDescription6: "рррррррррррррррррр рррррррррррррррр рррррррррррр",
   fAHeading: "Система мониторинга пожарной сигнализации",
@@ -240,7 +240,7 @@ export const English = {
     "qqqqqqqqqqqqqqqqqqqqqq qqqqqqqqqqqqqqqqqqqqqqq qqqqqqqqqqqqqq",
   ourProductsTitleList5: "Managing accounts and access rights",
   ourProductsDescription5:
-    "qqqqqqqqqqqqqqqqqqqqqq qqqqqqqqqqqqqqqqqqqqqqq qqqqqqqqqqqqqq",
+    "The system provides centralized access control and information security control.",
   ourProductsTitleList6: "Collection and analysis of media information",
   ourProductsDescription6:
     "qqqqqqqqqqqqqqqqqqqqqq qqqqqqqqqqqqqqqqqqqqqqq qqqqqqqqqqqqqq",
