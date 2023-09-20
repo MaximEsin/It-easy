@@ -155,6 +155,13 @@ export const Russian = {
   ipButton: "УЗНАТЬ БОЛЬШЕ",
   news: "НОВОСТИ",
   newsTitle1: "ПОЛИЦИЯ ПРИШЛА С ПРОВЕРКОЙ В РУССКИЙ МОТОПРОКАТ НА ПХУКЕТЕ",
+  securityTitle: "Управление учетными записями и правами доступа пользователей",
+  securityDescription: "Система обеспечивает централизованное управление доступом и контроль информационной безопасности. Она обеспечивает управление доступом к веб ресурсам компании через аутентификацию и авторизацию пользователей. Эта система повышает уровень информационной безопасности. Она управляет правами доступа конкретного пользователя, управляет паролями пользователей и защищает от подбора паролей и регистрирует все происходящие события.",
+  securityContent: "Ключевые особенности:",
+  securityContent1: "1. Управление доступом пользователей к любой из систем/подсистем независимо от их количества",
+  securityContent2: "2. Постоянный контроль защищенности и оповещение о фактах несанкционированного доступа.",
+  securityContent3: "3. Возможности интеграции с информационными ресурсами и организациями в целях получения данных пользователей.",
+  securityContent4: "4. Гибкое назначение привилегий.",
 };
 
 export const English = {
@@ -316,4 +323,11 @@ export const English = {
   ipButton: "LEARN MORE",
   news: "NEWS",
   newsTitle1: "THE POLICE CAME TO CHECK A RUSSIAN MOTOR RENTAL IN PHUKET",
+  securityTitle: "Managing user accounts and access rights",
+  securityDescription: "The system provides centralized access control and information security control. It provides access control to the company's web resources through user authentication and authorization. This system increases the level of information security. It manages the access rights of a specific user, manages user passwords and protects against password guessing and logs all events that occur.",
+  securityContent: "Key Features:",
+  securityContent1: "1. Controlling user access to any of the systems/subsystems, regardless of their quantities",
+  securityContent2: "2. Constant security monitoring and notification of unauthorized access.",
+  securityContent3: "3. Possibility of integration with information resources and organizations in order to obtain user data.",
+  securityContent4: "4. Flexible assignment of privileges.",
 };
