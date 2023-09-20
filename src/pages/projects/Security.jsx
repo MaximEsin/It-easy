@@ -7,7 +7,7 @@ const Security = () => {
     return(
         <div className={styles.project__container}>
             <div className={styles.project__infoContainer}>
-            <h1 className={styles.project__heading}>{data.securityTitle}</h1>
+                <h1 className={styles.project__heading}>{data.securityTitle}</h1>
                 <p className={styles.project__description}>
                 {data.securityDescription}
                 </p>

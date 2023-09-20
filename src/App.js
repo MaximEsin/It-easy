@@ -14,6 +14,7 @@ import { getLanguage } from "./services/actions";
 import FireAlarm from "./pages/projects/FireAlarm";
 import IP from "./pages/IP";
 import Security from "./pages/projects/Security";
+import DigitalEmployee from "./pages/projects/DigitalEmployee";
 
 function App() {
   const dispatch = useDispatch();
@@ -41,6 +42,7 @@ function App() {
         <Route path="/IP" element={<IP />} />
         <Route path="/fire-alarm" element={<FireAlarm />} />
         <Route path="/security" element={<Security />} />
+        <Route path="/digital-employee" element={<DigitalEmployee />} />
       </Routes>
       <Footer />
     </div>
