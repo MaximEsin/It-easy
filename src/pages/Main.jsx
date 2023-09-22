@@ -11,6 +11,8 @@ import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 import Button from "../UI/button/Button";
 import img from "../images/Polis.jpeg";
+import image from "../images/News-2.jpg"
+import News from "../components/News";
 
 const Main = () => {
   const { data } = useSelector((state) => state.dataReducer);
@@ -63,22 +65,8 @@ const Main = () => {
       </div>
       <section className={styles.news}>
         <h2 className={styles.news__title}>{data.news}</h2>
-        <div className={styles.news__content}>
-          <div className={styles.news__card}>
-            <div className={styles.news__box}>
-              <span className={styles.news__date}>15/09/2023</span>
-            </div>
-            <div className={styles.news__container}>
-              <h3 className={styles.news__about}>{data.newsTitle1}</h3>
-              <a
-                href="https://www.novostiphuketa.com/policiya-prishla-s-proverkoy-v-russkiy-motoprokat-na-phukete-18281.php?PDPA_accept=1"
-                target="_blank"
-              >
-                <img className={styles.news__img} src={img} alt="news" />
-              </a>
-            </div>
-          </div>
-        </div>
+       <News date="21/09/2023" image={image} about={data.newsTitle2}/>
+       <News date="15/09/2023" link="https://www.novostiphuketa.com/policiya-prishla-s-proverkoy-v-russkiy-motoprokat-na-phukete-18281.php?PDPA_accept=1" image={img} about={data.newsTitle1}/>
       </section>
       <section className={styles.IP}>
         <div className={styles.IP__container}>
