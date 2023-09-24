@@ -79,7 +79,7 @@ export const Russian = {
   ourProductsTitleList2: "Мониторинг пожарной сигнализации",
   ourProductsDescription2:
     "Эта система сканирует все датчики пожарной безопасности на предприятии",
-  ourProductsTitleList3: "Цифровая трансформаци государства",
+  ourProductsTitleList3: "Цифровая трансформация государства",
   ourProductsDescription3: "рррррррррррррррррр рррррррррррррррр рррррррррррр",
   ourProductsTitleList4: "Цифровой ассистент сотрудника",
   ourProductsDescription4:
@@ -156,6 +156,7 @@ export const Russian = {
   news: "НОВОСТИ",
   newsTitle1: "ИММИГРАЦИОННАЯ ПОЛИЦИЯ ПРИШЛА С ПРОВЕРКОЙ В РУССКИЙ МОТОПРОКАТ НА ПХУКЕТЕ",
   newsTitle2: "ПОЛИЦИЯ ПРИШЛА С ПРОВЕРКОЙ В РУССКИЙ МОТОПРОКАТ НА ПХУКЕТЕ",
+  newsTitle3: "У нас прошла встреча в полициейском участке Phuket Tourist Police по вопросу подготовки к высокому сизону и аренде мотобайков и машин",
   securityTitle: "Управление учетными записями и правами доступа пользователей",
   securityDescription: "Система обеспечивает централизованное управление доступом и контроль информационной безопасности. Она обеспечивает управление доступом к веб ресурсам компании через аутентификацию и авторизацию пользователей. Эта система повышает уровень информационной безопасности. Она управляет правами доступа конкретного пользователя, управляет паролями пользователей и защищает от подбора паролей и регистрирует все происходящие события.",
   securityContent: "Ключевые особенности:",
@@ -187,6 +188,16 @@ export const Russian = {
   DigitalEmployeeText12: "- 20% экономия трудозатрат профильных сотрудников на обработку запросов",
   DigitalEmployeeText13: "- Автоматическая классификация и распределение по ответственностям",
   DigitalEmployeeText14: "- Аналитика на основе данных обращений",
+  govermentTitle: "Взаимодействие органов государственной власти с народом и наоборот.",
+  govermentText1: "В этой системе гражданин видя на улице беспорядок или какое-либо нарушение может написать об этом в приложении и его запрос увидит отвечающий за эту территорию человек. Гражданину приходит ответ от органов исполнительной власти, где говорится что они провели работы по устранению нарушений. Так же каждый гражданин может предложить что-либо органам власти, например построить музей, либо дорогу, либо пешеходный переход.",
+  govermentText2: "У каждого гражданина есть свой личный кабинет, где видны все его обращения.",
+  govermentText3: "Теперь жителям не нужно думать куда написать по той или иной проблеме, все жалобы и предложения будут рассмотрены и жители получат на них ответ.",
+  govermentText4: "Приложение помогает контролировать качество и сроки выполнения работ, а также расходы финансовых средств на них.",
+  govermentText5: "Обращения с нецензурной лексикой автоматически добавляются в корзину.",
+  govermentText6: "Обращение нельзя просто удалить, органы обязаны ответить на обращение, либо отклонить предложение, либо взять в работу.",
+  govermentText7: "Недавно был добавлен новый сервис Магазин поощрений - за свою активность пользователи получают баллы и обменивают их на призы.",
+  govermentText8: "Есть сервис Волонтерство- сервис дает возможность зарегистрированным пользователям принять участие в инициированном сборе. Этот сервис направлен на решение комплекса задач:",
+  govermentText9: "Также есть модуль по оценке качества питания в учебных заведениях. Возможность оценить качество блюд, внешний вид, соответствие фактического меню разработанному и другое.",
 };
 
 export const English = {
@@ -349,6 +360,7 @@ export const English = {
   news: "NEWS",
   newsTitle1: "THE immigration POLICE CAME TO CHECK A RUSSIAN MOTOR RENTAL IN PHUKET",
   newsTitle2: "THE POLICE CAME TO CHECK A RUSSIAN MOTOR RENTAL IN PHUKET",
+  newsTitle3: "We had a meeting at the Phuket Tourist Police station on the issue of preparing for the high season and renting motorbikes and cars",
   securityTitle: "Managing user accounts and access rights",
   securityDescription: "The system provides centralized access control and information security control. It provides access control to the company's web resources through user authentication and authorization. This system increases the level of information security. It manages the access rights of a specific user, manages user passwords and protects against password guessing and logs all events that occur.",
   securityContent: "Key Features:",

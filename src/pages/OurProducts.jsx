@@ -64,11 +64,11 @@ const OurProducts = () => {
               description={data.ourProductsDescription2}
             />
           </Link>
-          <Product
+          <Link  className={styles.products__link} to="/goverment"><Product
             image={three}
             heading={data.ourProductsTitleList3}
             description={data.ourProductsDescription3}
-          />
+          /></Link>
           <Link className={styles.products__link} to="/digital-employee">
           <Product
             image={four}
