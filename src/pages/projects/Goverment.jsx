@@ -1,74 +1,76 @@
 import React from "react";
 import styles from "../../styles/Projects.module.scss";
+import { useSelector } from "react-redux";
 
 const Goverment = () => {
+    const { data } = useSelector((state) => state.dataReducer);
     return(
         <section className={styles.project__main}>
-            <h2 className={styles.project__name}>Взаимодействие органов государственной власти с народом и наоборот.</h2>
-            <p className={styles.project__description}>В этой системе гражданин видя на улице беспорядок или какое-либо нарушение может написать об этом в приложении и его запрос увидит отвечающий за эту территорию человек. Гражданину приходит ответ от органов исполнительной власти, где говорится что они провели работы по устранению нарушений. Так же каждый гражданин может предложить что-либо органам власти, например построить музей, либо дорогу, либо пешеходный переход.</p>
-            <p className={styles.project__description}>У каждого гражданина есть свой личный кабинет, где видны все его обращения.  </p>
-            <p className={styles.project__description}>Теперь жителям не нужно думать куда написать по той или иной проблеме, все жалобы и предложения будут рассмотрены и жители получат на них ответ.</p>
-            <p className={styles.project__description}>Приложение помогает контролировать качество и сроки выполнения работ, а также расходы финансовых средств на них.</p>
-            <p className={styles.project__description}>Обращения с нецензурной лексикой автоматически добавляются в корзину.</p>
-            <p>Для чего нужен портал:</p>
+            <h2 className={styles.project__name}>{data.govermentTitle}</h2>
+            <p className={styles.project__description}>{data.govermentText1}</p>
+            <p className={styles.project__description}>{data.govermentText2}</p>
+            <p className={styles.project__description}>{data.govermentText3}</p>
+            <p className={styles.project__description}>{data.govermentText4}</p>
+            <p className={styles.project__description}>{data.govermentText5}</p>
+            <p className={styles.project__description}>{data.govermentText10}</p>
             <div>
                 <div>
-                    <p>1. Жителям:</p>
+                    <p>{data.govermentContent1}</p>
                     <ul>
-                        <li>Реальное участие в управлении городом</li>
-                        <li>Оперативное решение выявленных проблем</li>
-                        <li>Открытость информации о деятельности органов власти</li>
+                        <li>{data.govermentContentlist1}</li>
+                        <li>{data.govermentContentlist2}</li>
+                        <li>{data.govermentContentlist3}</li>
                     </ul>
                 </div>
                 <div>
-                    <p>2. Главам муниципальных образований:</p>
+                    <p>{data.govermentContent2}</p>
                     <ul>
-                        <li>Вовлечение жителей в развитие города</li>
-                        <li>Повышение качества коммуникации органов власти с населением</li>
-                        <li>Связка результатов работы органов власти с сообщениями с оценкой их деятельности</li>
-                        <li>Повышение качества работы муниципальных органов власти</li>
+                        <li>{data.govermentContentlist4}</li>
+                        <li>{data.govermentContentlist5}</li>
+                        <li>{data.govermentContentlist6}</li>
+                        <li>{data.govermentContentlist7}</li>
                     </ul>
                 </div>
             </div>
-            <p className={styles.project__description}>Обращение нельзя просто удалить, органы обязаны ответить на обращение, либо отклонить предложение, либо взять в работу. </p>
+            <p className={styles.project__description}>{data.govermentText6}</p>
             <div>
                 <div>
-                    <p>Основные сервисы:</p>
+                    <p>{data.govermentContent3}</p>
                     <ul>
-                        <li>Обратная связь</li>
-                        <li>Онлайн-голосования</li>
-                        <li>Открытые данные: реестры и работы</li>
+                        <li>{data.govermentContentlist8}</li>
+                        <li>{data.govermentContentlist9}</li>
+                        <li>{data.govermentContentlist10}</li>
                     </ul>
                 </div>
                 <div>
-                    <p>Дополнительные сервисы:</p>
+                    <p>{data.govermentContent4}</p>
                     <ul>
-                        <li>Данные по объектам программы развития</li>
-                        <li>Модуль подачи заявки на гранты</li>
-                        <li>Электронный пропуск</li>
-                        <li>Медицинский калькулятор</li>
+                        <li>{data.govermentContentlist11}</li>
+                        <li>{data.govermentContentlist12}</li>
+                        <li>{data.govermentContentlist13}</li>
+                        <li>{data.govermentContentlist14}</li>
                     </ul>
                 </div>
             </div>
             <div>
-                <p>Эта платформа едина на все устройства и доступна на:</p>
+                <p>{data.govermentContent5}</p>
                 <ul>
-                    <li>Персональном компьютере</li>
-                    <li>В App Store</li>
-                    <li>В Google Play</li>
-                    <li>На Huawei</li>
+                    <li>{data.govermentContentlist15}</li>
+                    <li>{data.govermentContentlist16}</li>
+                    <li>{data.govermentContentlist17}</li>
+                    <li>{data.govermentContentlist18}</li>
                 </ul>
             </div>
-            <p className={styles.project__description}>Недавно был добавлен новый сервис Магазин поощрений - за свою активность пользователи получают баллы и обменивают их на призы.</p>
+            <p className={styles.project__description}>{data.govermentText7}</p>
             <div>
-                <p className={styles.project__description}>Есть сервис Волонтерство- сервис дает возможность зарегистрированным пользователям принять участие в инициированном сборе. Этот сервис направлен на решение комплекса задач:</p>
+                <p className={styles.project__description}>{data.govermentText8}</p>
                 <ul>
-                    <li>Формирование ответственного отношения граждан к природе</li>
-                    <li>Повышение информированности жителей о правильной утилизации ТКО</li>
-                    <li>Повышение информированности жителей о проведении организованных экологических мероприятий в городе</li>
+                    <li>{data.govermentContentlist19}</li>
+                    <li>{data.govermentContentlist20}</li>
+                    <li>{data.govermentContentlist21}</li>
                 </ul>
             </div>
-            <p className={styles.project__description}>Также есть модуль по оценке качества питания в учебных заведениях. Возможность оценить качество блюд, внешний вид, соответствие фактического меню разработанному и другое.</p>
+            <p className={styles.project__description}>{data.govermentText9}</p>
         </section>
     )
 }
