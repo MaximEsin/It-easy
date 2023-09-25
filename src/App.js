@@ -16,6 +16,7 @@ import IP from "./pages/IP";
 import Security from "./pages/projects/Security";
 import DigitalEmployee from "./pages/projects/DigitalEmployee";
 import Goverment from "./pages/projects/Goverment";
+import Archimedes from "./pages/projects/Archimedes";
 
 function App() {
   const dispatch = useDispatch();
@@ -45,6 +46,7 @@ function App() {
         <Route path="/security" element={<Security />} />
         <Route path="/digital-employee" element={<DigitalEmployee />} />
         <Route path="/goverment" element={<Goverment />} />
+        <Route path="/archimedes" element={<Archimedes />} />
       </Routes>
       <Footer />
     </div>
