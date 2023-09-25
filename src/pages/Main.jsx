@@ -66,9 +66,11 @@ const Main = () => {
       </div>
       <section className={styles.news}>
         <h2 className={styles.news__title}>{data.news}</h2>
-        <News date="22/09/2023" image={img3} about={data.newsTitle3}/>
-        <News date="21/09/2023" image={img2} about={data.newsTitle2}/>
-        <News date="15/09/2023" link="https://www.novostiphuketa.com/policiya-prishla-s-proverkoy-v-russkiy-motoprokat-na-phukete-18281.php?PDPA_accept=1" image={img1} about={data.newsTitle1}/>
+        <div className={styles.news__box}>
+          <News date="22/09/2023" image={img3} about={data.newsTitle3}/>
+          <News date="21/09/2023" image={img2} about={data.newsTitle2}/>
+          <News date="15/09/2023" link="https://www.novostiphuketa.com/policiya-prishla-s-proverkoy-v-russkiy-motoprokat-na-phukete-18281.php?PDPA_accept=1" image={img1} about={data.newsTitle1}/>
+        </div>
       </section>
       <section className={styles.IP}>
         <div className={styles.IP__container}>
