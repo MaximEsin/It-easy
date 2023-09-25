@@ -38,6 +38,7 @@ const OurProducts = () => {
             className={styles.products__link}
             href="https://www.bikesharingtai.com/"
             target="_blank"
+            rel="noreferrer"
           >
             <Product
               image={seven}
@@ -52,11 +53,13 @@ const OurProducts = () => {
           </p>
         </div>
         <div className={styles.products__web}>
+        <Link className={styles.products__link} to="/archimedes">
           <Product
             image={one}
             heading={data.ourProductsTitleList1}
             description={data.ourProductsDescription1}
           />
+        </Link>
           <Link className={styles.products__link} to="/fire-alarm">
             <Product
               image={two}
