@@ -1,6 +1,6 @@
-import React from "react";
+import React, { useState } from "react";
 import styles from "./Header.module.scss";
-import logo from "../images/logo.jpeg";
+import logo from "../images/logo.svg";
 import ThaiFlag from "../images/ThaiFlag.webp";
 import UKFlag from "../images/UKFlag.webp";
 import RusFlag from "../images/RusFlag.png";
@@ -9,69 +9,144 @@ import { useSelector } from "react-redux";
 import { useDispatch } from "react-redux";
 import { getLanguage } from "../services/actions";
 import { English, Russian } from "../data/Data";
+import burgerPic from "../images/burger.png";
 
 const Header = () => {
   const { data } = useSelector((state) => state.dataReducer);
+  const [burgerActive, setBurgerActive] = useState(false);
   const dispatch = useDispatch();
+  const toggleBurger = () => {
+    if (burgerActive === false) {
+      setBurgerActive(true);
+    } else {
+      setBurgerActive(false);
+    }
+  };
+
+  console.log(burgerActive);
+
   return (
     <div className={styles.header__container}>
-      <Link className={styles.header__logoContainer} to="/">
-        <img src={logo} alt="It easy logo" className={styles.header__img} />
-        <p className={styles.header__companyName}>it-easy international</p>
-      </Link>
-      <nav className={styles.header__nav}>
-        <ul className={styles.header__navList}>
-          <li className={styles.header__navItem}>
+      <div className={styles.header}>
+        <div className={styles.header__burger}>
+          <img
+            src={burgerPic}
+            alt="menu item picture"
+            onClick={() => toggleBurger()}
+            className={
+              burgerActive ? styles.burgerPicClosed : styles.header__burgerPic
+            }
+          />
+          <div
+            className={
+              burgerActive
+                ? styles.header__burgerContainer
+                : styles.header__burgerContainerClosed
+            }
+          >
             <Link className={styles.header__navItem} to="/services">
-              {data.navOne}
+              <span
+                onClick={() => toggleBurger()}
+                className={styles.header__span}
+              >
+                {data.navOne}
+              </span>
             </Link>
-          </li>
-          <li className={styles.header__navItem}>
             <Link className={styles.header__navItem} to="/products">
-              {data.navTwo}
+              <span
+                onClick={() => toggleBurger()}
+                className={styles.header__span}
+              >
+                {data.navTwo}
+              </span>
             </Link>
-          </li>
-          <li className={styles.header__navItem}>
             <Link className={styles.header__navItem} to="/IP">
-              {data.navFive}
+              <span
+                onClick={() => toggleBurger()}
+                className={styles.header__span}
+              >
+                {data.navFive}
+              </span>
             </Link>
-          </li>
-          <li className={styles.header__navItem}>
             <Link className={styles.header__navItem} to="/about">
-              {data.navThree}
+              <span
+                onClick={() => toggleBurger()}
+                className={styles.header__span}
+              >
+                {data.navThree}
+              </span>
             </Link>
-          </li>
-          <li className={styles.header__navItem}>
             <Link className={styles.header__navItem} to="/contacts">
-              {data.navFour}
+              <span
+                onClick={() => toggleBurger()}
+                className={styles.header__span}
+              >
+                {data.navFour}
+              </span>
             </Link>
-          </li>
-        </ul>
-      </nav>
-      <div className={styles.header__languageContainer}>
-        <img
-          src={ThaiFlag}
-          alt="Flag of Thailand"
-          className={styles.header__flag}
-        />
-        <img
-          src={UKFlag}
-          alt="Flag of England"
-          className={styles.header__flag}
-          onClick={() => {
-            dispatch(getLanguage(English));
-            localStorage.setItem("language", "English");
-          }}
-        />
-        <img
-          src={RusFlag}
-          alt="Flag of Russia"
-          className={styles.header__flag}
-          onClick={() => {
-            dispatch(getLanguage(Russian));
-            localStorage.setItem("language", "Russian");
-          }}
-        />
+          </div>
+        </div>
+        <Link className={styles.header__logoContainer} to="/">
+          <img src={logo} alt="It easy logo" className={styles.header__img} />
+          <div className={styles.header__companyContainer}>
+            <p className={styles.header__companyHeading}>it-easy</p>
+            <p className={styles.header__companyInternational}>international</p>
+          </div>
+        </Link>
+        <nav className={styles.header__nav}>
+          <ul className={styles.header__navList}>
+            <li className={styles.header__navItem}>
+              <Link className={styles.header__navItem} to="/services">
+                {data.navOne}
+              </Link>
+            </li>
+            <li className={styles.header__navItem}>
+              <Link className={styles.header__navItem} to="/products">
+                {data.navTwo}
+              </Link>
+            </li>
+            <li className={styles.header__navItem}>
+              <Link className={styles.header__navItem} to="/IP">
+                {data.navFive}
+              </Link>
+            </li>
+            <li className={styles.header__navItem}>
+              <Link className={styles.header__navItem} to="/about">
+                {data.navThree}
+              </Link>
+            </li>
+            <li className={styles.header__navItem}>
+              <Link className={styles.header__navItem} to="/contacts">
+                {data.navFour}
+              </Link>
+            </li>
+          </ul>
+        </nav>
+        <div className={styles.header__languageContainer}>
+          <img
+            src={ThaiFlag}
+            alt="Flag of Thailand"
+            className={styles.header__flag}
+          />
+          <img
+            src={UKFlag}
+            alt="Flag of England"
+            className={styles.header__flag}
+            onClick={() => {
+              dispatch(getLanguage(English));
+              localStorage.setItem("language", "English");
+            }}
+          />
+          <img
+            src={RusFlag}
+            alt="Flag of Russia"
+            className={styles.header__flag}
+            onClick={() => {
+              dispatch(getLanguage(Russian));
+              localStorage.setItem("language", "Russian");
+            }}
+          />
+        </div>
       </div>
     </div>
   );

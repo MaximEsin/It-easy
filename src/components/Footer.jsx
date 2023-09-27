@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./Footer.module.scss";
-import logo from "../images/logo.jpeg";
+import logo from "../images/logo.svg";
 import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 

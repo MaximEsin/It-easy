@@ -1,31 +1,33 @@
 .header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  max-width: 1440px;
+  width: 100%;
+  z-index: 5;
+  padding-top: 47.73px;
+
   &__container {
     position: fixed;
-    background-color: #fff;
     top: 0;
     left: 0;
     width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0 4px 6px -4px rgba(26, 32, 38, 0.12),
-      0px 8px 8px -4px rgba(26, 32, 38, 0.08);
     margin: auto;
     z-index: 5;
+    background-color: rgba(255, 255, 255, 1);
+    padding-bottom: 20px;
   }
 
   &__img {
-    width: 80px;
-    height: 80px;
-    padding: 0 0 2px;
-    cursor: pointer;
+    width: 61.47px;
+    height: 54.93px;
   }
 
   &__nav {
     display: flex;
-    margin: 0 20px 0;
+    margin: 0 129px 0 105px;
     padding: 0;
-    height: 47px;
   }
 
   &__navList {
@@ -34,50 +36,174 @@
     padding: 0;
     justify-content: center;
     align-items: center;
-    gap: 40px;
-    height: 100%;
+    gap: 29px;
   }
 
   &__navItem {
-    display: inline-block;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 100%;
-    color: #1a2026;
-    height: 100%;
-    position: relative;
-    transition: border-bottom 0.2s ease;
-    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0em;
+    color: rgba(0, 0, 0, 1);
     text-decoration: none;
   }
 
-  &__navItem:hover {
-    border-bottom: 2px solid blue;
+  &__companyContainer {
+    color: rgba(35, 70, 163, 1);
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
   }
 
-  &__companyName {
-    margin: 0 10px 0 10px;
-    color: blue;
-    font-size: 34px;
-    cursor: pointer;
+  &__companyHeading {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    margin: 0;
+    text-transform: uppercase;
+  }
+
+  &__companyInternational {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0em;
+    margin: 0;
   }
 
   &__languageContainer {
     display: flex;
     gap: 10px;
-    margin-left: 5vw;
-    padding: 10px;
   }
 
   &__flag {
     width: 30px;
     height: 20px;
     cursor: pointer;
+    border: 1px solid rgba(35, 70, 163, 1);
+    border-radius: 8px;
   }
 
   &__logoContainer {
     display: flex;
     align-items: center;
     text-decoration: none;
+    gap: 8.19px;
+  }
+
+  &__burger {
+    display: none;
+  }
+}
+
+@media all and (max-width: 1180px) {
+  .header {
+    &__nav {
+      margin: 0 50px 0;
+    }
+  }
+}
+
+@media all and (max-width: 1045px) {
+  .header {
+    &__nav {
+      margin: 0 20px 0;
+    }
+  }
+}
+
+@media all and (max-width: 985px) {
+  .header {
+    &__navItem {
+      font-size: 14px;
+    }
+  }
+}
+
+@media all and (max-width: 865px) {
+  .header {
+    &__img {
+      height: 43px;
+    }
+
+    &__companyHeading {
+      font-size: 20px;
+    }
+
+    &__companyInternational {
+      font-size: 14px;
+      line-height: 15px;
+    }
+
+    &__logoContainer {
+      gap: 0;
+    }
+  }
+}
+
+@media all and (max-width: 865px) {
+  .header {
+    &__languageContainer {
+      gap: 3px;
+    }
+  }
+}
+
+@media all and (max-width: 865px) {
+  .header {
+    box-sizing: border-box;
+    justify-content: space-between;
+    padding: 12px 30px 0;
+
+    &__nav {
+      display: none;
+    }
+
+    &__burger {
+      display: flex;
+      position: relative;
+      align-items: center;
+      justify-content: center;
+    }
+
+    &__burgerContainer {
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      top: 7vh;
+      left: -3vw;
+      width: 100vw;
+      text-align: center;
+      background-color: rgba(255, 255, 255, 1);
+      padding-bottom: 10px;
+    }
+
+    &__burgerContainerClosed {
+      display: none;
+    }
+
+    &__burgerPic {
+      height: 55px;
+      width: 55px;
+      cursor: pointer;
+    }
+
+    &__burgerPicClosed {
+      display: none;
+    }
+
+    &__span {
+      cursor: pointer;
+    }
+  }
+
+  @media all and (max-width: 865px) {
+    .header {
+      &__languageContainer {
+        flex-direction: column;
+      }
+    }
   }
 }
