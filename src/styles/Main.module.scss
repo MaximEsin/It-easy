@@ -1,23 +1,18 @@
 .container {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  max-width: 1180px;
+  width: 100%;
 }
 
 .intro {
-  background-image: url(../images/Bangkok.png);
-  background-repeat: no-repeat;
-  object-fit: contain;
-  width: 1450px;  
-  height: 100vh;
-  margin-top: 80px;
-  margin-left: auto;
+  &__container {
+    overflow: visible;
+  }
+
   &__text {
-    margin-left: 50px;
-    width: 100%;
-    height: 100%;
-    padding: 95px 0;
-    max-width: 700px;
+    margin-bottom: 150px;
     color: #1a2026;
   }
   &__heading {
@@ -56,7 +51,6 @@
 }
 
 .cards {
-  margin-top: -200px;
   max-width: 1200px;
   display: flex;
   flex-wrap: wrap;
@@ -70,6 +64,7 @@
   align-items: center;
   justify-content: center;
   width: 100%;
+  margin-top: 130px;
 }
 
 .IP {
@@ -89,7 +84,7 @@
     margin: 75px 0 74px;
     max-width: 620px;
     width: 100%;
-    
+
     z-index: 2;
   }
   &__title {

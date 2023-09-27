@@ -14,13 +14,14 @@ import img1 from "../images/News1.jpeg";
 import img2 from "../images/News2.jpg";
 import img3 from "../images/News3.1.jpg";
 import News from "../components/News";
+import introPic from "../images/introPic.png";
 
 const Main = () => {
   const { data } = useSelector((state) => state.dataReducer);
   return (
     <div className={styles.main}>
       <div className={styles.container}>
-        <section className={styles.intro}>
+        <div className={styles.intro__container}>
           <div className={styles.intro__text}>
             <h1 className={styles.intro__heading}>{data.mainHeading}</h1>
             <p className={styles.intro__description}>{data.mainDescription}</p>
@@ -29,8 +30,20 @@ const Main = () => {
                 {data.mainButtonText}
               </button>
             </Link>
+            <Link to="/contacts">
+              <button className={styles.intro__button}>
+                {data.mainButtonText2}
+              </button>
+            </Link>
           </div>
-        </section>
+        </div>
+        <div className={styles.intro__container}>
+          <img
+            src={introPic}
+            alt="Picture of man using this app"
+            className={styles.intro__pic}
+          />
+        </div>
       </div>
       <div className={styles.cards}>
         <Card
@@ -67,9 +80,14 @@ const Main = () => {
       <section className={styles.news}>
         <h2 className={styles.news__title}>{data.news}</h2>
         <div className={styles.news__box}>
-          <News date="22/09/2023" image={img3} about={data.newsTitle3}/>
-          <News date="21/09/2023" image={img2} about={data.newsTitle2}/>
-          <News date="15/09/2023" link="https://www.novostiphuketa.com/policiya-prishla-s-proverkoy-v-russkiy-motoprokat-na-phukete-18281.php?PDPA_accept=1" image={img1} about={data.newsTitle1}/>
+          <News date="22/09/2023" image={img3} about={data.newsTitle3} />
+          <News date="21/09/2023" image={img2} about={data.newsTitle2} />
+          <News
+            date="15/09/2023"
+            link="https://www.novostiphuketa.com/policiya-prishla-s-proverkoy-v-russkiy-motoprokat-na-phukete-18281.php?PDPA_accept=1"
+            image={img1}
+            about={data.newsTitle1}
+          />
         </div>
       </section>
       <section className={styles.IP}>
