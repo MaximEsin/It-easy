@@ -25,16 +25,18 @@ const Main = () => {
           <div className={styles.intro__text}>
             <h1 className={styles.intro__heading}>{data.mainHeading}</h1>
             <p className={styles.intro__description}>{data.mainDescription}</p>
-            <Link to="/contacts">
-              <button className={styles.intro__button}>
-                {data.mainButtonText}
-              </button>
-            </Link>
-            <Link to="/contacts">
-              <button className={styles.intro__button}>
-                {data.mainButtonText2}
-              </button>
-            </Link>
+            <div className={styles.intro__buttonsContainer}>
+              <Link to="/contacts">
+                <button className={styles.intro__button}>
+                  {data.mainButtonText}
+                </button>
+              </Link>
+              <Link to="/contacts">
+                <button className={styles.intro__buttonWhite}>
+                  {data.mainButtonText2}
+                </button>
+              </Link>
+            </div>
           </div>
         </div>
         <div className={styles.intro__container}>
