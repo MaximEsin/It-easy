@@ -581,230 +581,230 @@ export const Thai = {
   aboutButton: "รับคำปรึกษา",
   aboutHeading: "ประวัติและความสำเร็จของบริษัท",
   aboutList1:
-    "Included in the Map of the Russian information security market 2023 (TAdviser)",
+    "รวมอยู่ในแผนที่ตลาดความปลอดภัยข้อมูลรัสเซียปี 2023 (TAdviser)",
   aboutList2:
-    "9th place Rating of the largest IT service providers in Russia (TAdviser), 2023",
+    "อันดับที่ 9 การจัดอันดับผู้ให้บริการไอทีที่ใหญ่ที่สุดในรัสเซีย (TAdviser) ปี 2023",
   aboutList3:
-    "1st place Rating “Largest providers of custom software development services in Russia” (TAdviser), 2023",
+    "อันดับ 1 “ผู้ให้บริการพัฒนาซอฟต์แวร์แบบกำหนดเองที่ใหญ่ที่สุดในรัสเซีย” (TAdviser), 2023",
   aboutList4:
-    "2nd place in the ranking of the largest IT solution providers in the Russian public sector (TAdviser), 2022",
+    "อันดับที่ 2 ในการจัดอันดับผู้ให้บริการโซลูชันไอทีที่ใหญ่ที่สุดในภาครัฐของรัสเซีย (TAdviser) ปี 2022",
   aboutList5:
-    "Included in the market map “Information Technologies in Banking 2022” (TAdviser)",
+    "รวมไว้ในแผนที่ตลาด “Information Technologies in Banking 2022” (TAdviser)",
   aboutList6:
-    "The control module of the SUPER cloud platform was included in the Unified Register of Russian Software, 2022",
+    "โมดูลควบคุมของแพลตฟอร์ม SUPER cloud รวมอยู่ใน Unified Register of Russian Software, 2022",
   aboutList7:
-    "The Map of the Russian information technology market is presented in 11 categories, 2022",
+    "แผนที่ของตลาดเทคโนโลยีสารสนเทศของรัสเซียนำเสนอใน 11 หมวดหมู่ในปี 2022",
   aboutList8:
-    "Included in the Map of Manufacturers of the Most Famous Russian Software and Hardware IT Products “Import Substitution 2022”",
+    "รวมอยู่ในแผนที่ผู้ผลิตผลิตภัณฑ์ไอทีซอฟต์แวร์และฮาร์ดแวร์รัสเซียที่มีชื่อเสียงที่สุด “การทดแทนการนำเข้าปี 2022”",
   aboutList9:
-    "2nd place in the rating “Best IT employer among the largest IT companies in Russia” (TAdviser), 2022",
-  aboutList10: "TOP 10 fastest growing IT companies (CNews), 2021",
+    "อันดับที่ 2 ในระดับ นายจ้างด้านไอทีที่ดีที่สุดในบรรดาบริษัทไอทีที่ใหญ่ที่สุดในรัสเซีย (TAdviser) ปี 2022",
+  aboutList10: "10 อันดับบริษัทไอทีที่เติบโตเร็วที่สุด (CNews) ปี 2021",
   aboutList11:
-    "4th place in the ranking of IT suppliers in the Russian public sector (CNews), 2021",
+    "อันดับที่ 4 ในการจัดอันดับซัพพลายเออร์ไอทีในภาครัฐของรัสเซีย (CNews) ปี 2021",
   aboutList12:
-    "TOP 10 largest suppliers of BI solutions in Russia (TAdviser), 2021",
+    "ซัพพลายเออร์โซลูชัน BI ที่ใหญ่ที่สุด 10 อันดับแรกในรัสเซีย (TAdviser) ปี 2021",
   aboutList13:
-    "The project to create a treasury payment system for the Federal Treasury was declared a “Unique IT project of the year”, 2021",
+    "โครงการสร้างระบบการชำระเงินคงคลังสำหรับ Federal Treasury ได้รับการประกาศให้เป็น “โครงการไอทีที่ไม่ซ้ำใครแห่งปี” ปี 2021",
   aboutList14:
-    "Universal Security Server is included in the Unified Register of Russian Software, 2021",
+    "Universal Security Server รวมอยู่ใน Unified Register of Russian Software, 2021",
   aboutList15:
-    "2nd place in the rating “Best IT employer among the largest IT companies in Russia” (TAdviser), 2021",
-  ourProductsTitle: "Our products",
+    "อันดับที่ 2 ในระดับ นายจ้างด้านไอทีที่ดีที่สุดในบรรดาบริษัทไอทีที่ใหญ่ที่สุดในรัสเซีย (TAdviser), 2021",
+  ourProductsTitle: "ผลิตภัณฑ์ของเรา",
   ourProductsDescription:
-    "Ready-made application solutions adaptable to business tasks of various industries",
-  ourProductsButton: "CONTACT US",
-  ourProductsList: "OUR PRODUCTS",
-  ourProductsWebTitle1: "Our products in Thailand",
-  ourProductsWebTitle2: "Products for sale",
+    "โซลูชันแอปพลิเคชันสำเร็จรูปที่ปรับให้เข้ากับงานทางธุรกิจของอุตสาหกรรมต่างๆ",
+  ourProductsButton: "ติดต่อเรา",
+  ourProductsList: "ผลิตภัณฑ์ของเรา",
+  ourProductsWebTitle1: "สินค้าของเราในประเทศไทย",
+  ourProductsWebTitle2: "สินค้าขาย",
   ourProductsTitleList1: "Archimedes",
   ourProductsDescription1:
-    "qqqqqqqqqqqqqqqqqqqqqq qqqqqqqqqqqqqqqqqqqqqqq qqqqqqqqqqqqqq",
-  ourProductsButtonList: "LEARN MORE...",
-  ourProductsTitleList2: "Fire alarm monitoring",
+    "งงงงงงงงงงงงงง งงงงงงงงงงงงงง งงงงงงงงงงงงง",
+  ourProductsButtonList: "เรียนรู้เพิ่มเติม...",
+  ourProductsTitleList2: "การตรวจสอบสัญญาณเตือนไฟไหม้",
   ourProductsDescription2:
-    "This system scans all fire safety sensors in the enterprise",
-  ourProductsTitleList3: "Digital transformation of the state",
+    "ระบบนี้จะสแกนเซ็นเซอร์ความปลอดภัยจากอัคคีภัยทั้งหมดในองค์กร",
+  ourProductsTitleList3: "การเปลี่ยนแปลงทางดิจิทัลของรัฐ",
   ourProductsDescription3:
-    "System of communication between the people and the government.",
-  ourProductsTitleList4: "Digital employee assistant",
+    "ระบบการสื่อสารระหว่างประชาชนกับภาครัฐ",
+  ourProductsTitleList4: "ผู้ช่วยพนักงานดิจิทัล",
   ourProductsDescription4:
-    "The product helps automate communications and business processes and reduces routine workload on staff.",
-  ourProductsTitleList5: "Managing accounts and access rights",
+    "ผลิตภัณฑ์นี้ช่วยให้การสื่อสารและกระบวนการทางธุรกิจเป็นอัตโนมัติ และลดภาระงานประจำของพนักงาน",
+  ourProductsTitleList5: "การจัดการบัญชีและสิทธิ์การเข้าถึง",
   ourProductsDescription5:
-    "The system provides centralized access control and information security control.",
-  ourProductsTitleList6: "Collection and analysis of media information",
+    "ระบบให้การควบคุมการเข้าถึงแบบรวมศูนย์และการควบคุมความปลอดภัยของข้อมูล",
+  ourProductsTitleList6: "การรวบรวมและวิเคราะห์ข้อมูลสื่อ",
   ourProductsDescription6:
-    "qqqqqqqqqqqqqqqqqqqqqq qqqqqqqqqqqqqqqqqqqqqqq qqqqqqqqqqqqqq",
+    "งงงงงงงงงงงงงง งงงงงงงงงงงงงง งงงงงงงงงงงงง",
   ourProductsTitleList7: "Motorbike sharing",
-  ourProductsDescription7: "Motorbike rental in Thailand",
-  fAHeading: "Fire alarm monitoring system",
-  fADescription: "This system scans all fire safety sensors in the enterprise",
-  fABtn: "Contact Us",
+  ourProductsDescription7: "รถมอเตอร์ไซค์ให้เช่าในประเทศไทย",
+  fAHeading: "ระบบตรวจสอบสัญญาณเตือนไฟไหม้",
+  fADescription: "ระบบนี้จะสแกนเซ็นเซอร์ความปลอดภัยจากอัคคีภัยทั้งหมดในองค์กร",
+  fABtn: "ติดต่อเรา",
   fATextOne:
-    "The product is suitable for government institutions and for private enterprises, as well as kindergartens and schools, factories and industrial workshops.",
-  fATextTwo: "Main goals:",
+    "ผลิตภัณฑ์นี้เหมาะสำหรับสถาบันของรัฐและองค์กรเอกชน โรงเรียนอนุบาล โรงเรียน โรงงาน และโรงงานอุตสาหกรรม",
+  fATextTwo: "เป้าหมายหลัก:",
   fATextThree:
-    "- Detection of faults and notification of the user about them in a continuous mode.",
-  fATextFour: "- Ensure constant monitoring of remote objects (200-300 km.)",
-  fATextFive: "Consists of:",
-  fATextSix: "1. Detectors that are installed on the ceiling",
-  fATextSeven: "2. Controllers",
-  fATextEight: "3. Control cabinets, where everything is assembled",
+    "- การตรวจจับข้อผิดพลาดและการแจ้งเตือนผู้ใช้เกี่ยวกับข้อผิดพลาดในโหมดต่อเนื่อง",
+  fATextFour: "- ตรวจสอบวัตถุระยะไกลอย่างต่อเนื่อง (ระยะทาง 200-300 กม.)",
+  fATextFive: "ประกอบด้วย:",
+  fATextSix: "1. เครื่องตรวจจับที่ติดตั้งบนเพดาน",
+  fATextSeven: "2. ผู้ควบคุม",
+  fATextEight: "3. ตู้ควบคุมที่ทุกอย่างประกอบเข้าด้วยกัน",
   fATextNine:
-    "Using this system, you do not need to send an employee to check the equipment; the system will automatically notify you online of any malfunctions and it works 24/7.",
+    "เมื่อใช้ระบบนี้คุณไม่จำเป็นต้องส่งพนักงานไปตรวจสอบอุปกรณ์ ระบบจะแจ้งให้คุณทราบทางออนไลน์โดยอัตโนมัติเมื่อพบความผิดปกติและทำงานตลอด 24 ชั่วโมงทุกวัน",
   fATextTen:
-    "The system also alerts you when maintenance needs to be done. All data (system logs, emergency cases, etc.) are stored in the system and compiled into analytical reporting.",
+    "ระบบยังแจ้งเตือนคุณเมื่อจำเป็นต้องบำรุงรักษา ข้อมูลทั้งหมด (บันทึกของระบบ กรณีฉุกเฉิน ฯลฯ) จะถูกจัดเก็บไว้ในระบบและรวบรวมเป็นรายงานเชิงวิเคราะห์",
   fATextEleven:
-    "The system automatically informs fire safety members on site and the fire dispatcher.",
+    "ระบบจะแจ้งสมาชิกด้านความปลอดภัยจากอัคคีภัยในสถานที่และพนักงานดับเพลิงโดยอัตโนมัติ",
   fATextTwelve:
-    "There is a list of sensor systems that are suitable for this software. You need to check whether this software is suitable for the already installed equipment.",
+    "มีรายการระบบเซ็นเซอร์ที่เหมาะกับซอฟต์แวร์นี้ คุณต้องตรวจสอบว่าซอฟต์แวร์นี้เหมาะสมกับอุปกรณ์ที่ติดตั้งไว้แล้วหรือไม่",
   fATextThirteen:
-    "This is a closed system and you can’t just access it. You can connect the system log to the monitoring center at your enterprise and view absolutely all user actions, and all data is encrypted.",
+    "นี่เป็นระบบปิดและคุณไม่สามารถเข้าถึงได้ คุณสามารถเชื่อมต่อบันทึกของระบบเข้ากับศูนย์ตรวจสอบในองค์กรของคุณ และดูการกระทำของผู้ใช้ทั้งหมดได้ และข้อมูลทั้งหมดจะถูกเข้ารหัส",
   fATextFourteen:
-    "The customer receives full access to the application that is installed on his server.",
-  fATextFifteen: "The program itself generates the following reports:",
-  fATextSixteen: "- Event protocols for objects",
+    "ลูกค้าได้รับสิทธิ์เข้าถึงแอปพลิเคชันที่ติดตั้งบนเซิร์ฟเวอร์ของเขาโดยสมบูรณ์",
+  fATextFifteen: "โปรแกรมจะสร้างรายงานต่อไปนี้:",
+  fATextSixteen: "- โปรโตคอลเหตุการณ์สำหรับวัตถุ",
   fATextSeventeen:
-    "- Statistics for different types of signals for a certain period",
-  fATextEighteen: "- Statistics about quality of service",
-  fATextNineteen: "The system has the following analytical panels:",
+    "- สถิติสำหรับสัญญาณประเภทต่างๆ ในช่วงระยะเวลาหนึ่ง",
+  fATextEighteen: "- สถิติเกี่ยวกับคุณภาพการบริการ",
+  fATextNineteen: "ระบบมีแผงการวิเคราะห์ดังต่อไปนี้:",
   fATextTwenty:
-    "- Static and dynamic sections of data on the condition of equipment and its maintenance.",
+    "- ส่วนข้อมูลคงที่และไดนามิกเกี่ยวกับสภาพของอุปกรณ์และการบำรุงรักษา",
   fATextTwentyOne:
-    "- Predictive analytics, warning about the need for repairs before a breakdown.",
-  fATextTwentyTwo: "Users and personal accounts:",
+    "- การวิเคราะห์เชิงคาดการณ์ เตือนถึงความจำเป็นในการซ่อมแซมก่อนที่จะพัง",
+  fATextTwentyTwo: "ผู้ใช้และบัญชีส่วนตัว:",
   fATextTwentyThree:
-    "1. Management - technical condition monitoring, analytics and reporting",
+    "1. การจัดการ - การตรวจสอบสภาพทางเทคนิค การวิเคราะห์ และการรายงาน",
   fATextTwentyFour:
-    "2. Monitoring Center - obtaining data on technical equipment condition 24/7, reporting of faults",
+    "2. ศูนย์ตรวจสอบ - รับข้อมูลเกี่ยวกับสภาพอุปกรณ์ทางเทคนิคทุกวันตลอด 24 ชั่วโมง การรายงานข้อผิดพลาด",
   fATextTwentyFive:
-    "3. Maintenance organization - planning and carrying out maintenance, monitoring the implementation of assigned tasks.",
+    "3. องค์กรบำรุงรักษา - การวางแผนและดำเนินการบำรุงรักษาติดตามการปฏิบัติงานที่ได้รับมอบหมาย",
   fATextTwentySix:
-    "Each device has its own technical card, which contains information about performed and planned maintenance.",
+    "อุปกรณ์แต่ละชิ้นมีการ์ดทางเทคนิคของตัวเองซึ่งมีข้อมูลเกี่ยวกับการบำรุงรักษาที่ดำเนินการและตามแผน",
   fATextTwentySeven:
-    "For large areas, you need to install repeaters, which can be seen on the map in the geomodule.",
+    "สำหรับพื้นที่ขนาดใหญ่ คุณจะต้องติดตั้งขาประจำ ซึ่งสามารถดูได้บนแผนที่ใน geomodule",
   fATextTwentyEight:
-    "The advantage of our wireless system is that it speeds up installation and this installation becomes much cheaper than installing a wired system. The efficiency is noticeable in facilities with an area of more than 150 square meters.",
-  ipHeading: "Registration of international intellectual property",
+    "ข้อดีของระบบไร้สายของเราคือทำให้การติดตั้งเร็วขึ้น และการติดตั้งนี้ราคาถูกกว่าการติดตั้งระบบแบบมีสายมาก ประสิทธิภาพที่เห็นได้ชัดเจนในสิ่งอำนวยความสะดวกที่มีพื้นที่มากกว่า 150 ตารางเมตร",
+  ipHeading: "การจดทะเบียนทรัพย์สินทางปัญญาระหว่างประเทศ",
   ipTextOne:
-    "Intellectual property includes objects of copyright (for example, works of science,arts and literature, software, databases, topologies of integrated circuits, etc.), which are protected by default: registration of intellectual property rights in the field of copyright is exercised at will, often for the purpose of protecting works from outside claims. At the same time, property rights author, including for reproduction, duplication, translations into other languages, etc., can be transferred upon conclusion of special agreement or bequeathed to the heirs at the time as personal non-property rights, that is, the right of authorship, the right to name, publicity and protection of reputation are non-transferable and void. In addition, objects of industrial property are subject to state registration, namely: inventions, utility models, industrial designs, trademarks and service marks, selection achievements. For these intellectual property items, the copyright holder can obtain a patent or a certificate confirming registration in the patent office.",
-  ipTextTwo: "We can provide you with intellectual property for any product",
-  ipTitle: "INTELLECTUAL PROPERTY",
+    "ทรัพย์สินทางปัญญารวมถึงวัตถุที่มีลิขสิทธิ์ (เช่น ผลงานทางวิทยาศาสตร์ ศิลปะและวรรณกรรม ซอฟต์แวร์ ฐานข้อมูล โทโพโลยีของวงจรรวม ฯลฯ) ซึ่งได้รับการคุ้มครองตามค่าเริ่มต้น: มีการจดทะเบียนสิทธิในทรัพย์สินทางปัญญาในด้านลิขสิทธิ์ที่ มักจะมีวัตถุประสงค์ในการปกป้องงานจากการเรียกร้องจากภายนอก ในเวลาเดียวกัน ผู้เขียนสิทธิในทรัพย์สินรวมถึงการทำซ้ำ การทำซ้ำ การแปลเป็นภาษาอื่น ฯลฯ สามารถโอนได้เมื่อมีการสรุปข้อตกลงพิเศษหรือยกมรดกให้กับทายาทในขณะนั้นในฐานะสิทธิที่ไม่ใช่ทรัพย์สินส่วนบุคคลนั่นคือ สิทธิในการประพันธ์ สิทธิในการตั้งชื่อ การเผยแพร่ และการคุ้มครองชื่อเสียงไม่สามารถโอนสิทธิ์ได้และเป็นโมฆะ นอกจากนี้ วัตถุของทรัพย์สินทางอุตสาหกรรมยังต้องได้รับการจดทะเบียนของรัฐ ได้แก่ สิ่งประดิษฐ์ แบบจำลองอรรถประโยชน์ การออกแบบทางอุตสาหกรรม เครื่องหมายการค้าและเครื่องหมายบริการ ความสำเร็จในการคัดเลือก สำหรับรายการทรัพย์สินทางปัญญาเหล่านี้ ผู้ถือลิขสิทธิ์สามารถรับสิทธิบัตรหรือใบรับรองยืนยันการจดทะเบียนในสำนักงานสิทธิบัตรได้",
+  ipTextTwo: "เราสามารถจัดหาทรัพย์สินทางปัญญาให้กับผลิตภัณฑ์ใดๆ ก็ได้",
+  ipTitle: "ทรัพย์สินทางปัญญา",
   ipDescription:
-    "With us you can register international intellectual property for any product.",
-  ipInfo1: "Fast",
-  ipInfo2: "Quality",
-  ipInfo3: "Secure",
-  ipButton: "LEARN MORE",
-  news: "NEWS",
+    "กับเรา คุณสามารถจดทะเบียนทรัพย์สินทางปัญญาระหว่างประเทศสำหรับผลิตภัณฑ์ใดๆ ก็ได้",
+  ipInfo1: "เร็ว",
+  ipInfo2: "คุณภาพ",
+  ipInfo3: "ปลอดภัย",
+  ipButton: "เรียนรู้เพิ่มเติม",
+  news: "ข่าว",
   newsTitle1:
-    "THE immigration POLICE CAME TO CHECK A RUSSIAN MOTOR RENTAL IN PHUKET",
-  newsTitle2: "THE POLICE CAME TO CHECK A RUSSIAN MOTOR RENTAL IN PHUKET",
+    "ตำรวจตรวจคนเข้าเมืองมาตรวจสอบการเช่ามอเตอร์รัสเซียในภูเก็ต",
+  newsTitle2: "ตำรวจมาตรวจสอบการเช่ามอเตอร์รัสเซียในภูเก็ต",
   newsTitle3:
-    "We had a meeting at the Phuket Tourist Police station on the issue of preparing for the high season and renting motorbikes and cars",
-  securityTitle: "Managing user accounts and access rights",
+    "เรามีนัดกันที่ สภ.ท่องเที่ยวภูเก็ต ในประเด็นการเตรียมความพร้อมช่วงไฮซีซั่นและการเช่ารถจักรยานยนต์และรถยนต์",
+  securityTitle: "การจัดการบัญชีผู้ใช้และสิทธิ์การเข้าถึง",
   securityDescription:
-    "The system provides centralized access control and information security control. It provides access control to the company's web resources through user authentication and authorization. This system increases the level of information security. It manages the access rights of a specific user, manages user passwords and protects against password guessing and logs all events that occur.",
-  securityContent: "Key Features:",
+    "ระบบให้การควบคุมการเข้าถึงแบบรวมศูนย์และการควบคุมความปลอดภัยของข้อมูล โดยให้การควบคุมการเข้าถึงทรัพยากรบนเว็บของบริษัทผ่านการรับรองความถูกต้องและการอนุญาตผู้ใช้ ระบบนี้จะเพิ่มระดับความปลอดภัยของข้อมูล จัดการสิทธิ์การเข้าถึงของผู้ใช้เฉพาะ จัดการรหัสผ่านผู้ใช้ และป้องกันการคาดเดารหัสผ่าน และบันทึกเหตุการณ์ทั้งหมดที่เกิดขึ้น",
+  securityContent: "คุณสมบัติที่สำคัญ:",
   securityContent1:
-    "1. Controlling user access to any of the systems/subsystems, regardless of their quantities",
+    "1. การควบคุมการเข้าถึงของผู้ใช้ไปยังระบบ/ระบบย่อยใดๆ โดยไม่คำนึงถึงปริมาณ",
   securityContent2:
-    "2. Constant security monitoring and notification of unauthorized access.",
+    "2. การตรวจสอบความปลอดภัยอย่างต่อเนื่องและการแจ้งเตือนการเข้าถึงโดยไม่ได้รับอนุญาต",
   securityContent3:
-    "3. Possibility of integration with information resources and organizations in order to obtain user data.",
-  securityContent4: "4. Flexible assignment of privileges.",
-  digitalEmployeeTitle: "Digital employee assistant",
+    "3.ความเป็นไปได้ของการบูรณาการกับทรัพยากรข้อมูลและองค์กรเพื่อรับข้อมูลผู้ใช้",
+  securityContent4: "4. การกำหนดสิทธิ์ที่ยืดหยุ่น",
+  digitalEmployeeTitle: "ผู้ช่วยพนักงานระบบดิจิทัล",
   digitalEmployeeDescription1:
-    "The digital assistant helps automate communications and business processes, increases the availability of corporate resources, and reduces the routine workload on staff.",
+    "ผู้ช่วยดิจิทัลช่วยให้การสื่อสารและกระบวนการทางธุรกิจเป็นอัตโนมัติ เพิ่มความพร้อมใช้งานของทรัพยากรขององค์กร และลดภาระงานประจำของพนักงาน",
   digitalEmployeeDescription2:
-    "This is one large database where all documents, reports, charts and other information are loaded, to which employees with the appropriate rights have access.",
+    "นี่คือฐานข้อมูลขนาดใหญ่แห่งหนึ่งซึ่งมีการโหลดเอกสาร รายงาน แผนภูมิ และข้อมูลอื่นๆ ทั้งหมด ซึ่งพนักงานที่มีสิทธิ์ที่เหมาะสมสามารถเข้าถึงได้",
   digitalEmployeeDescription3:
-    "This system is intended for companies with more than 5,000 people.",
+    "ระบบนี้มีไว้สำหรับบริษัทที่มีพนักงานมากกว่า 5,000 คน",
   digitalEmployeeDescription4:
-    "You can configure which employee has which rights and, accordingly, give access to documents. You can scan a document and immediately send it to another employee in the application and add it to the common database.",
+    "คุณสามารถกำหนดค่าว่าพนักงานคนใดมีสิทธิ์ใด และให้สิทธิ์ในการเข้าถึงเอกสารตามลำดับ คุณสามารถสแกนเอกสารแล้วส่งให้พนักงานคนอื่นในแอปพลิเคชันทันทีและเพิ่มลงในฐานข้อมูลทั่วไป",
   digitalEmployeeDescription5:
-    "All requests immediately go into analytics, where the workload of various departments is visible.",
+    "คำขอทั้งหมดจะเข้าสู่การวิเคราะห์ทันที โดยจะเห็นปริมาณงานของแผนกต่างๆ",
   digitalEmployeeDescription6:
-    "Employees save 20% of their time using this application. The search for documents is accelerated, the risk of downtime is reduced, and the cost of mass informing employees is reduced by up to 100%.",
-  digitalEmployeeHeading1: "Possibilities:",
-  digitalEmployeeHeading2: "Allows:",
+    "พนักงานประหยัดเวลา 20% เมื่อใช้แอปพลิเคชันนี้ การค้นหาเอกสารเร็วขึ้น ความเสี่ยงของการหยุดทำงานลดลง และค่าใช้จ่ายในการแจ้งข้อมูลจำนวนมากแก่พนักงานลดลงสูงสุดถึง 100%",
+  digitalEmployeeHeading1: "ความเป็นไปได้:",
+  digitalEmployeeHeading2: "อนุญาต:",
   digitalEmployeeHeading3:
-    "Experience of implementing this system in a large metallurgical company:",
-  digitalEmployeeText1: "- Automation of business processes within the company",
-  digitalEmployeeText2: "- Integration with external services",
-  digitalEmployeeText3: "- Differentiation of access rights",
-  digitalEmployeeText4: "- Generation of analytical reports",
+    "ประสบการณ์การนำระบบนี้ไปใช้ในบริษัทโลหะวิทยาขนาดใหญ่:",
+  digitalEmployeeText1: "- ระบบอัตโนมัติของกระบวนการทางธุรกิจภายในบริษัท",
+  digitalEmployeeText2: "- บูรณาการกับบริการภายนอก",
+  digitalEmployeeText3: "- ความแตกต่างของสิทธิการเข้าถึง",
+  digitalEmployeeText4: "- การสร้างรายงานการวิเคราะห์",
   digitalEmployeeText5:
-    "1. Top management: Promptly obtaining information on key business indicators, such as production volume",
+    "1. ผู้บริหารระดับสูง: รับข้อมูลเกี่ยวกับตัวชี้วัดทางธุรกิจที่สำคัญ เช่น ปริมาณการผลิต โดยทันที",
   digitalEmployeeText6:
-    "2. HR Director: Increases internal communication and optimizes interaction processes. for example, it issues a notification that this employee has been fired from the company and needs to restrict access to certain resources.",
+    "2. ผู้อำนวยการฝ่ายทรัพยากรบุคคล: เพิ่มการสื่อสารภายในและเพิ่มประสิทธิภาพกระบวนการโต้ตอบ เช่นออกการแจ้งเตือนว่าพนักงานรายนี้ถูกไล่ออกจากบริษัทและจำเป็นต้องจำกัดการเข้าถึงทรัพยากรบางอย่าง",
   digitalEmployeeText7:
-    "3. CIO: Conduct any reengineering and automation of business processes and increase their efficiency.",
+    "3. CIO: ดำเนินการปรับรื้อระบบและระบบอัตโนมัติของกระบวนการทางธุรกิจและเพิ่มประสิทธิภาพ",
   digitalEmployeeText8:
-    "4. Head of support services: Reduce the time your employees spend processing standard questions.",
+    "4. หัวหน้าฝ่ายบริการสนับสนุน: ลดเวลาที่พนักงานของคุณใช้ในการประมวลผลคำถามมาตรฐาน",
   digitalEmployeeText9:
-    "5. All employees: Feel comfortable using corporate services and quickly resolve their issues. For example, where to get a vacation application.",
-  digitalEmployeeText10: "- Optimization of procurement procedures",
+    "5. พนักงานทุกคน: รู้สึกสบายใจที่จะใช้บริการขององค์กรและแก้ไขปัญหาได้อย่างรวดเร็ว เช่น จะหาใบสมัครลาพักร้อนได้ที่ไหน",
+  digitalEmployeeText10: "- การเพิ่มประสิทธิภาพขั้นตอนการจัดซื้อจัดจ้าง",
   digitalEmployeeText11:
-    "- Routine administrative and legal issues are resolved faster",
+    "- ปัญหาด้านการบริหารและกฎหมายตามปกติจะได้รับการแก้ไขเร็วขึ้น",
   digitalEmployeeText12:
-    "- 20% savings in labor costs of specialized employees for processing requests",
+    "- ประหยัดค่าแรง 20% ของพนักงานที่เชี่ยวชาญเพื่อดำเนินการตามคำขอ",
   digitalEmployeeText13:
     "- Automatic classification and distribution of responsibilities",
-  digitalEmployeeText14: "- Analytics based on request data",
+  digitalEmployeeText14: "- การวิเคราะห์ตามข้อมูลคำขอ",
   govermentTitle:
-    "Interaction between government bodies and the people and vice versa.",
+    "ปฏิสัมพันธ์ระหว่างหน่วยงานของรัฐกับประชาชนและในทางกลับกัน",
   govermentText1:
-    "In this system, a citizen seeing a disorder or some kind of violation on the street can write about it in the application and his request will be seen by the person responsible for this territory. The citizen receives a response from the executive authorities, which states that they have carried out work to eliminate the violations. Also, every citizen can propose something to the authorities, for example, to build a museum, or a road, or a pedestrian crossing.",
+    "ในระบบนี้ พลเมืองที่เห็นความผิดปกติหรือการละเมิดบางอย่างบนท้องถนนสามารถเขียนเกี่ยวกับเรื่องนี้ในใบสมัครได้ และคำขอของเขาจะถูกมองเห็นโดยบุคคลที่รับผิดชอบในดินแดนนี้ พลเมืองได้รับคำตอบจากหน่วยงานบริหารซึ่งระบุว่าพวกเขาได้ดำเนินงานเพื่อขจัดการละเมิด นอกจากนี้ พลเมืองทุกคนสามารถเสนอบางสิ่งต่อเจ้าหน้าที่ได้ เช่น เพื่อสร้างพิพิธภัณฑ์ ถนน หรือทางม้าลาย",
   govermentText2:
-    "Each citizen has his own personal account, where all his requests are visible.",
+    "พลเมืองแต่ละคนมีบัญชีส่วนตัวของตนเอง ซึ่งคำขอทั้งหมดของเขาจะปรากฏให้เห็น",
   govermentText3:
-    "Now residents do not need to think about where to write about this or that problem, all complaints and suggestions will be considered and residents will receive an answer to them.",
+    "ตอนนี้ผู้อยู่อาศัยไม่จำเป็นต้องคิดว่าจะเขียนเกี่ยวกับเรื่องนี้หรือปัญหานั้นที่ไหน ข้อร้องเรียนและข้อเสนอแนะทั้งหมดจะได้รับการพิจารณาและผู้อยู่อาศัยจะได้รับคำตอบ",
   govermentText4:
-    "The application helps to control the quality and timing of work, as well as the cost of funds for them.",
+    "แอปพลิเคชันช่วยควบคุมคุณภาพและระยะเวลาของงานตลอดจนต้นทุนเงินทุนสำหรับพวกเขา",
   govermentText5:
-    "Messages with obscene language are automatically added to the trash bin.",
+    "ข้อความที่มีภาษาหยาบคายจะถูกเพิ่มลงในถังขยะโดยอัตโนมัติ",
   govermentText6:
-    "The appeal cannot simply be deleted; the authorities are obliged to respond to the appeal, either reject the offer, or accept it.",
+    "การอุทธรณ์ไม่สามารถลบออกได้ง่ายๆ เจ้าหน้าที่มีหน้าที่ต้องตอบสนองต่อคำอุทธรณ์ ไม่ว่าจะปฏิเสธข้อเสนอหรือยอมรับก็ตาม",
   govermentText7:
-    "Recently, a new service was added: Reward Store - users receive points for their activity and exchange them for prizes.",
+    "เมื่อเร็ว ๆ นี้ มีการเพิ่มบริการใหม่: ร้านค้ารางวัล - ผู้ใช้จะได้รับคะแนนสำหรับกิจกรรมและแลกเปลี่ยนเป็นรางวัล",
   govermentText8:
-    "There is a Volunteering service - the service allows registered users to take part in an initiated collection. This service is aimed at solving a set of problems:",
+    "มีบริการอาสาสมัคร - บริการนี้ช่วยให้ผู้ใช้ที่ลงทะเบียนสามารถมีส่วนร่วมในการรวบรวมที่เริ่มต้นได้ บริการนี้มีวัตถุประสงค์เพื่อแก้ไขปัญหาชุดหนึ่ง:",
   govermentText9:
-    "There is also a module on assessing the quality of food in educational institutions. The ability to evaluate the quality of dishes, appearance, compliance of the actual menu with the developed one, and more.",
-  govermentText10: "What is the portal for?",
-  govermentContent1: "1. Residents:",
-  govermentContent2: "2. Heads of municipalities:",
-  govermentContent3: "Main services:",
-  govermentContent4: "Additional services:",
+    "นอกจากนี้ยังมีโมดูลการประเมินคุณภาพอาหารในสถาบันการศึกษาอีกด้วย ความสามารถในการประเมินคุณภาพของอาหาร ลักษณะที่ปรากฏ ความสอดคล้องของเมนูจริงกับอาหารที่พัฒนาขึ้น และอื่นๆ",
+  govermentText10: "พอร์ทัลมีไว้เพื่ออะไร?",
+  govermentContent1: "1. ผู้อยู่อาศัย:",
+  govermentContent2: "2. หัวหน้าเทศบาล:",
+  govermentContent3: "บริการหลัก:",
+  govermentContent4: "บริการเพิ่มเติม:",
   govermentContent5:
-    "This platform is uniform for all devices and is available on:",
-  govermentContentlist1: "Real participation in city management",
-  govermentContentlist2: "Prompt solution to identified problems",
+    "แพลตฟอร์มนี้มีความเหมือนกันสำหรับอุปกรณ์ทั้งหมดและพร้อมใช้งานบน:",
+  govermentContentlist1: "การมีส่วนร่วมอย่างแท้จริงในการจัดการเมือง",
+  govermentContentlist2: "แก้ไขปัญหาที่ระบุได้ทันที",
   govermentContentlist3:
-    "Openness of information about the activities of government bodies",
-  govermentContentlist4: "Involving residents in city development",
+    "การเปิดเผยข้อมูลเกี่ยวกับกิจกรรมของหน่วยงานภาครัฐ",
+  govermentContentlist4: "ให้ผู้อยู่อาศัยมีส่วนร่วมในการพัฒนาเมือง",
   govermentContentlist5:
-    "Improving the quality of communication between authorities and the population",
+    "การปรับปรุงคุณภาพการสื่อสารระหว่างหน่วยงานและประชาชน",
   govermentContentlist6:
-    "Linking the results of the work of authorities with messages assessing their activities",
+    "การเชื่อมโยงผลงานของเจ้าหน้าที่กับข้อความประเมินกิจกรรมของพวกเขา",
   govermentContentlist7:
-    "Improving the quality of work of municipal authorities",
-  govermentContentlist8: "Feedback",
-  govermentContentlist9: "Online voting",
-  govermentContentlist10: "Open data: registries and works",
-  govermentContentlist11: "Data on development program objects",
-  govermentContentlist12: "Grant Application Module",
-  govermentContentlist13: "Electronic pass",
-  govermentContentlist14: "Medical calculator",
-  govermentContentlist15: "Personal computer",
-  govermentContentlist16: "On the App Store",
-  govermentContentlist17: "On Google Play",
-  govermentContentlist18: "On Huawei",
+    "การปรับปรุงคุณภาพการทำงานของหน่วยงานเทศบาล",
+  govermentContentlist8: "ข้อเสนอแนะ",
+  govermentContentlist9: "การลงคะแนนออนไลน์",
+  govermentContentlist10: "เปิดข้อมูล: การลงทะเบียนและการทำงาน",
+  govermentContentlist11: "ข้อมูลเกี่ยวกับออบเจ็กต์โปรแกรมการพัฒนา",
+  govermentContentlist12: "ให้สิทธิ์โมดูลแอปพลิเคชัน",
+  govermentContentlist13: "บัตรผ่านอิเล็กทรอนิกส์",
+  govermentContentlist14: "เครื่องคิดเลขทางการแพทย์",
+  govermentContentlist15: "คอมพิวเตอร์ส่วนบุคคล",
+  govermentContentlist16: "บน App Store",
+  govermentContentlist17: "บน Google Play",
+  govermentContentlist18: "บนหัวเหว่ย",
   govermentContentlist19:
-    "Forming a responsible attitude of citizens towards nature",
+    "สร้างทัศนคติที่มีความรับผิดชอบของพลเมืองต่อธรรมชาติ",
   govermentContentlist20:
-    "Raising awareness among residents about proper disposal of solid waste",
+    "สร้างความตระหนักรู้แก่ประชาชนเกี่ยวกับการกำจัดขยะมูลฝอยอย่างเหมาะสม",
   govermentContentlist21:
-    "Raising awareness among residents about organized environmental events in the city",
+    "สร้างความตระหนักรู้แก่ผู้อยู่อาศัยเกี่ยวกับการจัดกิจกรรมด้านสิ่งแวดล้อมในเมือง",
 };
