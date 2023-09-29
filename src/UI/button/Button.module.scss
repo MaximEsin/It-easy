@@ -1,21 +1,17 @@
 .button {
   display: inline-block;
-  padding: 23px 64px;
+  padding: 10px 32px 10px 32px ;
   background: transparent;
-  border: 1px solid blue;
-  border-radius: 100px;
-  font-weight: 500;
+  border-radius: 50px;
+  border: none;
   font-size: 18px;
-  line-height: 25px;
-  transition: background 0.3s linear;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: center;
   cursor: pointer;
-  color: blue;
-  letter-spacing: 2px;
-  max-width: 450px;
-}
-
-.button:hover {
+  background: #2346A3;
   color: white;
-  border: 1px solid black;
-  background: blue;
+  max-width: 160px;
+  max-height: 50px;
 }

@@ -1,11 +1,11 @@
 import React from "react";
 import styles from "../styles/Main.module.scss";
 import Card from "../components/Card";
-import Bank from "../images/Bank.svg";
-import Dom from "../images/Dom.svg";
-import Medal from "../images/Medal.svg";
-import Papka from "../images/Papka.svg";
-import Server from "../images/Server.svg";
+import image1 from "../images/MotorSharing.svg";
+import image2 from "../images/Archimed.svg";
+import image3 from "../images/FierAlarm.svg";
+import image4 from "../images/Papka.svg";
+import image5 from "../images/Server.svg";
 import ContactUs from "../components/ContactUs";
 import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
@@ -47,36 +47,46 @@ const Main = () => {
           />
         </div>
       </div>
+      <div className={styles.cards__container}>
+        <p className={styles.cards__text}>РЕШЕНИЯ</p>
+        <h2 className={styles.cards__heading}>Наши цифровые продукты</h2>
+      </div>
       <div className={styles.cards}>
         <Card
           heading={data.cardOneHeading}
           description={data.cardOneText}
-          img={Bank}
+          img={image1}
+          text={data.cardButton1}
         />
         <Card
           heading={data.cardTwoHeading}
           description={data.cardTwoText}
-          img={Dom}
+          img={image2}
+          text={data.cardButton2}
         />
         <Card
           heading={data.cardThreeHeading}
           description={data.cardThreeText}
-          img={Medal}
+          img={image3}
+          text={data.cardButton3}
         />
         <Card
           heading={data.cardFourHeading}
           description={data.cardFourText}
-          img={Server}
+          img={image4}
+          text={data.cardButton1}
         />
         <Card
           heading={data.cardFiveHeading}
           description={data.cardFiveText}
-          img={Papka}
+          img={image5}
+          text={data.cardButton1}
         />
         <Card
           heading={data.cardSixHeading}
           description={data.cardSixText}
-          img={Server}
+          img={image4}
+          text={data.cardButton1}
         />
       </div>
       <section className={styles.news}>

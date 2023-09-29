@@ -77,6 +77,26 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 80px;
+  &__text {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0.45em;
+    text-align: center;
+    color: #8A898E;
+  }
+  &__heading {
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #0B1B35;
+  }
+  &__container {
+    margin-top: -80px;
+    margin-bottom: 100px;
+  }
 }
 
 .main {

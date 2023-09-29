@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 import { useSelector } from "react-redux";
 import { useDispatch } from "react-redux";
 import { getLanguage } from "../services/actions";
-import { English, Russian } from "../data/Data";
+import { English, Russian, Thai } from "../data/Data";
 import burgerPic from "../images/burger.png";
 
 const Header = () => {
@@ -127,6 +127,10 @@ const Header = () => {
             src={ThaiFlag}
             alt="Flag of Thailand"
             className={styles.header__flag}
+            onClick={() => {
+              dispatch(getLanguage(Thai));
+              localStorage.setItem("language", "English");
+            }}
           />
           <img
             src={UKFlag}
