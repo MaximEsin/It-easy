@@ -14,6 +14,8 @@ export const Russian = {
     "Наша команда имеет все необходимые компетенции для реализации любого вашего продукта",
   mainButtonText: "Заказать",
   mainButtonText2: "Связаться",
+  cardsText1: "РЕШЕНИЯ",
+  cardsText2: "Наши цифровые продукты",
   cardButton1: "Заказать",
   cardButton2: "Стоимость",
   cardButton3: "Связаться",
@@ -32,6 +34,9 @@ export const Russian = {
   cardSixHeading: "Универсальные решения",
   cardSixText:
     "Создаем межотраслевое ПО для автоматизации универскльных бизнесс-процессов",
+  achievementsDescription1: "Лет разработки",
+  achievementsDescription2: "Успешных проекта",
+  achievementsDescription3: "Довольных клиентов",
   contactUsDescription: "Свяжитесь с нами чтобы узнать больше",
   contactUsButtonText: "СВЯЗАТЬСЯ С НАМИ",
   contactsHeading: "НАШИ КОНТАКТЫ",
@@ -269,6 +274,11 @@ export const Russian = {
     "Повышение информированности жителей о проведении организованных экологических мероприятий в городе",
 };
 
+
+
+
+
+
 export const English = {
   navOne: "IT-Services",
   navTwo: "Our products",
@@ -285,6 +295,8 @@ export const English = {
     "Our team has all the necessary competencies to implement any of your products",
   mainButtonText: "Order",
   mainButtonText2: "Contact",
+  cardsText1: "SOLUTIONS",
+  cardsText2: "Our digital products",
   cardButton1: "Order",
   cardButton2: "Price",
   cardButton3: "Contact",
@@ -305,6 +317,9 @@ export const English = {
   cardSixHeading: "Universal Solutions",
   cardSixText:
     "We create cross-industry software for automating universal business processes",
+  achievementsDescription1: "Years of development",
+  achievementsDescription2: "Successful projects",
+  achievementsDescription3: "Satisfied clients",
   contactUsDescription: "Contact us to find out more",
   contactUsButtonText: "CONTACT WITH US",
   contactsHeading: "OUR CONTACTS",
@@ -544,6 +559,12 @@ export const English = {
     "Raising awareness among residents about organized environmental events in the city",
 };
 
+
+
+
+
+
+
 export const Thai = {
   navOne: "บริการด้านไอที",
   navTwo: "ผลิตภัณฑ์ของเรา",
@@ -560,6 +581,8 @@ export const Thai = {
     "ทีมงานของเรามีความสามารถที่จำเป็นทั้งหมดในการปรับใช้ผลิตภัณฑ์ของคุณ",
   mainButtonText: "คำสั่ง",
   mainButtonText2: "ติดต่อ",
+  cardsText1: "โซลูชั่นส์",
+  cardsText2: "ผลิตภัณฑ์ดิจิทัลของเรา",
   cardButton1: "สั่งซื้อสินค้า",
   cardButton2: "ราคา",
   cardButton3: "เชื่อมต่อกับเรา",
@@ -579,6 +602,9 @@ export const Thai = {
   cardSixHeading: "โซลูชั่นสากล",
   cardSixText:
     "เราสร้างซอฟต์แวร์ข้ามอุตสาหกรรมเพื่อทำให้กระบวนการทางธุรกิจสากลเป็นแบบอัตโนมัติ",
+  achievementsDescription1: "ปีแห่งการพัฒนา",
+  achievementsDescription2: "โครงการที่สำเร็จ",
+  achievementsDescription3: "ลูกค้าพึงพอใจ",
   contactUsDescription: "ติดต่อเราเพื่อหาข้อมูลเพิ่มเติม",
   contactUsButtonText: "ติดต่อกับเรา",
   contactsHeading: "ข้อมูลติดต่อของเรา",

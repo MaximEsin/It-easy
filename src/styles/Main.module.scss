@@ -69,6 +69,11 @@
     background-color: rgba(255, 255, 255, 1);
     cursor: pointer;
   }
+
+  &__pic {
+    width: 764px;
+    height: 704px;
+  }
 }
 
 .cards {
@@ -106,6 +111,7 @@
   justify-content: center;
   width: 100%;
   margin-top: 130px;
+
 }
 
 .IP {
@@ -161,7 +167,7 @@
 
 .news {
   max-width: 1180px;
-  width: 100%;
+  width: 90%;
   padding: 0 35px;
   margin: 60px auto;
   &__title {
@@ -175,14 +181,98 @@
   &__box {
     padding: 20px;
     overflow: auto;
-    width: 100%;
+    width: 90%;
     height: 600px;
     background-color: #ffffff;
   }
 }
 
+.achievements {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(279.69deg, #0A0079 0%, #3882C6 100%);
+  max-width: 1101px;
+  border-radius: 20px;
+  padding: 32px;
+  gap: 10px;
+  margin: 145px 0;
+  &__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 367px;
+    height: 100px;
+    gap: 12px;
+  }
+  &__title {
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 76px;
+    letter-spacing: -0.02em;
+    margin: 0;
+    color: white;
+  }
+  &__description {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0.02em;
+    margin: 0;
+    color: white;
+  }
+}
+
+@media all and (max-width: 1280px) {
+  .intro {
+    &__pic {
+    width: 664px;
+    height: 604px;
+    }
+  }
+}
+
 @media all and (max-width: 1225px) {
   .intro {
-    
+    &__pic {
+    width: 564px;
+    height: 504px;
+    }
+  }
+}
+
+
+
+@media all and (max-width: 1024px) {
+  .intro {
+    &__pic {
+    width: 464px;
+    height: 404px;
+    }
+  }
+}
+
+@media all and (max-width: 1024px) {
+  .IP {
+    &__container {
+      max-width: 1180px;
+    }
+  }
+}
+
+@media all and (max-width: 320px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media all and (max-width: 320px) {
+  .intro {
+    &__pic {
+      width: 264px;
+      height: 204px;
+    }
   }
 }

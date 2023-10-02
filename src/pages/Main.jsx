@@ -48,8 +48,8 @@ const Main = () => {
         </div>
       </div>
       <div className={styles.cards__container}>
-        <p className={styles.cards__text}>РЕШЕНИЯ</p>
-        <h2 className={styles.cards__heading}>Наши цифровые продукты</h2>
+        <p className={styles.cards__text}>{data.cardsText1}</p>
+        <h2 className={styles.cards__heading}>{data.cardsText2}</h2>
       </div>
       <div className={styles.cards}>
         <Card
@@ -88,6 +88,20 @@ const Main = () => {
           img={image4}
           text={data.cardButton1}
         />
+      </div>
+      <div className={styles.achievements}>
+        <div className={styles.achievements__content}>
+          <h1 className={styles.achievements__title}>10+</h1>
+          <p className={styles.achievements__description}>{data.achievementsDescription1}</p>
+        </div>
+        <div className={styles.achievements__content}>
+          <h1 className={styles.achievements__title}>333+</h1>
+          <p className={styles.achievements__description}>{data.achievementsDescription2}</p>
+        </div>
+        <div className={styles.achievements__content}>
+          <h1 className={styles.achievements__title}>555+</h1>
+          <p className={styles.achievements__description}>{data.achievementsDescription3}</p>
+        </div>
       </div>
       <section className={styles.news}>
         <h2 className={styles.news__title}>{data.news}</h2>

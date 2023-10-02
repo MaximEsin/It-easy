@@ -146,6 +146,7 @@
   .header {
     &__languageContainer {
       gap: 3px;
+      flex-direction: column;
     }
   }
 }
@@ -196,14 +197,6 @@
 
     &__span {
       cursor: pointer;
-    }
-  }
-
-  @media all and (max-width: 865px) {
-    .header {
-      &__languageContainer {
-        flex-direction: column;
-      }
     }
   }
 }
