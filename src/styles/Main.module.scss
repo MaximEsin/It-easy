@@ -88,7 +88,7 @@
     line-height: 29px;
     letter-spacing: 0.45em;
     text-align: center;
-    color: #8A898E;
+    color: #8a898e;
   }
   &__heading {
     font-size: 52px;
@@ -96,7 +96,7 @@
     line-height: 29px;
     letter-spacing: 0em;
     text-align: center;
-    color: #0B1B35;
+    color: #0b1b35;
   }
   &__container {
     margin-top: -80px;
@@ -111,7 +111,6 @@
   justify-content: center;
   width: 100%;
   margin-top: 130px;
-
 }
 
 .IP {
@@ -191,7 +190,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(279.69deg, #0A0079 0%, #3882C6 100%);
+  background: linear-gradient(279.69deg, #0a0079 0%, #3882c6 100%);
   max-width: 1101px;
   border-radius: 20px;
   padding: 32px;
@@ -227,8 +226,8 @@
 @media all and (max-width: 1280px) {
   .intro {
     &__pic {
-    width: 664px;
-    height: 604px;
+      width: 664px;
+      height: 604px;
     }
   }
 }
@@ -236,19 +235,17 @@
 @media all and (max-width: 1225px) {
   .intro {
     &__pic {
-    width: 564px;
-    height: 504px;
+      width: 564px;
+      height: 504px;
     }
   }
 }
 
-
-
 @media all and (max-width: 1024px) {
   .intro {
     &__pic {
-    width: 464px;
-    height: 404px;
+      width: 464px;
+      height: 404px;
     }
   }
 }
@@ -268,11 +265,79 @@
   }
 }
 
-@media all and (max-width: 320px) {
+@media all and (max-width: 865px) {
+  .container {
+    flex-direction: column-reverse;
+  }
+
   .intro {
-    &__pic {
-      width: 264px;
-      height: 204px;
+    &__heading {
+      margin-top: -150px;
+    }
+
+    &__buttonsContainer {
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
+
+@media all and (max-width: 865px) {
+  .intro {
+    &__heading {
+      font-size: 45px;
+      font-weight: 800;
+      line-height: 50px;
+      letter-spacing: 0em;
+      margin-left: 32px;
+    }
+
+    &__description {
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 22px;
+      letter-spacing: 0em;
+      margin-left: 32px;
+    }
+
+    &__button {
+      width: 150px;
+      height: 59.28px;
+      border: none;
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 22px;
+      letter-spacing: 0em;
+      text-align: center;
+    }
+
+    &__buttonWhite {
+      width: 147px;
+      height: 59.28px;
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 22px;
+      letter-spacing: 0em;
+      text-align: center;
+    }
+  }
+}
+
+@media all and (max-width: 465px) {
+  .intro {
+    &__heading {
+      max-width: 343px;
+      min-width: none;
+      margin: 0;
+    }
+
+    &__description {
+      max-width: 343px;
+      margin: 0;
+    }
+
+    &__text {
+      max-width: 343px;
     }
   }
 }

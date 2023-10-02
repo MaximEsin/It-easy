@@ -33,7 +33,7 @@ function App() {
   }, []);
 
   return (
-    <div className={styles.appContainer}>
+    <div className="appContainer">
       <Header />
       <Routes>
         <Route path="/" element={<Main />} />

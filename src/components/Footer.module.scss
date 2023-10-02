@@ -1,52 +1,72 @@
 .footer {
   &__section {
-    background-color: #fff;
-    padding-top: 60px;
+    margin-top: 174px;
+    margin-bottom: 134px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 100%;
-    box-shadow: 1px -6px 5px 0px rgba(0, 0, 0, 0.054);
   }
 
   &__container {
     display: flex;
     width: 100%;
+    max-width: 1170px;
     align-items: center;
     justify-content: center;
-    margin-bottom: 50px;
   }
 
   &__companyName {
-    margin: 0 20px 0 10px;
-    color: blue;
-    font-size: 50px;
+    color: rgba(35, 70, 163, 1);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 8px;
+    margin-right: 29px;
+    max-width: 103px;
+  }
+
+  &__span {
+    text-transform: uppercase;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  &__rights {
+    color: rgba(35, 70, 163, 1);
+    font-family: "DM Sans";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin: 0 35px 0 0;
   }
 
   &__nav {
     display: flex;
-    margin: 0 30px 0;
     padding: 0;
-    gap: 40px;
+    gap: 29px;
   }
 
   &__navItem {
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 100%;
-    color: #1a2026;
-    cursor: pointer;
-    transition: color 0.3s ease;
-  }
-
-  &__navItem:hover {
-    color: blue;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(0, 0, 0, 1);
   }
 
   &__logo {
-    width: 120px;
-    height: 12 0px;
+    width: 61.5px;
+    height: 55px;
   }
 
   &__adressContainer {
@@ -72,5 +92,32 @@
     text-decoration: none;
     display: flex;
     align-items: center;
+  }
+}
+
+@media all and (max-width: 1125px) {
+  .footer {
+    &__section {
+      margin-top: 126px;
+      margin-bottom: 32px;
+    }
+
+    &__container {
+      flex-direction: column;
+    }
+  }
+}
+
+@media all and (max-width: 665px) {
+  .footer {
+    &__nav {
+      flex-direction: column;
+      gap: 7.8px;
+      text-align: center;
+    }
+
+    &__navItem {
+      text-align: center;
+    }
   }
 }

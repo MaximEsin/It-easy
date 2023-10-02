@@ -11,9 +11,13 @@ const Footer = () => {
       <div className={styles.footer__container}>
         <Link className={styles.footer__link} to="/">
           <img src={logo} alt="it easy logo" className={styles.footer__logo} />
-          <p className={styles.footer__companyName}>it-easy international</p>
+          <p className={styles.footer__companyName}>
+            <span className={styles.footer__span}>it-easy</span> international
+          </p>
         </Link>
-
+        <p className={styles.footer__rights}>
+          © 2023 IT-easy. All rights reserved.
+        </p>
         <nav className={styles.footer__nav}>
           <Link className={styles.footer__link} to="/services">
             <p className={styles.footer__navItem}>{data.footerOne}</p>
@@ -31,21 +35,6 @@ const Footer = () => {
             <p className={styles.footer__navItem}>{data.footerFour}</p>
           </Link>
         </nav>
-      </div>
-      <div className={styles.footer__container}>
-        <div className={styles.footer__adressContainer}>
-          <a
-            href="https://goo.gl/maps/APTn3FWYXvhb2bMJ8"
-            target="_blank"
-            className={styles.footer__text}
-          >
-            35, 20 Moo5 Vichitsongkram Rd, Tambon Wichit,
-            <br /> Chang Wat, Mueang Phuket District, Phuket 83000
-          </a>
-        </div>
-        <div className={styles.footer__contactsContainer}>
-          <p className={styles.footer__text}>bikesharingtai@gmail.com</p>
-        </div>
       </div>
     </section>
   );
