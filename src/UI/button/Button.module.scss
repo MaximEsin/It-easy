@@ -1,8 +1,8 @@
 .button {
   display: inline-block;
-  padding: 10px 32px 10px 32px ;
+  padding: 10px 32px 10px 32px;
   background: transparent;
-  border-radius: 50px;
+  border-radius: 10px;
   border: none;
   font-size: 18px;
   font-weight: 500;
@@ -10,7 +10,7 @@
   letter-spacing: 0em;
   text-align: center;
   cursor: pointer;
-  background: #2346A3;
+  background: #2346a3;
   color: white;
-  max-width: 160px;
+  width: 100%;
 }

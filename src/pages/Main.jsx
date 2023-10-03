@@ -6,7 +6,7 @@ import image2 from "../images/Archimed.svg";
 import image3 from "../images/FierAlarm.svg";
 import image4 from "../images/Papka.svg";
 import image5 from "../images/Server.svg";
-import ContactUs from "../components/ContactUs";
+import img from "../images/Group.svg";
 import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 import Button from "../UI/button/Button";
@@ -15,6 +15,7 @@ import img2 from "../images/News2.jpg";
 import img3 from "../images/News3.1.jpg";
 import News from "../components/News";
 import introPic from "../images/introPic.png";
+import Clients from "../components/Clients";
 
 const Main = () => {
   const { data } = useSelector((state) => state.dataReducer);
@@ -89,20 +90,6 @@ const Main = () => {
           text={data.cardButton1}
         />
       </div>
-      <div className={styles.achievements}>
-        <div className={styles.achievements__content}>
-          <h1 className={styles.achievements__title}>10+</h1>
-          <p className={styles.achievements__description}>{data.achievementsDescription1}</p>
-        </div>
-        <div className={styles.achievements__content}>
-          <h1 className={styles.achievements__title}>333+</h1>
-          <p className={styles.achievements__description}>{data.achievementsDescription2}</p>
-        </div>
-        <div className={styles.achievements__content}>
-          <h1 className={styles.achievements__title}>555+</h1>
-          <p className={styles.achievements__description}>{data.achievementsDescription3}</p>
-        </div>
-      </div>
       <section className={styles.news}>
         <h2 className={styles.news__title}>{data.news}</h2>
         <div className={styles.news__box}>
@@ -116,23 +103,40 @@ const Main = () => {
           />
         </div>
       </section>
+      <div className={styles.achievements}>
+        <div className={styles.achievements__content}>
+          <h1 className={styles.achievements__title}>10+</h1>
+          <p className={styles.achievements__description}>
+            {data.achievementsDescription1}
+          </p>
+        </div>
+        <div className={styles.achievements__content}>
+          <h1 className={styles.achievements__title}>300+</h1>
+          <p className={styles.achievements__description}>
+            {data.achievementsDescription2}
+          </p>
+        </div>
+        <div className={styles.achievements__content}>
+          <h1 className={styles.achievements__title}>500+</h1>
+          <p className={styles.achievements__description}>
+            {data.achievementsDescription3}
+          </p>
+        </div>
+      </div>
       <section className={styles.IP}>
+        <p className={styles.IP__titleHead}>{data.ipInfo1}</p>
+        <h1 className={styles.IP__title}>{data.ipTitle}</h1>
         <div className={styles.IP__container}>
-          <div className={styles.IP__content}>
-            <h1 className={styles.IP__title}>{data.ipTitle}</h1>
+          <img src={img} alt="Decorational image" className={styles.IP__pic} />
+          <div className={styles.IP__section}>
             <p className={styles.IP__description}>{data.ipDescription}</p>
-            <div className={styles.IP__section}>
-              <p className={styles.IP__info}>{data.ipInfo1}</p>
-              <p className={styles.IP__info}>{data.ipInfo2}</p>
-              <p className={styles.IP__info}>{data.ipInfo3}</p>
-            </div>
             <Link to="/IP">
               <Button text={data.ipButton}></Button>
             </Link>
           </div>
         </div>
       </section>
-      <ContactUs />
+      <Clients />
     </div>
   );
 };
