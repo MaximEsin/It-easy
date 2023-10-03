@@ -162,12 +162,14 @@ export const Russian = {
     "У нас вы можете оформить международную интеллектуальную собственность на любой продукт.",
   ipInfo1: "ЗАЩИТА",
   ipButton: "Получить предложение",
-  news: "НОВОСТИ",
+  news: "Новости",
   newsTitle1:
     "ИММИГРАЦИОННАЯ ПОЛИЦИЯ ПРИШЛА С ПРОВЕРКОЙ В РУССКИЙ МОТОПРОКАТ НА ПХУКЕТЕ",
   newsTitle2: "ПОЛИЦИЯ ПРИШЛА С ПРОВЕРКОЙ В РУССКИЙ МОТОПРОКАТ НА ПХУКЕТЕ",
   newsTitle3:
     "У нас прошла встреча в полициейском участке Phuket Tourist Police по вопросу подготовки к высокому сизону и аренде мотобайков и машин",
+  newsDescription:
+    "Подразделение дорожной полиции одобрила после проверки русский мотошеринг на острове Пхукет",
   securityTitle: "Управление учетными записями и правами доступа пользователей",
   securityDescription:
     "Система обеспечивает централизованное управление доступом и контроль информационной безопасности. Она обеспечивает управление доступом к веб ресурсам компании через аутентификацию и авторизацию пользователей. Эта система повышает уровень информационной безопасности. Она управляет правами доступа конкретного пользователя, управляет паролями пользователей и защищает от подбора паролей и регистрирует все происходящие события.",
@@ -438,12 +440,14 @@ export const English = {
     "With us you can register international intellectual property for any product.",
   ipInfo1: "Protection",
   ipButton: "Get an offer",
-  news: "NEWS",
+  news: "News",
   newsTitle1:
     "THE immigration POLICE CAME TO CHECK A RUSSIAN MOTOR RENTAL IN PHUKET",
   newsTitle2: "THE POLICE CAME TO CHECK A RUSSIAN MOTOR RENTAL IN PHUKET",
   newsTitle3:
     "We had a meeting at the Phuket Tourist Police station on the issue of preparing for the high season and renting motorbikes and cars",
+  newsDescription:
+    "The traffic police unit approved, after an inspection, Russian motorcycle sharing on the island of Phuket",
   securityTitle: "Managing user accounts and access rights",
   securityDescription:
     "The system provides centralized access control and information security control. It provides access control to the company's web resources through user authentication and authorization. This system increases the level of information security. It manages the access rights of a specific user, manages user passwords and protects against password guessing and logs all events that occur.",
@@ -716,6 +720,8 @@ export const Thai = {
   newsTitle2: "ตำรวจมาตรวจสอบการเช่ามอเตอร์รัสเซียในภูเก็ต",
   newsTitle3:
     "เรามีนัดกันที่ สภ.ท่องเที่ยวภูเก็ต ในประเด็นการเตรียมความพร้อมช่วงไฮซีซั่นและการเช่ารถจักรยานยนต์และรถยนต์",
+  newsDescription:
+    "หน่วยตำรวจจราจรอนุมัติหลังจากการตรวจสอบแล้ว โดยรัสเซียสามารถแบ่งปันรถจักรยานยนต์บนเกาะภูเก็ตได้",
   securityTitle: "การจัดการบัญชีผู้ใช้และสิทธิ์การเข้าถึง",
   securityDescription:
     "ระบบให้การควบคุมการเข้าถึงแบบรวมศูนย์และการควบคุมความปลอดภัยของข้อมูล โดยให้การควบคุมการเข้าถึงทรัพยากรบนเว็บของบริษัทผ่านการรับรองความถูกต้องและการอนุญาตผู้ใช้ ระบบนี้จะเพิ่มระดับความปลอดภัยของข้อมูล จัดการสิทธิ์การเข้าถึงของผู้ใช้เฉพาะ จัดการรหัสผ่านผู้ใช้ และป้องกันการคาดเดารหัสผ่าน และบันทึกเหตุการณ์ทั้งหมดที่เกิดขึ้น",

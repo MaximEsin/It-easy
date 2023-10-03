@@ -100,6 +100,7 @@ const Main = () => {
             link="https://www.novostiphuketa.com/policiya-prishla-s-proverkoy-v-russkiy-motoprokat-na-phukete-18281.php?PDPA_accept=1"
             image={img1}
             about={data.newsTitle1}
+            description={data.newsDescription}
           />
         </div>
       </section>
