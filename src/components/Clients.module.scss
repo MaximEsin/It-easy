@@ -72,3 +72,35 @@
     background-color: white;
   }
 }
+
+@media all and (max-width: 760px) {
+  .clients {
+    &__title {
+      font-size: 32px;
+      font-weight: 700;
+      line-height: 29px;
+      letter-spacing: 0em;
+      text-align: center;
+      margin: 0;
+    }
+
+    &__infoContainer {
+      margin: 54px 0 0;
+      flex-direction: column;
+      gap: 64px;
+    }
+  }
+}
+
+@media all and (max-width: 410px) {
+  .clients {
+    margin-top: 100px;
+    &__text {
+      font-size: 13px;
+      font-weight: 500;
+      line-height: 28px;
+      letter-spacing: 0px;
+      text-align: left;
+    }
+  }
+}

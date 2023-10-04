@@ -258,6 +258,19 @@
   }
 }
 
+@media all and (max-width: 1035px) {
+  .IP {
+    &__title {
+      font-size: 32px;
+      font-weight: 700;
+      line-height: 29px;
+      letter-spacing: 0em;
+      text-align: center;
+      margin: 0;
+    }
+  }
+}
+
 @media all and (max-width: 1024px) {
   .intro {
     &__pic {
@@ -265,20 +278,11 @@
       height: 404px;
     }
   }
-}
 
-@media all and (max-width: 1024px) {
   .IP {
     &__container {
       max-width: 1180px;
     }
-  }
-}
-
-@media all and (max-width: 320px) {
-  .container {
-    display: flex;
-    flex-direction: column;
   }
 }
 
@@ -333,6 +337,32 @@
   }
 }
 
+@media all and (max-width: 760px) {
+  .IP {
+    &__container {
+      flex-direction: column;
+      margin-top: 18px;
+      align-items: center;
+    }
+
+    &__pic {
+      margin: 0;
+      width: 189px;
+      height: 187px;
+    }
+
+    &__section {
+      margin: 0;
+      text-align: center;
+      align-items: center;
+    }
+
+    &__description {
+      text-align: center;
+    }
+  }
+}
+
 @media all and (max-width: 465px) {
   .intro {
     &__heading {
@@ -369,6 +399,8 @@
   }
 
   .achievements {
+    margin: 50px 0 50px;
+
     &__content {
       width: 325px;
     }
@@ -380,6 +412,14 @@
     padding-bottom: 100px;
     &__content {
       width: 250px;
+    }
+  }
+}
+
+@media all and (max-width: 350px) {
+  .IP {
+    &__title {
+      font-size: 28px;
     }
   }
 }
