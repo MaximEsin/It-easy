@@ -361,6 +361,21 @@
       text-align: center;
     }
   }
+
+  .news {
+    padding: 0;
+  }
+
+  .intro {
+    &__text {
+      max-width: 420px;
+    }
+
+    &__heading {
+      max-width: 420px;
+      margin-left: -30px;
+    }
+  }
 }
 
 @media all and (max-width: 465px) {
@@ -378,6 +393,11 @@
     &__text {
       min-width: 100px;
       margin-top: -100px;
+    }
+
+    &__pic {
+      width: 320px;
+      height: auto;
     }
   }
 
