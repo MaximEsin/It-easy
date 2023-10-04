@@ -6,7 +6,6 @@
     margin-top: 80px;
     justify-content: center;
     align-items: center;
-    margin-bottom: 80px;
   }
 
   &__heading {
@@ -43,5 +42,25 @@
 
   &__img {
     width: 100%;
+  }
+}
+
+@media all and (max-width: 440px) {
+  .contacts {
+    &__heading {
+      margin: 50px 0 50px;
+    }
+
+    &__infoContainer {
+      flex-direction: column;
+    }
+
+    &__name {
+      text-align: center;
+    }
+
+    &__text {
+      text-align: center;
+    }
   }
 }

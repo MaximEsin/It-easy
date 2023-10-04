@@ -1,17 +1,11 @@
 import React from "react";
 import styles from "../styles/Contacts.module.scss";
-import intro from "../images/ContactImg.svg";
 import { useSelector } from "react-redux";
 
 const Contacts = () => {
   const { data } = useSelector((state) => state.dataReducer);
   return (
     <div className={styles.contacts__container}>
-      <img
-        src={intro}
-        alt="Recieved new messages"
-        className={styles.contacts__img}
-      />
       <h1 className={styles.contacts__heading}>{data.contactsHeading}</h1>
       <div className={styles.contacts__infoContainer}>
         <p className={styles.contacts__name}>{data.contactsOne}</p>
