@@ -273,6 +273,11 @@ export const Russian = {
     "Повышение информированности жителей о правильной утилизации ТКО",
   govermentContentlist21:
     "Повышение информированности жителей о проведении организованных экологических мероприятий в городе",
+  clientsText: "ОТЗЫВЫ",
+  clientsTitle: "Что говорят наши клиенты",
+  clientsButton: "Узнать больше",
+  clientsDescription1: "Компания IT-easy проявила себя как профессиональный и отзывчивый партнер в области автоматизации бизнеса. Их экспертные знания и индивидуальный подход помогли достичь желаемых результатов.",
+  clientsDescription2: "IT-easy – это надежный и компетентный партнер. С их помощью мы смогли значительно улучшить управление нашим бизнесом и повысить его эффективность. Рекомендую!",
 };
 
 export const English = {
@@ -553,6 +558,11 @@ export const English = {
     "Raising awareness among residents about proper disposal of solid waste",
   govermentContentlist21:
     "Raising awareness among residents about organized environmental events in the city",
+    clientsText: "REVIEWS",
+    clientsTitle: "What our clients say",
+    clientsButton: "Learn more",
+    clientsDescription1: "IT-easy has proven itself to be a professional and responsive partner in the field of business automation. Their expert knowledge and personalized approach helped achieve the desired results.",
+    clientsDescription2: "IT-easy is a reliable and competent partner. With their help, we were able to significantly improve the management of our business and increase its efficiency. I recommend!",
 };
 
 export const Thai = {
@@ -821,4 +831,9 @@ export const Thai = {
     "สร้างความตระหนักรู้แก่ประชาชนเกี่ยวกับการกำจัดขยะมูลฝอยอย่างเหมาะสม",
   govermentContentlist21:
     "สร้างความตระหนักรู้แก่ผู้อยู่อาศัยเกี่ยวกับการจัดกิจกรรมด้านสิ่งแวดล้อมในเมือง",
+    clientsText: "บทวิจารณ์",
+    clientsTitle: "สิ่งที่ลูกค้าของเราพูด",
+    clientsButton: "เรียนรู้เพิ่มเติม",
+    clientsDescription1: "IT-easy ได้พิสูจน์ตัวเองแล้วว่าเป็นพันธมิตรมืออาชีพและตอบสนองในด้านระบบธุรกิจอัตโนมัติ ความรู้จากผู้เชี่ยวชาญและวิธีการเฉพาะบุคคลช่วยให้บรรลุผลตามที่ต้องการ",
+    clientsDescription2: "IT-easy เป็นพันธมิตรที่เชื่อถือได้และมีความสามารถ ด้วยความช่วยเหลือของพวกเขา เราสามารถปรับปรุงการจัดการธุรกิจของเราได้อย่างมีนัยสำคัญและเพิ่มประสิทธิภาพ ฉันแนะนำ!",
 };
