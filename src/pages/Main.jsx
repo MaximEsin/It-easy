@@ -59,36 +59,42 @@ const Main = () => {
           description={data.cardOneText}
           img={image1}
           text={data.cardButton1}
+          link={"/contacts"}
         />
         <Card
           heading={data.cardTwoHeading}
           description={data.cardTwoText}
           img={image2}
           text={data.cardButton2}
+          link={"/contacts"}
         />
         <Card
           heading={data.cardThreeHeading}
           description={data.cardThreeText}
           img={image3}
           text={data.cardButton3}
+          link={"/contacts"}
         />
         <Card
           heading={data.cardFourHeading}
           description={data.cardFourText}
           img={image4}
           text={data.cardButton1}
+          link={"/contacts"}
         />
         <Card
           heading={data.cardFiveHeading}
           description={data.cardFiveText}
           img={image5}
-          text={data.cardButton1}
+          text={data.cardButton2}
+          link={"/contacts"}
         />
         <Card
           heading={data.cardSixHeading}
           description={data.cardSixText}
           img={image6}
-          text={data.cardButton1}
+          text={data.cardButton3}
+          link={"/contacts"}
         />
       </div>
       <section className={styles.news}>

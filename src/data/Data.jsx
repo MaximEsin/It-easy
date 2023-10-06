@@ -37,6 +37,8 @@ export const Russian = {
   cardSixHeading: "Сигнализация",
   cardSixText:
     "В рейтинге крупнейших поставщиков услуг разработки программного обеспечения России",
+  cardSevenHeading: "Управление  записями и правами доступа",
+  cardSevenText: "Централизованное управление доступом и контроль",
   achievementsDescription1: "Лет разработки",
   achievementsDescription2: "Успешных проекта",
   achievementsDescription3: "Довольных клиентов",
@@ -83,28 +85,6 @@ export const Russian = {
   ourProductsTitle: "Наши продукты",
   ourProductsDescription:
     "Готовые прикладные решения, адаптируемые под бизнес-задачи различных отраслей",
-  ourProductsButton: "СВЯЗАТЬСЯ С НАМИ",
-  ourProductsList: "НАШИ ПРОДУКТЫ",
-  ourProductsWebTitle1: "Наши продукты в Таиланде",
-  ourProductsWebTitle2: "Продукты на продажу",
-  ourProductsTitleList1: "Архимед",
-  ourProductsDescription1: "рррррррррррррррррр рррррррррррррррр рррррррррррр",
-  ourProductsButtonList: "ПОДРОБНЕЕ...",
-  ourProductsTitleList2: "Мониторинг пожарной сигнализации",
-  ourProductsDescription2:
-    "Эта система сканирует все датчики пожарной безопасности на предприятии",
-  ourProductsTitleList3: "Цифровая трансформация государства",
-  ourProductsDescription3: "Система коммуникации народа с государством.",
-  ourProductsTitleList4: "Цифровой ассистент сотрудника",
-  ourProductsDescription4:
-    "Продукт помогает автоматизировать коммуникации и бизнес-процессы, снижает рутинную нагрузку на персонал.",
-  ourProductsTitleList5: "Управление учетными записями и правами доступа",
-  ourProductsDescription5:
-    "Система обеспечивает централизованное управление доступом и контроль информационной безопасности.",
-  ourProductsTitleList6: "Сбор и анализ информации СМИ",
-  ourProductsDescription6: "рррррррррррррррррр рррррррррррррррр рррррррррррр",
-  ourProductsTitleList7: "Мотошеринг",
-  ourProductsDescription7: "Аренда мотобайков в Таиланде",
   /* Fire alarm */
   fAHeading: "Система мониторинга пожарной сигнализации",
   fADescription:
@@ -330,6 +310,8 @@ export const English = {
   cardSixHeading: "Alarm",
   cardSixText:
     "In the ranking of the largest software development service providers in Russia",
+  cardSevenHeading: "Manage records and access rights",
+  cardSevenText: "Centralized access management and control",
   achievementsDescription1: "Years of development",
   achievementsDescription2: "Successful projects",
   achievementsDescription3: "Satisfied clients",
@@ -375,31 +357,6 @@ export const English = {
   ourProductsTitle: "Our products",
   ourProductsDescription:
     "Ready-made application solutions adaptable to business tasks of various industries",
-  ourProductsButton: "CONTACT US",
-  ourProductsList: "OUR PRODUCTS",
-  ourProductsWebTitle1: "Our products in Thailand",
-  ourProductsWebTitle2: "Products for sale",
-  ourProductsTitleList1: "Archimedes",
-  ourProductsDescription1:
-    "qqqqqqqqqqqqqqqqqqqqqq qqqqqqqqqqqqqqqqqqqqqqq qqqqqqqqqqqqqq",
-  ourProductsButtonList: "LEARN MORE...",
-  ourProductsTitleList2: "Fire alarm monitoring",
-  ourProductsDescription2:
-    "This system scans all fire safety sensors in the enterprise",
-  ourProductsTitleList3: "Digital transformation of the state",
-  ourProductsDescription3:
-    "System of communication between the people and the government.",
-  ourProductsTitleList4: "Digital employee assistant",
-  ourProductsDescription4:
-    "The product helps automate communications and business processes and reduces routine workload on staff.",
-  ourProductsTitleList5: "Managing accounts and access rights",
-  ourProductsDescription5:
-    "The system provides centralized access control and information security control.",
-  ourProductsTitleList6: "Collection and analysis of media information",
-  ourProductsDescription6:
-    "qqqqqqqqqqqqqqqqqqqqqq qqqqqqqqqqqqqqqqqqqqqqq qqqqqqqqqqqqqq",
-  ourProductsTitleList7: "Motorbike sharing",
-  ourProductsDescription7: "Motorbike rental in Thailand",
   /* Fire alarm */
   fAHeading: "Fire alarm monitoring system",
   fADescription: "This system scans all fire safety sensors in the enterprise",
@@ -623,6 +580,8 @@ export const Thai = {
   cardFiveText: "ระบบอัตโนมัติของการสื่อสารและกระบวนการทางธุรกิจ",
   cardSixHeading: "สัญญาณแจ้งเตือนเหตุเพลิงไหม้",
   cardSixText: "ในการจัดอันดับผู้ให้บริการพัฒนาซอฟต์แวร์ที่ใหญ่ที่สุดในรัสเซีย",
+  cardSevenHeading: "จัดการบันทึกและสิทธิ์การเข้าถึง",
+  cardSevenText: "การจัดการและการควบคุมการเข้าถึงแบบรวมศูนย์",
   achievementsDescription1: "ปีแห่งการพัฒนา",
   achievementsDescription2: "โครงการที่สำเร็จ",
   achievementsDescription3: "ลูกค้าพึงพอใจ",
@@ -667,28 +626,6 @@ export const Thai = {
   ourProductsTitle: "ผลิตภัณฑ์ของเรา",
   ourProductsDescription:
     "โซลูชันแอปพลิเคชันสำเร็จรูปที่ปรับให้เข้ากับงานทางธุรกิจของอุตสาหกรรมต่างๆ",
-  ourProductsButton: "ติดต่อเรา",
-  ourProductsList: "ผลิตภัณฑ์ของเรา",
-  ourProductsWebTitle1: "สินค้าของเราในประเทศไทย",
-  ourProductsWebTitle2: "สินค้าขาย",
-  ourProductsTitleList1: "Archimedes",
-  ourProductsDescription1: "งงงงงงงงงงงงงง งงงงงงงงงงงงงง งงงงงงงงงงงงง",
-  ourProductsButtonList: "เรียนรู้เพิ่มเติม...",
-  ourProductsTitleList2: "การตรวจสอบสัญญาณเตือนไฟไหม้",
-  ourProductsDescription2:
-    "ระบบนี้จะสแกนเซ็นเซอร์ความปลอดภัยจากอัคคีภัยทั้งหมดในองค์กร",
-  ourProductsTitleList3: "การเปลี่ยนแปลงทางดิจิทัลของรัฐ",
-  ourProductsDescription3: "ระบบการสื่อสารระหว่างประชาชนกับภาครัฐ",
-  ourProductsTitleList4: "ผู้ช่วยพนักงานดิจิทัล",
-  ourProductsDescription4:
-    "ผลิตภัณฑ์นี้ช่วยให้การสื่อสารและกระบวนการทางธุรกิจเป็นอัตโนมัติ และลดภาระงานประจำของพนักงาน",
-  ourProductsTitleList5: "การจัดการบัญชีและสิทธิ์การเข้าถึง",
-  ourProductsDescription5:
-    "ระบบให้การควบคุมการเข้าถึงแบบรวมศูนย์และการควบคุมความปลอดภัยของข้อมูล",
-  ourProductsTitleList6: "การรวบรวมและวิเคราะห์ข้อมูลสื่อ",
-  ourProductsDescription6: "งงงงงงงงงงงงงง งงงงงงงงงงงงงง งงงงงงงงงงงงง",
-  ourProductsTitleList7: "Motorbike sharing",
-  ourProductsDescription7: "รถมอเตอร์ไซค์ให้เช่าในประเทศไทย",
   /* Fire alarm */
   fAHeading: "ระบบตรวจสอบสัญญาณเตือนไฟไหม้",
   fADescription: "ระบบนี้จะสแกนเซ็นเซอร์ความปลอดภัยจากอัคคีภัยทั้งหมดในองค์กร",

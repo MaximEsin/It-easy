@@ -1,16 +1,14 @@
 import React from "react";
-import styles from "../styles/OurProducts.module.scss";
-import Button from "../UI/button/Button";
-import Product from "../components/Product";
-import one from "../images/products/1.svg";
-import two from "../images/products/2.svg";
-import three from "../images/products/3.svg";
-import four from "../images/products/4.svg";
-import five from "../images/products/5.svg";
-import six from "../images/products/6.svg";
-import seven from "../images/products/7.svg";
-import { Link } from "react-router-dom";
+import styles from "../styles/Main.module.scss";
 import { useSelector } from "react-redux";
+import Card from "../components/Card";
+import image1 from "../images/MotorSharing.svg";
+import image2 from "../images/Archimed.svg";
+import image3 from "../images/DigitalMarketing.svg";
+import image4 from "../images/Government.svg";
+import image5 from "../images/Bot.svg";
+import image6 from "../images/FierAlarm.svg";
+import image7 from "../images/Authorization.svg";
 
 const OurProducts = () => {
   const { data } = useSelector((state) => state.dataReducer);
@@ -21,79 +19,58 @@ const OurProducts = () => {
         <p className={styles.products__description}>
           {data.ourProductsDescription}
         </p>
-        <Link to="/contacts">
-          <Button text={data.ourProductsButton} />
-        </Link>
       </div>
-      <div className={styles.products__mainContainer}>
-        <p className={styles.products__mainHeading}>{data.ourProductsList}</p>
-        <div className={styles.products__webNameContainer}>
-          <p className={styles.products__webName}>
-            {data.ourProductsWebTitle1}
-          </p>
-        </div>
-        <div className={styles.products__web}>
-          <a
-            className={styles.products__link}
-            href="https://www.bikesharingtai.com/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <Product
-              image={seven}
-              heading={data.ourProductsTitleList7}
-              description={data.ourProductsDescription7}
-            />
-          </a>
-        </div>
-        <div className={styles.products__webNameContainer}>
-          <p className={styles.products__webName}>
-            {data.ourProductsWebTitle2}
-          </p>
-        </div>
-        <div className={styles.products__web}>
-          <Link className={styles.products__link} to="/archimedes">
-            <Product
-              image={one}
-              heading={data.ourProductsTitleList1}
-              description={data.ourProductsDescription1}
-            />
-          </Link>
-          <Link className={styles.products__link} to="/fire-alarm">
-            <Product
-              image={two}
-              heading={data.ourProductsTitleList2}
-              description={data.ourProductsDescription2}
-            />
-          </Link>
-          <Link className={styles.products__link} to="/goverment">
-            <Product
-              image={three}
-              heading={data.ourProductsTitleList3}
-              description={data.ourProductsDescription3}
-            />
-          </Link>
-          <Link className={styles.products__link} to="/digital-employee">
-            <Product
-              image={four}
-              heading={data.ourProductsTitleList4}
-              description={data.ourProductsDescription4}
-            />
-          </Link>
-          <Link to="/security" className={styles.products__link}>
-            {" "}
-            <Product
-              image={five}
-              heading={data.ourProductsTitleList5}
-              description={data.ourProductsDescription5}
-            />
-          </Link>
-          <Product
-            image={six}
-            heading={data.ourProductsTitleList6}
-            description={data.ourProductsDescription6}
-          />
-        </div>
+      <div className={styles.cards}>
+          <Card
+          heading={data.cardOneHeading}
+          description={data.cardOneText}
+          img={image1}
+          text={data.cardButton1}
+          link={"https://www.bikesharingtai.com/"}
+          target="_blank"
+        />
+        <Card
+          heading={data.cardTwoHeading}
+          description={data.cardTwoText}
+          img={image2}
+          text={data.cardButton2}
+          link={"/archimedes"}
+        />
+        <Card
+          heading={data.cardThreeHeading}
+          description={data.cardThreeText}
+          img={image3}
+          text={data.cardButton3}
+          link={"/contacts"}
+        />
+        <Card
+          heading={data.cardFourHeading}
+          description={data.cardFourText}
+          img={image4}
+          text={data.cardButton1}
+          link={"/goverment"}
+        />
+        <Card
+          heading={data.cardFiveHeading}
+          description={data.cardFiveText}
+          img={image5}
+          text={data.cardButton2}
+          link={"/digital-employee"}
+        />
+        <Card
+          heading={data.cardSixHeading}
+          description={data.cardSixText}
+          img={image6}
+          text={data.cardButton3}
+          link={"/fire-alarm"}
+        />
+        <Card
+          heading={data.cardSevenHeading}
+          description={data.cardSevenText}
+          img={image7}
+          text={data.cardButton3}
+          link={"/security"}
+        />
       </div>
     </div>
   );
