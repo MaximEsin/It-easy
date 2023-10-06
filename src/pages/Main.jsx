@@ -20,6 +20,7 @@ import Clients from "../components/Clients";
 
 const Main = () => {
   const { data } = useSelector((state) => state.dataReducer);
+
   return (
     <div className={styles.main}>
       <div className={styles.container}>

@@ -23,8 +23,6 @@ const Header = () => {
     }
   };
 
-  console.log(burgerActive);
-
   return (
     <div className={styles.header__container}>
       <div className={styles.header}>

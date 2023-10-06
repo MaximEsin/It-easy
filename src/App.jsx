@@ -10,6 +10,7 @@ import Services from "./pages/Services";
 import { useDispatch } from "react-redux";
 import { English, Russian } from "./data/Data";
 import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 import { getLanguage } from "./services/actions";
 import FireAlarm from "./pages/projects/FireAlarm";
 import IP from "./pages/IP";
@@ -20,6 +21,11 @@ import Archimedes from "./pages/projects/Archimedes";
 
 function App() {
   const dispatch = useDispatch();
+  const location = useLocation();
+
+  useEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+  }, [location]);
 
   useEffect(() => {
     if (localStorage.language === "Russian") {
