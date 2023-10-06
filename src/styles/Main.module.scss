@@ -447,6 +447,11 @@
       height: auto;
     }
   }
+  .products {
+    &__description {
+      font-size: 14px;
+    }
+  }
 
   .cards {
     &__text {

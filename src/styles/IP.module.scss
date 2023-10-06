@@ -25,3 +25,13 @@
     text-align: center;
   }
 }
+
+@media all and (max-width: 405px) {
+  .ip {
+    &__heading {
+      max-width: 300px;
+      font-size: 26px;
+      line-height: 30px;
+    }
+  }
+}
