@@ -3,9 +3,10 @@ import styles from "../styles/Main.module.scss";
 import Card from "../components/Card";
 import image1 from "../images/MotorSharing.svg";
 import image2 from "../images/Archimed.svg";
-import image3 from "../images/FierAlarm.svg";
-import image4 from "../images/Papka.svg";
-import image5 from "../images/Server.svg";
+import image3 from "../images/DigitalMarketing.svg";
+import image4 from "../images/Government.svg";
+import image5 from "../images/Bot.svg";
+import image6 from "../images/FierAlarm.svg";
 import img from "../images/Group.svg";
 import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
@@ -86,7 +87,7 @@ const Main = () => {
         <Card
           heading={data.cardSixHeading}
           description={data.cardSixText}
-          img={image4}
+          img={image6}
           text={data.cardButton1}
         />
       </div>
