@@ -60,14 +60,15 @@ const Main = () => {
           description={data.cardOneText}
           img={image1}
           text={data.cardButton1}
-          link={"/contacts"}
+          link={"https://www.bikesharingtai.com/"}
+          target="_blank"
         />
         <Card
           heading={data.cardTwoHeading}
           description={data.cardTwoText}
           img={image2}
           text={data.cardButton2}
-          link={"/contacts"}
+          link={"/archimedes"}
         />
         <Card
           heading={data.cardThreeHeading}
@@ -81,21 +82,21 @@ const Main = () => {
           description={data.cardFourText}
           img={image4}
           text={data.cardButton1}
-          link={"/contacts"}
+          link={"/goverment"}
         />
         <Card
           heading={data.cardFiveHeading}
           description={data.cardFiveText}
           img={image5}
           text={data.cardButton2}
-          link={"/contacts"}
+          link={"/digital-employee"}
         />
         <Card
           heading={data.cardSixHeading}
           description={data.cardSixText}
           img={image6}
           text={data.cardButton3}
-          link={"/contacts"}
+          link={"/fire-alarm"}
         />
       </div>
       <section className={styles.news}>

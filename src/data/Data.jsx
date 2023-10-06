@@ -261,6 +261,15 @@ export const Russian = {
     "Повышение информированности жителей о правильной утилизации ТКО",
   govermentContentlist21:
     "Повышение информированности жителей о проведении организованных экологических мероприятий в городе",
+  /* Archimedes */
+  archimedesTitle: "Архимед",
+  archimedesText1: "Основная функция этого программного обеспечения - получение с различного оборудования которое визуализирует цифровой снимок(рентген, КТ, МРТ, флюорография) сам снимок и  помогает его проанализировать при помощи различных инструментов. У системы единая база данных к которой подключаются рентген аппараты в больнице и у каждого аппарата есть доступ к снимкам полученным в любой другой больнице подключенной к сети. ",
+  archimedesText2: "Можно подключить функцию искусственного интеллекта и в кабинете врача появится возможность автоматически анализировать снимок опираясь на остальные снимки в базе данных и диагнозов к ним.",
+  archimedesText3: "Можно организовать систему удаленных телемедицинских консультаций, где снимок делается в 1 месте и сразу отправляется в другое, например в столичный госпиталь и там анализируется более опытным врачом.",
+  archimedesText4: "Возможна интеграция с различными системами, такими как: местными медицинскими сервисами, веб сайтами и любыми сторонними сервисами. В штате много разработчиков и есть компетенции и ресурс сделать любую интеграцию, адаптировать ПО под конечного пользователя.",
+  archimedesText5: "У сервиса активная техническая поддержка.",
+  archimedesText6: "Сам софт не продается, но продается лицензия на подключение к системе. Аналогично с системой windows 1 лицензия на 1 рабочее место. Дополнительные продления лицензии не требуются. ",
+  archimedesText7: "Эту систему можно подключить практически к любой аппаратуре.",
   /* Clients */
   clientsText: "ОТЗЫВЫ",
   clientsTitle: "Что говорят наши клиенты",
@@ -532,6 +541,15 @@ export const English = {
     "Raising awareness among residents about proper disposal of solid waste",
   govermentContentlist21:
     "Raising awareness among residents about organized environmental events in the city",
+  /* Archimedes */
+  archimedesTitle: "Archimedes",
+  archimedesText1: "The main function of this software is to obtain from various equipment which visualizes the digital image itself (X-ray, CT, MRI, fluorography) and helps to analyze it using various tools. The system has a single database to which x-ray machines in the hospital are connected, and each machine has access to images obtained in any other hospital connected to the network.",
+  archimedesText2: "You can connect the artificial intelligence function and in the doctor’s office it will be possible to automatically analyze the image based on other images in the database and diagnoses for them.",
+  archimedesText3: "You can organize a system of remote telemedicine consultations, where an image is taken in one place and immediately sent to another, for example, to a hospital in the capital and analyzed there by a more experienced doctor.",
+  archimedesText4: "Integration with various systems is possible, such as: local medical services, websites and any third-party services. There are many developers in the company and they have the competence and resources to make any integration and adapt the software to the end user.",
+  archimedesText5: "The service has active technical support.",
+  archimedesText6: "The software itself is not for sale, but a license to connect to the system is. Similarly with the Windows system, 1 license for 1 workplace. No additional license renewals are required.",
+  archimedesText7: "This system can be connected to almost any equipment.",
   /* Clients */
   clientsText: "REVIEWS",
   clientsTitle: "What our clients say",
@@ -793,6 +811,15 @@ export const Thai = {
     "สร้างความตระหนักรู้แก่ประชาชนเกี่ยวกับการกำจัดขยะมูลฝอยอย่างเหมาะสม",
   govermentContentlist21:
     "สร้างความตระหนักรู้แก่ผู้อยู่อาศัยเกี่ยวกับการจัดกิจกรรมด้านสิ่งแวดล้อมในเมือง",
+  /* Archimedes */
+  archimedesTitle: "Archimedes",
+  archimedesText1: "หน้าที่หลักของซอฟต์แวร์นี้คือการได้มาจากอุปกรณ์ต่างๆ ที่แสดงภาพดิจิทัลด้วยตนเอง (X-ray, CT, MRI, ฟลูออโรกราฟฟี) และช่วยวิเคราะห์โดยใช้เครื่องมือต่างๆ ระบบมีฐานข้อมูลเดียวที่เชื่อมต่อกับเครื่องเอ็กซเรย์ในโรงพยาบาล และเครื่องแต่ละเครื่องสามารถเข้าถึงภาพที่ได้รับจากโรงพยาบาลอื่นที่เชื่อมต่อกับเครือข่าย",
+  archimedesText2: "คุณสามารถเชื่อมต่อฟังก์ชันปัญญาประดิษฐ์ได้ และในสำนักงานแพทย์ จะสามารถวิเคราะห์ภาพโดยอัตโนมัติตามภาพอื่นในฐานข้อมูลและทำการวินิจฉัยได้",
+  archimedesText3: "คุณสามารถจัดระบบการให้คำปรึกษาทางการแพทย์ทางไกลได้ โดยที่ภาพจะถูกถ่ายในที่เดียวและส่งไปยังอีกที่หนึ่งทันที เช่น ไปที่โรงพยาบาลในเมืองหลวง และวิเคราะห์ที่นั่นโดยแพทย์ที่มีประสบการณ์มากกว่า",
+  archimedesText4: "สามารถบูรณาการเข้ากับระบบต่างๆ ได้ เช่น บริการทางการแพทย์ในท้องถิ่น เว็บไซต์ และบริการของบุคคลที่สาม มีนักพัฒนาจำนวนมากในบริษัท และพวกเขามีความสามารถและทรัพยากรในการบูรณาการและปรับซอฟต์แวร์ให้เข้ากับผู้ใช้ปลายทาง",
+  archimedesText5: "บริการนี้มีการสนับสนุนทางเทคนิคที่ใช้งานอยู่",
+  archimedesText6: "ตัวซอฟต์แวร์ไม่ได้มีไว้ขาย แต่มีใบอนุญาตให้เชื่อมต่อกับระบบ เช่นเดียวกับระบบ Windows 1 ลิขสิทธิ์สำหรับ 1 สถานที่ทำงาน ไม่จำเป็นต้องต่ออายุใบอนุญาตเพิ่มเติม",
+  archimedesText7: "ระบบนี้สามารถเชื่อมต่อกับอุปกรณ์ได้เกือบทุกชนิด",
   /* Clients */
   clientsText: "บทวิจารณ์",
   clientsTitle: "สิ่งที่ลูกค้าของเราพูด",
