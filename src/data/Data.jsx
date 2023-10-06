@@ -1,13 +1,16 @@
 export const Russian = {
+  /* Header */
   navOne: "ИТ-Услуги",
   navTwo: "Наши продукты",
   navThree: "О компании",
   navFour: "Контакты",
   navFive: "Регистрация ИС",
+  /* Footer */
   footerOne: "ИТ-Услуги",
   footerTwo: "Наши продукты",
   footerThree: "О компании",
   footerFour: "Контакты",
+  /* Main */
   mainHeading: `Здесь ваши 
   идеи находят реализацию`,
   mainDescription:
@@ -26,8 +29,7 @@ export const Russian = {
   cardTwoText:
     "Помощник для врача радиолога, умеет определять до 200 различных паталогий в автоматическом режиме",
   cardThreeHeading: "Сбор и анализ информации СМИ",
-  cardThreeText:
-    "Автоматический поиск в открытых источниках",
+  cardThreeText: "Автоматический поиск в открытых источниках",
   cardFourHeading: "Цифровая трансформация государства",
   cardFourText: "Система безопасности и оповещения граждан",
   cardFiveHeading: "Цифровой ассистент сотрудника",
@@ -38,11 +40,11 @@ export const Russian = {
   achievementsDescription1: "Лет разработки",
   achievementsDescription2: "Успешных проекта",
   achievementsDescription3: "Довольных клиентов",
-  contactUsDescription: "Свяжитесь с нами чтобы узнать больше",
-  contactUsButtonText: "СВЯЗАТЬСЯ С НАМИ",
+  /* Contacts */
   contactsHeading: "НАШИ КОНТАКТЫ",
   contactsOne: "ЦЕНТРАЛЬНЫЙ ОФИС:",
   contactsTwo: "ОБЩИЕ ВОПРОСЫ И ПРЕДЛОЖЕНИЯ К НАМ :",
+  /* About */
   aboutTitle: "ИСТОРИЯ it-easy",
   aboutDescription:
     "С 2000 года выполняем цифровое преобразование важнейших отраслей экономики и государственных ведомств. НАШЕ КРЕДО: Индивидуальность в деталях, безупречность во всем!",
@@ -77,6 +79,7 @@ export const Russian = {
     "«Универсальный сервер безопасности» включен в Единый реестр российского ПО , 2021",
   aboutList15:
     "2-е место в рейтинге «Лучший ИТ-работодатель среди крупнейших ИТ-компаний России» (TAdviser), 2021",
+  /* Our Products */
   ourProductsTitle: "Наши продукты",
   ourProductsDescription:
     "Готовые прикладные решения, адаптируемые под бизнес-задачи различных отраслей",
@@ -102,6 +105,7 @@ export const Russian = {
   ourProductsDescription6: "рррррррррррррррррр рррррррррррррррр рррррррррррр",
   ourProductsTitleList7: "Мотошеринг",
   ourProductsDescription7: "Аренда мотобайков в Таиланде",
+  /* Fire alarm */
   fAHeading: "Система мониторинга пожарной сигнализации",
   fADescription:
     "Эта система сканирует все датчики пожарной безопасности на предприятии",
@@ -152,6 +156,7 @@ export const Russian = {
     "Для больших площадей необходимо устанавливать ретрансляторы, которые можно увидеть на карте в геомодуле.",
   fATextTwentyEight:
     "Преимущество нашей беспроводной системы в том, что она ускоряет установку и эта установка обходится намного дешевле, чем установка проводной системы. Эффективность заметна на объектах площадью более 150 квадратных метров.",
+  /* IP */
   ipHeading: "Зарегестрировать международную интеллектуальную собственность",
   ipTextOne:
     "К интеллектуальной собственности относятся объекты авторского права (например, произведения науки, искусства и литературы, программное обеспечение, базы данных, топологии интегральных микросхем и др.), которые охраняются по умолчанию: регистрация прав интеллектуальной собственности в области авторского права осуществляется по желанию, зачастую — с целью защиты произведений от притязаний со стороны. При этом имущественные права автора, в том числе, на воспроизведение, тиражирование, переводы на другие языки и т.д., могут быть переданы при заключении специального договора или завещаны наследникам в то время, как личные неимущественные права, то есть, право авторства, право на имя, обнародование и защиту репутации, не подлежат передаче и отказ от них ничтожен. Кроме того, государственной регистрации подлежат объекты промышленной собственности, а именно: изобретения, полезные модели, промышленные образцы, товарные знаки и знаки обслуживания, селекционные достижения. На эти объекты интеллектуальной собственности правообладатель может получить патент или свидетельство, подтверждающие фиксацию в патентном ведомстве.",
@@ -170,6 +175,7 @@ export const Russian = {
     "У нас прошла встреча в полициейском участке Phuket Tourist Police по вопросу подготовки к высокому сизону и аренде мотобайков и машин",
   newsDescription:
     "Подразделение дорожной полиции одобрила после проверки русский мотошеринг на острове Пхукет",
+  /* Security */
   securityTitle: "Управление учетными записями и правами доступа пользователей",
   securityDescription:
     "Система обеспечивает централизованное управление доступом и контроль информационной безопасности. Она обеспечивает управление доступом к веб ресурсам компании через аутентификацию и авторизацию пользователей. Эта система повышает уровень информационной безопасности. Она управляет правами доступа конкретного пользователя, управляет паролями пользователей и защищает от подбора паролей и регистрирует все происходящие события.",
@@ -181,6 +187,7 @@ export const Russian = {
   securityContent3:
     "3. Возможности интеграции с информационными ресурсами и организациями в целях получения данных пользователей.",
   securityContent4: "4. Гибкое назначение привилегий.",
+  /* Digital employee */
   digitalEmployeeTitle: "Цифровой ассистент сотрудника",
   digitalEmployeeDescription1:
     "Цифровой ассистент помогает автоматизировать коммуникации и бизнес-процессы, повышает доступность корпоративных ресурсов, снижает рутинную нагрузку на персонал.",
@@ -220,6 +227,7 @@ export const Russian = {
   digitalEmployeeText13:
     "- Автоматическая классификация и распределение по ответственностям",
   digitalEmployeeText14: "- Аналитика на основе данных обращений",
+  /* Goverment */
   govermentTitle:
     "Взаимодействие органов государственной власти с народом и наоборот.",
   govermentText1:
@@ -273,23 +281,29 @@ export const Russian = {
     "Повышение информированности жителей о правильной утилизации ТКО",
   govermentContentlist21:
     "Повышение информированности жителей о проведении организованных экологических мероприятий в городе",
+  /* Clients */
   clientsText: "ОТЗЫВЫ",
   clientsTitle: "Что говорят наши клиенты",
   clientsButton: "Узнать больше",
-  clientsDescription1: "Компания IT-easy проявила себя как профессиональный и отзывчивый партнер в области автоматизации бизнеса. Их экспертные знания и индивидуальный подход помогли достичь желаемых результатов.",
-  clientsDescription2: "IT-easy – это надежный и компетентный партнер. С их помощью мы смогли значительно улучшить управление нашим бизнесом и повысить его эффективность. Рекомендую!",
+  clientsDescription1:
+    "Компания IT-easy проявила себя как профессиональный и отзывчивый партнер в области автоматизации бизнеса. Их экспертные знания и индивидуальный подход помогли достичь желаемых результатов.",
+  clientsDescription2:
+    "IT-easy – это надежный и компетентный партнер. С их помощью мы смогли значительно улучшить управление нашим бизнесом и повысить его эффективность. Рекомендую!",
 };
 
 export const English = {
+  /* Header */
   navOne: "IT-Services",
   navTwo: "Our products",
   navThree: "About",
   navFour: "Contacts",
   navFive: "Register IP",
+  /* Footer */
   footerOne: "IT-Services",
   footerTwo: "Our products",
   footerThree: "About",
   footerFour: "Contacts",
+  /* Main */
   mainHeading: `Here yours
   ideas find implementation`,
   mainDescription:
@@ -308,8 +322,7 @@ export const English = {
   cardTwoText:
     "Assistant for a radiologist, can detect up to 200 different pathologies automatically",
   cardThreeHeading: "Collection and analysis of media information",
-  cardThreeText:
-    "Automatic search in open sources",
+  cardThreeText: "Automatic search in open sources",
   cardFourHeading: "Digital transformation of the government",
   cardFourText: "Security and citizen notification system",
   cardFiveHeading: "Digital employee assistant",
@@ -320,11 +333,10 @@ export const English = {
   achievementsDescription1: "Years of development",
   achievementsDescription2: "Successful projects",
   achievementsDescription3: "Satisfied clients",
-  contactUsDescription: "Contact us to find out more",
-  contactUsButtonText: "CONTACT WITH US",
   contactsHeading: "OUR CONTACTS",
   contactsOne: "HEAD OFFICE:",
   contactsTwo: "GENERAL QUESTIONS :",
+  /* About */
   aboutTitle: "HISTORY OF it-easy",
   aboutDescription:
     "Since 2000, digital transformations of economic sectors and government departments have been carried out. OUR CREDO: Individuality in details, perfection in everything!",
@@ -359,6 +371,7 @@ export const English = {
     "Universal Security Server is included in the Unified Register of Russian Software, 2021",
   aboutList15:
     "2nd place in the rating “Best IT employer among the largest IT companies in Russia” (TAdviser), 2021",
+  /* Our products */
   ourProductsTitle: "Our products",
   ourProductsDescription:
     "Ready-made application solutions adaptable to business tasks of various industries",
@@ -387,6 +400,7 @@ export const English = {
     "qqqqqqqqqqqqqqqqqqqqqq qqqqqqqqqqqqqqqqqqqqqqq qqqqqqqqqqqqqq",
   ourProductsTitleList7: "Motorbike sharing",
   ourProductsDescription7: "Motorbike rental in Thailand",
+  /* Fire alarm */
   fAHeading: "Fire alarm monitoring system",
   fADescription: "This system scans all fire safety sensors in the enterprise",
   fABtn: "Contact Us",
@@ -435,6 +449,7 @@ export const English = {
     "For large areas, you need to install repeaters, which can be seen on the map in the geomodule.",
   fATextTwentyEight:
     "The advantage of our wireless system is that it speeds up installation and this installation becomes much cheaper than installing a wired system. The efficiency is noticeable in facilities with an area of more than 150 square meters.",
+  /* IP */
   ipHeading: "Registration of international intellectual property",
   ipTextOne:
     "Intellectual property includes objects of copyright (for example, works of science,arts and literature, software, databases, topologies of integrated circuits, etc.), which are protected by default: registration of intellectual property rights in the field of copyright is exercised at will, often for the purpose of protecting works from outside claims. At the same time, property rights author, including for reproduction, duplication, translations into other languages, etc., can be transferred upon conclusion of special agreement or bequeathed to the heirs at the time as personal non-property rights, that is, the right of authorship, the right to name, publicity and protection of reputation are non-transferable and void. In addition, objects of industrial property are subject to state registration, namely: inventions, utility models, industrial designs, trademarks and service marks, selection achievements. For these intellectual property items, the copyright holder can obtain a patent or a certificate confirming registration in the patent office.",
@@ -452,6 +467,7 @@ export const English = {
     "We had a meeting at the Phuket Tourist Police station on the issue of preparing for the high season and renting motorbikes and cars",
   newsDescription:
     "The traffic police unit approved, after an inspection, Russian motorcycle sharing on the island of Phuket",
+  /* Security */
   securityTitle: "Managing user accounts and access rights",
   securityDescription:
     "The system provides centralized access control and information security control. It provides access control to the company's web resources through user authentication and authorization. This system increases the level of information security. It manages the access rights of a specific user, manages user passwords and protects against password guessing and logs all events that occur.",
@@ -463,6 +479,7 @@ export const English = {
   securityContent3:
     "3. Possibility of integration with information resources and organizations in order to obtain user data.",
   securityContent4: "4. Flexible assignment of privileges.",
+  /* Digital employee */
   digitalEmployeeTitle: "Digital employee assistant",
   digitalEmployeeDescription1:
     "The digital assistant helps automate communications and business processes, increases the availability of corporate resources, and reduces the routine workload on staff.",
@@ -502,6 +519,7 @@ export const English = {
   digitalEmployeeText13:
     "- Automatic classification and distribution of responsibilities",
   digitalEmployeeText14: "- Analytics based on request data",
+  /* Goverment */
   govermentTitle:
     "Interaction between government bodies and the people and vice versa.",
   govermentText1:
@@ -557,23 +575,29 @@ export const English = {
     "Raising awareness among residents about proper disposal of solid waste",
   govermentContentlist21:
     "Raising awareness among residents about organized environmental events in the city",
-    clientsText: "REVIEWS",
-    clientsTitle: "What our clients say",
-    clientsButton: "Learn more",
-    clientsDescription1: "IT-easy has proven itself to be a professional and responsive partner in the field of business automation. Their expert knowledge and personalized approach helped achieve the desired results.",
-    clientsDescription2: "IT-easy is a reliable and competent partner. With their help, we were able to significantly improve the management of our business and increase its efficiency. I recommend!",
+  /* Clients */
+  clientsText: "REVIEWS",
+  clientsTitle: "What our clients say",
+  clientsButton: "Learn more",
+  clientsDescription1:
+    "IT-easy has proven itself to be a professional and responsive partner in the field of business automation. Their expert knowledge and personalized approach helped achieve the desired results.",
+  clientsDescription2:
+    "IT-easy is a reliable and competent partner. With their help, we were able to significantly improve the management of our business and increase its efficiency. I recommend!",
 };
 
 export const Thai = {
+  /* Header */
   navOne: "บริการด้านไอที",
   navTwo: "ผลิตภัณฑ์ของเรา",
   navThree: "เกี่ยวกับ",
   navFour: "รายชื่อผู้ติดต่อ",
   navFive: "ลงทะเบียนไอพี",
+  /* Footer */
   footerOne: "บริการด้านไอที",
   footerTwo: "ผลิตภัณฑ์ของเรา",
   footerThree: "เกี่ยวกับ",
   footerFour: "รายชื่อผู้ติดต่อ",
+  /* Main */
   mainHeading: `นี่ของคุณ
   แนวคิดต่างๆ นำไปสู่การนำไปปฏิบัติ`,
   mainDescription:
@@ -592,24 +616,20 @@ export const Thai = {
   cardTwoText:
     "ผู้ช่วยนักรังสีวิทยาสามารถตรวจจับโรคได้มากถึง 200 โรคโดยอัตโนมัติ",
   cardThreeHeading: "การรวบรวมและวิเคราะห์ข้อมูลสื่อ",
-  cardThreeText:
-    "ค้นหาอัตโนมัติในโอเพ่นซอร์ส",
+  cardThreeText: "ค้นหาอัตโนมัติในโอเพ่นซอร์ส",
   cardFourHeading: "การเปลี่ยนแปลงทางดิจิทัลของรัฐ",
   cardFourText: "ระบบรักษาความปลอดภัยและการแจ้งเตือนพลเมือง",
   cardFiveHeading: "ผู้ช่วยพนักงานดิจิทัล",
-  cardFiveText:
-    "ระบบอัตโนมัติของการสื่อสารและกระบวนการทางธุรกิจ",
+  cardFiveText: "ระบบอัตโนมัติของการสื่อสารและกระบวนการทางธุรกิจ",
   cardSixHeading: "สัญญาณแจ้งเตือนเหตุเพลิงไหม้",
-  cardSixText:
-    "ในการจัดอันดับผู้ให้บริการพัฒนาซอฟต์แวร์ที่ใหญ่ที่สุดในรัสเซีย",
+  cardSixText: "ในการจัดอันดับผู้ให้บริการพัฒนาซอฟต์แวร์ที่ใหญ่ที่สุดในรัสเซีย",
   achievementsDescription1: "ปีแห่งการพัฒนา",
   achievementsDescription2: "โครงการที่สำเร็จ",
   achievementsDescription3: "ลูกค้าพึงพอใจ",
-  contactUsDescription: "ติดต่อเราเพื่อหาข้อมูลเพิ่มเติม",
-  contactUsButtonText: "ติดต่อกับเรา",
   contactsHeading: "ข้อมูลติดต่อของเรา",
   contactsOne: "สำนักงานใหญ่ :",
   contactsTwo: "คำถามทั่วไป :",
+  /* About */
   aboutTitle: "ประวัติศาสตร์ของ it-easy",
   aboutDescription:
     "ตั้งแต่ปี 2000 ได้มีการดำเนินการเปลี่ยนแปลงทางดิจิทัลของภาคเศรษฐกิจและหน่วยงานภาครัฐ หลักความเชื่อของเรา: ความเป็นเอกเทศในรายละเอียด ความสมบูรณ์แบบในทุกสิ่ง!",
@@ -643,6 +663,7 @@ export const Thai = {
     "Universal Security Server รวมอยู่ใน Unified Register of Russian Software, 2021",
   aboutList15:
     "อันดับที่ 2 ในระดับ นายจ้างด้านไอทีที่ดีที่สุดในบรรดาบริษัทไอทีที่ใหญ่ที่สุดในรัสเซีย (TAdviser), 2021",
+  /* Our products */
   ourProductsTitle: "ผลิตภัณฑ์ของเรา",
   ourProductsDescription:
     "โซลูชันแอปพลิเคชันสำเร็จรูปที่ปรับให้เข้ากับงานทางธุรกิจของอุตสาหกรรมต่างๆ",
@@ -668,6 +689,7 @@ export const Thai = {
   ourProductsDescription6: "งงงงงงงงงงงงงง งงงงงงงงงงงงงง งงงงงงงงงงงงง",
   ourProductsTitleList7: "Motorbike sharing",
   ourProductsDescription7: "รถมอเตอร์ไซค์ให้เช่าในประเทศไทย",
+  /* Fire alarm */
   fAHeading: "ระบบตรวจสอบสัญญาณเตือนไฟไหม้",
   fADescription: "ระบบนี้จะสแกนเซ็นเซอร์ความปลอดภัยจากอัคคีภัยทั้งหมดในองค์กร",
   fABtn: "ติดต่อเรา",
@@ -715,6 +737,7 @@ export const Thai = {
     "สำหรับพื้นที่ขนาดใหญ่ คุณจะต้องติดตั้งขาประจำ ซึ่งสามารถดูได้บนแผนที่ใน geomodule",
   fATextTwentyEight:
     "ข้อดีของระบบไร้สายของเราคือทำให้การติดตั้งเร็วขึ้น และการติดตั้งนี้ราคาถูกกว่าการติดตั้งระบบแบบมีสายมาก ประสิทธิภาพที่เห็นได้ชัดเจนในสิ่งอำนวยความสะดวกที่มีพื้นที่มากกว่า 150 ตารางเมตร",
+  /* IP */
   ipHeading: "การจดทะเบียนทรัพย์สินทางปัญญาระหว่างประเทศ",
   ipTextOne:
     "ทรัพย์สินทางปัญญารวมถึงวัตถุที่มีลิขสิทธิ์ (เช่น ผลงานทางวิทยาศาสตร์ ศิลปะและวรรณกรรม ซอฟต์แวร์ ฐานข้อมูล โทโพโลยีของวงจรรวม ฯลฯ) ซึ่งได้รับการคุ้มครองตามค่าเริ่มต้น: มีการจดทะเบียนสิทธิในทรัพย์สินทางปัญญาในด้านลิขสิทธิ์ที่ มักจะมีวัตถุประสงค์ในการปกป้องงานจากการเรียกร้องจากภายนอก ในเวลาเดียวกัน ผู้เขียนสิทธิในทรัพย์สินรวมถึงการทำซ้ำ การทำซ้ำ การแปลเป็นภาษาอื่น ฯลฯ สามารถโอนได้เมื่อมีการสรุปข้อตกลงพิเศษหรือยกมรดกให้กับทายาทในขณะนั้นในฐานะสิทธิที่ไม่ใช่ทรัพย์สินส่วนบุคคลนั่นคือ สิทธิในการประพันธ์ สิทธิในการตั้งชื่อ การเผยแพร่ และการคุ้มครองชื่อเสียงไม่สามารถโอนสิทธิ์ได้และเป็นโมฆะ นอกจากนี้ วัตถุของทรัพย์สินทางอุตสาหกรรมยังต้องได้รับการจดทะเบียนของรัฐ ได้แก่ สิ่งประดิษฐ์ แบบจำลองอรรถประโยชน์ การออกแบบทางอุตสาหกรรม เครื่องหมายการค้าและเครื่องหมายบริการ ความสำเร็จในการคัดเลือก สำหรับรายการทรัพย์สินทางปัญญาเหล่านี้ ผู้ถือลิขสิทธิ์สามารถรับสิทธิบัตรหรือใบรับรองยืนยันการจดทะเบียนในสำนักงานสิทธิบัตรได้",
@@ -731,6 +754,7 @@ export const Thai = {
     "เรามีนัดกันที่ สภ.ท่องเที่ยวภูเก็ต ในประเด็นการเตรียมความพร้อมช่วงไฮซีซั่นและการเช่ารถจักรยานยนต์และรถยนต์",
   newsDescription:
     "หน่วยตำรวจจราจรอนุมัติหลังจากการตรวจสอบแล้ว โดยรัสเซียสามารถแบ่งปันรถจักรยานยนต์บนเกาะภูเก็ตได้",
+  /* Security */
   securityTitle: "การจัดการบัญชีผู้ใช้และสิทธิ์การเข้าถึง",
   securityDescription:
     "ระบบให้การควบคุมการเข้าถึงแบบรวมศูนย์และการควบคุมความปลอดภัยของข้อมูล โดยให้การควบคุมการเข้าถึงทรัพยากรบนเว็บของบริษัทผ่านการรับรองความถูกต้องและการอนุญาตผู้ใช้ ระบบนี้จะเพิ่มระดับความปลอดภัยของข้อมูล จัดการสิทธิ์การเข้าถึงของผู้ใช้เฉพาะ จัดการรหัสผ่านผู้ใช้ และป้องกันการคาดเดารหัสผ่าน และบันทึกเหตุการณ์ทั้งหมดที่เกิดขึ้น",
@@ -742,6 +766,7 @@ export const Thai = {
   securityContent3:
     "3.ความเป็นไปได้ของการบูรณาการกับทรัพยากรข้อมูลและองค์กรเพื่อรับข้อมูลผู้ใช้",
   securityContent4: "4. การกำหนดสิทธิ์ที่ยืดหยุ่น",
+  /* Digital employee */
   digitalEmployeeTitle: "ผู้ช่วยพนักงานระบบดิจิทัล",
   digitalEmployeeDescription1:
     "ผู้ช่วยดิจิทัลช่วยให้การสื่อสารและกระบวนการทางธุรกิจเป็นอัตโนมัติ เพิ่มความพร้อมใช้งานของทรัพยากรขององค์กร และลดภาระงานประจำของพนักงาน",
@@ -781,6 +806,7 @@ export const Thai = {
   digitalEmployeeText13:
     "- Automatic classification and distribution of responsibilities",
   digitalEmployeeText14: "- การวิเคราะห์ตามข้อมูลคำขอ",
+  /* Goverment */
   govermentTitle: "ปฏิสัมพันธ์ระหว่างหน่วยงานของรัฐกับประชาชนและในทางกลับกัน",
   govermentText1:
     "ในระบบนี้ พลเมืองที่เห็นความผิดปกติหรือการละเมิดบางอย่างบนท้องถนนสามารถเขียนเกี่ยวกับเรื่องนี้ในใบสมัครได้ และคำขอของเขาจะถูกมองเห็นโดยบุคคลที่รับผิดชอบในดินแดนนี้ พลเมืองได้รับคำตอบจากหน่วยงานบริหารซึ่งระบุว่าพวกเขาได้ดำเนินงานเพื่อขจัดการละเมิด นอกจากนี้ พลเมืองทุกคนสามารถเสนอบางสิ่งต่อเจ้าหน้าที่ได้ เช่น เพื่อสร้างพิพิธภัณฑ์ ถนน หรือทางม้าลาย",
@@ -830,9 +856,12 @@ export const Thai = {
     "สร้างความตระหนักรู้แก่ประชาชนเกี่ยวกับการกำจัดขยะมูลฝอยอย่างเหมาะสม",
   govermentContentlist21:
     "สร้างความตระหนักรู้แก่ผู้อยู่อาศัยเกี่ยวกับการจัดกิจกรรมด้านสิ่งแวดล้อมในเมือง",
-    clientsText: "บทวิจารณ์",
-    clientsTitle: "สิ่งที่ลูกค้าของเราพูด",
-    clientsButton: "เรียนรู้เพิ่มเติม",
-    clientsDescription1: "IT-easy ได้พิสูจน์ตัวเองแล้วว่าเป็นพันธมิตรมืออาชีพและตอบสนองในด้านระบบธุรกิจอัตโนมัติ ความรู้จากผู้เชี่ยวชาญและวิธีการเฉพาะบุคคลช่วยให้บรรลุผลตามที่ต้องการ",
-    clientsDescription2: "IT-easy เป็นพันธมิตรที่เชื่อถือได้และมีความสามารถ ด้วยความช่วยเหลือของพวกเขา เราสามารถปรับปรุงการจัดการธุรกิจของเราได้อย่างมีนัยสำคัญและเพิ่มประสิทธิภาพ ฉันแนะนำ!",
+  /* Clients */
+  clientsText: "บทวิจารณ์",
+  clientsTitle: "สิ่งที่ลูกค้าของเราพูด",
+  clientsButton: "เรียนรู้เพิ่มเติม",
+  clientsDescription1:
+    "IT-easy ได้พิสูจน์ตัวเองแล้วว่าเป็นพันธมิตรมืออาชีพและตอบสนองในด้านระบบธุรกิจอัตโนมัติ ความรู้จากผู้เชี่ยวชาญและวิธีการเฉพาะบุคคลช่วยให้บรรลุผลตามที่ต้องการ",
+  clientsDescription2:
+    "IT-easy เป็นพันธมิตรที่เชื่อถือได้และมีความสามารถ ด้วยความช่วยเหลือของพวกเขา เราสามารถปรับปรุงการจัดการธุรกิจของเราได้อย่างมีนัยสำคัญและเพิ่มประสิทธิภาพ ฉันแนะนำ!",
 };
