@@ -5,8 +5,8 @@ import { useSelector } from "react-redux";
 const Security = () => {
     const { data } = useSelector((state) => state.dataReducer);
     return(
-        <div className={styles.project__container}>
-            <div className={styles.project__infoContainer}>
+        <div className={styles.project__main}>
+            <div>
                 <h1 className={styles.project__heading}>{data.securityTitle}</h1>
                 <p className={styles.project__description}>
                 {data.securityDescription}
