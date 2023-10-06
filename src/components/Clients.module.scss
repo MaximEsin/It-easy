@@ -70,6 +70,12 @@
     border: 1px solid rgba(138, 137, 142, 1);
     cursor: pointer;
     background-color: white;
+    transition: all 0.3s ease;
+  }
+
+  &__btn:hover {
+    background-color: rgba(30, 14, 98, 1);
+    color: white;
   }
 }
 

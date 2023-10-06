@@ -62,6 +62,11 @@
     letter-spacing: 0em;
     text-align: left;
     color: rgba(0, 0, 0, 1);
+    transition: color 0.3s ease;
+  }
+
+  &__navItem:hover {
+    color: rgba(35, 70, 163, 1);
   }
 
   &__logo {

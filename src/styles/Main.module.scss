@@ -53,6 +53,13 @@
     color: rgba(255, 255, 255, 1);
     border: none;
     cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  &__button:hover {
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(35, 70, 163, 1);
+    border: 1px solid rgba(35, 70, 163, 1);
   }
 
   &__buttonWhite {
@@ -68,6 +75,12 @@
     color: rgba(0, 0, 0, 1);
     background-color: rgba(255, 255, 255, 1);
     cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  &__buttonWhite:hover {
+    color: rgba(35, 70, 163, 1);
+    border: 2px solid rgba(35, 70, 163, 1);
   }
 
   &__pic {

@@ -46,6 +46,11 @@
     letter-spacing: 0em;
     color: rgba(0, 0, 0, 1);
     text-decoration: none;
+    transition: color 0.3s ease;
+  }
+
+  &__navItem:hover {
+    color: rgba(35, 70, 163, 1);
   }
 
   &__companyContainer {
@@ -83,6 +88,11 @@
     cursor: pointer;
     border: 1px solid rgba(35, 70, 163, 1);
     border-radius: 8px;
+    transition: transform 0.3s ease;
+  }
+
+  &__flag:hover {
+    transform: scale(1.2);
   }
 
   &__logoContainer {
