@@ -2,7 +2,6 @@ import React from "react";
 import styles from "../styles/About.module.scss";
 import Button from "../UI/button/Button";
 import img from "../images/Russia.svg";
-import ContactUs from "../components/ContactUs";
 import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 
@@ -61,7 +60,6 @@ const About = () => {
           </div>
         </div>
       </section>
-      <ContactUs />
     </div>
   );
 };

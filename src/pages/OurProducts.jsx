@@ -1,7 +1,6 @@
 import React from "react";
 import styles from "../styles/OurProducts.module.scss";
 import Button from "../UI/button/Button";
-import ContactUs from "../components/ContactUs";
 import Product from "../components/Product";
 import one from "../images/products/1.svg";
 import two from "../images/products/2.svg";
@@ -53,13 +52,13 @@ const OurProducts = () => {
           </p>
         </div>
         <div className={styles.products__web}>
-        <Link className={styles.products__link} to="/archimedes">
-          <Product
-            image={one}
-            heading={data.ourProductsTitleList1}
-            description={data.ourProductsDescription1}
-          />
-        </Link>
+          <Link className={styles.products__link} to="/archimedes">
+            <Product
+              image={one}
+              heading={data.ourProductsTitleList1}
+              description={data.ourProductsDescription1}
+            />
+          </Link>
           <Link className={styles.products__link} to="/fire-alarm">
             <Product
               image={two}
@@ -67,17 +66,19 @@ const OurProducts = () => {
               description={data.ourProductsDescription2}
             />
           </Link>
-          <Link  className={styles.products__link} to="/goverment"><Product
-            image={three}
-            heading={data.ourProductsTitleList3}
-            description={data.ourProductsDescription3}
-          /></Link>
+          <Link className={styles.products__link} to="/goverment">
+            <Product
+              image={three}
+              heading={data.ourProductsTitleList3}
+              description={data.ourProductsDescription3}
+            />
+          </Link>
           <Link className={styles.products__link} to="/digital-employee">
-          <Product
-            image={four}
-            heading={data.ourProductsTitleList4}
-            description={data.ourProductsDescription4}
-          />
+            <Product
+              image={four}
+              heading={data.ourProductsTitleList4}
+              description={data.ourProductsDescription4}
+            />
           </Link>
           <Link to="/security" className={styles.products__link}>
             {" "}
@@ -94,7 +95,6 @@ const OurProducts = () => {
           />
         </div>
       </div>
-      <ContactUs />
     </div>
   );
 };
