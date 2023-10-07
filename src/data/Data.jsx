@@ -47,40 +47,9 @@ export const Russian = {
   contactsOne: "ЦЕНТРАЛЬНЫЙ ОФИС:",
   contactsTwo: "ОБЩИЕ ВОПРОСЫ И ПРЕДЛОЖЕНИЯ К НАМ :",
   /* About */
-  aboutTitle: "ИСТОРИЯ it-easy",
-  aboutDescription:
-    "С 2000 года выполняем цифровое преобразование важнейших отраслей экономики и государственных ведомств. НАШЕ КРЕДО: Индивидуальность в деталях, безупречность во всем!",
-  aboutButton: "ПOЛУЧИТЬ КОНСУЛЬТАЦИЮ",
-  aboutHeading: "ИСТОРИЯ И ДОСТИЖЕНИЯ КОМПАНИИ",
-  aboutList1:
-    "Вошли в состав Карты российского рынка информационной безопасности 2023 (TAdviser)",
-  aboutList2:
-    "9 место Рейтинг крупнейших поставщиков ИТ-услуг в России (TAdviser), 2023",
-  aboutList3:
-    "1 место Рейтинг «Крупнейшие поставщики услуг заказной разработки ПО в России» (TAdviser), 2023",
-  aboutList4:
-    "2 место в рейтинге крупнейших поставщиков ИТ-решений в госсекторе России (TAdviser), 2022",
-  aboutList5:
-    "Включены в карту рынка «Информационные технологии в банке 2022» (TAdviser)",
-  aboutList6:
-    "Управляющий модуль облачной платформы СУПеР вошел в Единый реестр российского ПО , 2022",
-  aboutList7:
-    "В Карте российского рынка информационных технологий представлены в 11 категориях, 2022",
-  aboutList8:
-    "Вошли в состав Карты производителей самых известных российских программных и аппаратных ИТ-продуктов «Импортозамещение 2022»",
-  aboutList9:
-    "2-е место в рейтинге «Лучший ИТ-работодатель среди крупнейших ИТ-компаний России» (TAdviser), 2022",
-  aboutList10: "ТОП-10 самых быстрорастущих ИТ-компаний (CNews), 2021",
-  aboutList11:
-    "4 место в рейтинге ИТ-поставщиков в госсекторе России (CNews ), 2021",
-  aboutList12:
-    "ТОП-10 крупнейших поставщиков BI-решений в России (TAdviser), 2021",
-  aboutList13:
-    "Проект по созданию системы казначейских платежей для Федерального казначейства, объявлен «Уникальным IT-проектом года», 2021",
-  aboutList14:
-    "«Универсальный сервер безопасности» включен в Единый реестр российского ПО , 2021",
-  aboutList15:
-    "2-е место в рейтинге «Лучший ИТ-работодатель среди крупнейших ИТ-компаний России» (TAdviser), 2021",
+  aboutHeading: "О НАШЕЙ КОМПАНИИ",
+  aboutText:
+    "Мы разрабатываем уникальные цифровые решения. Охватываем все уровни: от анализа требований и проектирования систем до поддержки и сопровождения. Обеспечиваем прозрачность и недежность комплексных решений. Интегрируем данные, процессы и сервисы в единые информационные пространства. Наша единая служба поддержки обеспечивает непрерывную работу информационных систем. Выполняем полный цикл целей. Гарантируем высокое качество работы, безопасность информации и соблюдение реализации вашего проекта. Процессы разработки полностью прозрачны и находятся под вашим контролем. Усиливаем вашу штатную команду профессионалами с различной специализацией, исходя из ваших требований. Оптимизируем ресурсы компании, решаем нестандартные и сложные задачи.",
   /* Our Products */
   ourProductsTitle: "Наши продукты",
   ourProductsDescription:
@@ -264,23 +233,34 @@ export const Russian = {
     "Повышение информированности жителей о проведении организованных экологических мероприятий в городе",
   /* Archimedes */
   archimedesTitle: "Архимед",
-  archimedesText1: "Основная функция этого программного обеспечения - получение с различного оборудования которое визуализирует цифровой снимок(рентген, КТ, МРТ, флюорография) сам снимок и  помогает его проанализировать при помощи различных инструментов. У системы единая база данных к которой подключаются рентген аппараты в больнице и у каждого аппарата есть доступ к снимкам полученным в любой другой больнице подключенной к сети. ",
-  archimedesText2: "Можно подключить функцию искусственного интеллекта и в кабинете врача появится возможность автоматически анализировать снимок опираясь на остальные снимки в базе данных и диагнозов к ним.",
-  archimedesText3: "Можно организовать систему удаленных телемедицинских консультаций, где снимок делается в 1 месте и сразу отправляется в другое, например в столичный госпиталь и там анализируется более опытным врачом.",
-  archimedesText4: "Возможна интеграция с различными системами, такими как: местными медицинскими сервисами, веб сайтами и любыми сторонними сервисами. В штате много разработчиков и есть компетенции и ресурс сделать любую интеграцию, адаптировать ПО под конечного пользователя.",
+  archimedesText1:
+    "Основная функция этого программного обеспечения - получение с различного оборудования которое визуализирует цифровой снимок(рентген, КТ, МРТ, флюорография) сам снимок и  помогает его проанализировать при помощи различных инструментов. У системы единая база данных к которой подключаются рентген аппараты в больнице и у каждого аппарата есть доступ к снимкам полученным в любой другой больнице подключенной к сети. ",
+  archimedesText2:
+    "Можно подключить функцию искусственного интеллекта и в кабинете врача появится возможность автоматически анализировать снимок опираясь на остальные снимки в базе данных и диагнозов к ним.",
+  archimedesText3:
+    "Можно организовать систему удаленных телемедицинских консультаций, где снимок делается в 1 месте и сразу отправляется в другое, например в столичный госпиталь и там анализируется более опытным врачом.",
+  archimedesText4:
+    "Возможна интеграция с различными системами, такими как: местными медицинскими сервисами, веб сайтами и любыми сторонними сервисами. В штате много разработчиков и есть компетенции и ресурс сделать любую интеграцию, адаптировать ПО под конечного пользователя.",
   archimedesText5: "У сервиса активная техническая поддержка.",
-  archimedesText6: "Сам софт не продается, но продается лицензия на подключение к системе. Аналогично с системой windows 1 лицензия на 1 рабочее место. Дополнительные продления лицензии не требуются. ",
-  archimedesText7: "Эту систему можно подключить практически к любой аппаратуре.",
+  archimedesText6:
+    "Сам софт не продается, но продается лицензия на подключение к системе. Аналогично с системой windows 1 лицензия на 1 рабочее место. Дополнительные продления лицензии не требуются. ",
+  archimedesText7:
+    "Эту систему можно подключить практически к любой аппаратуре.",
   /* Media */
   mediaTitle: "Интернет-мониторинг",
-  mediaText1: "Этот сервис собирает информацию по нужной теме со всего интернета и хранит ее в себе. Можно мониторить обстановку у какого-либо объекта через интерактивную карту мониторинга СМИ и других открытых источников. В системе также есть модуль контроля происшествий, который позволяет оповещать службы,  курирующего заместителя и контроля исполнения мероприятий и поручений проводимых в рамках случившихся происшествий. ",
-  mediaText2: "Если начнется несанкционированный митинг, в системе это будет сразу видно, начнется бурная активность в соц. сетях.",
+  mediaText1:
+    "Этот сервис собирает информацию по нужной теме со всего интернета и хранит ее в себе. Можно мониторить обстановку у какого-либо объекта через интерактивную карту мониторинга СМИ и других открытых источников. В системе также есть модуль контроля происшествий, который позволяет оповещать службы,  курирующего заместителя и контроля исполнения мероприятий и поручений проводимых в рамках случившихся происшествий. ",
+  mediaText2:
+    "Если начнется несанкционированный митинг, в системе это будет сразу видно, начнется бурная активность в соц. сетях.",
   mediaText3: "Мониторинг и сбор медиа-файлов:",
   mediaText4: "-  Мониторинг и сбор медиа-файлов размещенных в сети интернет.",
   mediaText5: "-  Обработка и анализ(перевод, транскрибирование и т.д)",
-  mediaText6: "-  Хранение видео материалов и результатов обработки(файлы субтитров, кадры, лица)",
-  mediaText7: "-  Поиск, просмотр, отбор видео по субтитрам, лицам и редактирование видео.",
-  mediaText8: "Интернет-архив - это комплекс для сбора, хранения, обработки и поиска больших массивов сообщений и идентификаторов. Его можно подключить к основной системе, он хранит всю информацию о том, кто отправляет, что, куда отправляет, через какие мессенджеры  и т.д.",
+  mediaText6:
+    "-  Хранение видео материалов и результатов обработки(файлы субтитров, кадры, лица)",
+  mediaText7:
+    "-  Поиск, просмотр, отбор видео по субтитрам, лицам и редактирование видео.",
+  mediaText8:
+    "Интернет-архив - это комплекс для сбора, хранения, обработки и поиска больших массивов сообщений и идентификаторов. Его можно подключить к основной системе, он хранит всю информацию о том, кто отправляет, что, куда отправляет, через какие мессенджеры  и т.д.",
   mediaText9: "Задачи комплекса:",
   mediaText10: "-  Отбор сообщений по тематике и каналам",
   mediaText11: "-  Поиск первоисточников распространяемых сообщений",
@@ -344,41 +324,10 @@ export const English = {
   contactsOne: "HEAD OFFICE:",
   contactsTwo: "GENERAL QUESTIONS :",
   /* About */
-  aboutTitle: "HISTORY OF it-easy",
-  aboutDescription:
-    "Since 2000, digital transformations of economic sectors and government departments have been carried out. OUR CREDO: Individuality in details, perfection in everything!",
-  aboutButton: "GET A CONSULTATION",
-  aboutHeading: "HISTORY AND ACHIEVEMENTS OF THE COMPANY",
-  aboutList1:
-    "Included in the Map of the Russian information security market 2023 (TAdviser)",
-  aboutList2:
-    "9th place Rating of the largest IT service providers in Russia (TAdviser), 2023",
-  aboutList3:
-    "1st place Rating “Largest providers of custom software development services in Russia” (TAdviser), 2023",
-  aboutList4:
-    "2nd place in the ranking of the largest IT solution providers in the Russian public sector (TAdviser), 2022",
-  aboutList5:
-    "Included in the market map “Information Technologies in Banking 2022” (TAdviser)",
-  aboutList6:
-    "The control module of the SUPER cloud platform was included in the Unified Register of Russian Software, 2022",
-  aboutList7:
-    "The Map of the Russian information technology market is presented in 11 categories, 2022",
-  aboutList8:
-    "Included in the Map of Manufacturers of the Most Famous Russian Software and Hardware IT Products “Import Substitution 2022”",
-  aboutList9:
-    "2nd place in the rating “Best IT employer among the largest IT companies in Russia” (TAdviser), 2022",
-  aboutList10: "TOP 10 fastest growing IT companies (CNews), 2021",
-  aboutList11:
-    "4th place in the ranking of IT suppliers in the Russian public sector (CNews), 2021",
-  aboutList12:
-    "TOP 10 largest suppliers of BI solutions in Russia (TAdviser), 2021",
-  aboutList13:
-    "The project to create a treasury payment system for the Federal Treasury was declared a “Unique IT project of the year”, 2021",
-  aboutList14:
-    "Universal Security Server is included in the Unified Register of Russian Software, 2021",
-  aboutList15:
-    "2nd place in the rating “Best IT employer among the largest IT companies in Russia” (TAdviser), 2021",
-  /* Our products */
+  aboutHeading: "ABOUT OUR COMPANY",
+  aboutText:
+    "We develop unique digital solutions. We cover all levels: from requirements analysis and system design to support and maintenance. We ensure transparency and reliability of complex solutions. We integrate data, processes and services into unified information spaces. Our unified support service ensures the continuous operation of information systems. We carry out a full cycle of goals. We guarantee high quality of work, information security and compliance with the implementation of your project. Development processes are completely transparent and under your control. We strengthen your in-house team with professionals with various specializations, based on your requirements. We optimize company resources, solve non-standard and complex problems.",
+  /* Our Products */
   ourProductsTitle: "Our products",
   ourProductsDescription:
     "Ready-made application solutions adaptable to business tasks of various industries",
@@ -560,23 +509,34 @@ export const English = {
     "Raising awareness among residents about organized environmental events in the city",
   /* Archimedes */
   archimedesTitle: "Archimedes",
-  archimedesText1: "The main function of this software is to obtain from various equipment which visualizes the digital image itself (X-ray, CT, MRI, fluorography) and helps to analyze it using various tools. The system has a single database to which x-ray machines in the hospital are connected, and each machine has access to images obtained in any other hospital connected to the network.",
-  archimedesText2: "You can connect the artificial intelligence function and in the doctor’s office it will be possible to automatically analyze the image based on other images in the database and diagnoses for them.",
-  archimedesText3: "You can organize a system of remote telemedicine consultations, where an image is taken in one place and immediately sent to another, for example, to a hospital in the capital and analyzed there by a more experienced doctor.",
-  archimedesText4: "Integration with various systems is possible, such as: local medical services, websites and any third-party services. There are many developers in the company and they have the competence and resources to make any integration and adapt the software to the end user.",
+  archimedesText1:
+    "The main function of this software is to obtain from various equipment which visualizes the digital image itself (X-ray, CT, MRI, fluorography) and helps to analyze it using various tools. The system has a single database to which x-ray machines in the hospital are connected, and each machine has access to images obtained in any other hospital connected to the network.",
+  archimedesText2:
+    "You can connect the artificial intelligence function and in the doctor’s office it will be possible to automatically analyze the image based on other images in the database and diagnoses for them.",
+  archimedesText3:
+    "You can organize a system of remote telemedicine consultations, where an image is taken in one place and immediately sent to another, for example, to a hospital in the capital and analyzed there by a more experienced doctor.",
+  archimedesText4:
+    "Integration with various systems is possible, such as: local medical services, websites and any third-party services. There are many developers in the company and they have the competence and resources to make any integration and adapt the software to the end user.",
   archimedesText5: "The service has active technical support.",
-  archimedesText6: "The software itself is not for sale, but a license to connect to the system is. Similarly with the Windows system, 1 license for 1 workplace. No additional license renewals are required.",
+  archimedesText6:
+    "The software itself is not for sale, but a license to connect to the system is. Similarly with the Windows system, 1 license for 1 workplace. No additional license renewals are required.",
   archimedesText7: "This system can be connected to almost any equipment.",
   /* Media */
   mediaTitle: "Internet monitoring",
-  mediaText1: "This service collects information on the desired topic from all over the Internet and stores it. You can monitor the situation at any object through an interactive map of monitoring the media and other open sources. The system also has an incident monitoring module, which allows you to notify services, the supervising deputy and control the execution of activities and instructions carried out as part of incidents that have occurred.",
-  mediaText2: "If an unauthorized rally starts, it will be immediately visible in the system, and vigorous activity will begin on social networks.",
+  mediaText1:
+    "This service collects information on the desired topic from all over the Internet and stores it. You can monitor the situation at any object through an interactive map of monitoring the media and other open sources. The system also has an incident monitoring module, which allows you to notify services, the supervising deputy and control the execution of activities and instructions carried out as part of incidents that have occurred.",
+  mediaText2:
+    "If an unauthorized rally starts, it will be immediately visible in the system, and vigorous activity will begin on social networks.",
   mediaText3: "Monitoring and collecting media files:",
-  mediaText4: "-  Monitoring and collection of media files posted on the Internet.",
+  mediaText4:
+    "-  Monitoring and collection of media files posted on the Internet.",
   mediaText5: "-  Processing and analysis (translation, transcription, etc.)",
-  mediaText6: "-  Storage of video materials and processing results (subtitle files, frames, faces)",
-  mediaText7: "-  Search, view, select videos by subtitles, faces and video editing.",
-  mediaText8: "The Internet Archive is a complex for collecting, storing, processing and searching large arrays of messages and identifiers. It can be connected to the main system, it stores all the information about who sends what, where it sends it, through which messengers, etc.",
+  mediaText6:
+    "-  Storage of video materials and processing results (subtitle files, frames, faces)",
+  mediaText7:
+    "-  Search, view, select videos by subtitles, faces and video editing.",
+  mediaText8:
+    "The Internet Archive is a complex for collecting, storing, processing and searching large arrays of messages and identifiers. It can be connected to the main system, it stores all the information about who sends what, where it sends it, through which messengers, etc.",
   mediaText9: "Complex objectives:",
   mediaText10: "-  Selection of messages by topic and channel",
   mediaText11: "-  Finding the original sources of distributed messages",
@@ -639,40 +599,10 @@ export const Thai = {
   contactsOne: "สำนักงานใหญ่ :",
   contactsTwo: "คำถามทั่วไป :",
   /* About */
-  aboutTitle: "ประวัติศาสตร์ของ it-easy",
-  aboutDescription:
-    "ตั้งแต่ปี 2000 ได้มีการดำเนินการเปลี่ยนแปลงทางดิจิทัลของภาคเศรษฐกิจและหน่วยงานภาครัฐ หลักความเชื่อของเรา: ความเป็นเอกเทศในรายละเอียด ความสมบูรณ์แบบในทุกสิ่ง!",
-  aboutButton: "รับคำปรึกษา",
-  aboutHeading: "ประวัติและความสำเร็จของบริษัท",
-  aboutList1: "รวมอยู่ในแผนที่ตลาดความปลอดภัยข้อมูลรัสเซียปี 2023 (TAdviser)",
-  aboutList2:
-    "อันดับที่ 9 การจัดอันดับผู้ให้บริการไอทีที่ใหญ่ที่สุดในรัสเซีย (TAdviser) ปี 2023",
-  aboutList3:
-    "อันดับ 1 “ผู้ให้บริการพัฒนาซอฟต์แวร์แบบกำหนดเองที่ใหญ่ที่สุดในรัสเซีย” (TAdviser), 2023",
-  aboutList4:
-    "อันดับที่ 2 ในการจัดอันดับผู้ให้บริการโซลูชันไอทีที่ใหญ่ที่สุดในภาครัฐของรัสเซีย (TAdviser) ปี 2022",
-  aboutList5:
-    "รวมไว้ในแผนที่ตลาด “Information Technologies in Banking 2022” (TAdviser)",
-  aboutList6:
-    "โมดูลควบคุมของแพลตฟอร์ม SUPER cloud รวมอยู่ใน Unified Register of Russian Software, 2022",
-  aboutList7:
-    "แผนที่ของตลาดเทคโนโลยีสารสนเทศของรัสเซียนำเสนอใน 11 หมวดหมู่ในปี 2022",
-  aboutList8:
-    "รวมอยู่ในแผนที่ผู้ผลิตผลิตภัณฑ์ไอทีซอฟต์แวร์และฮาร์ดแวร์รัสเซียที่มีชื่อเสียงที่สุด “การทดแทนการนำเข้าปี 2022”",
-  aboutList9:
-    "อันดับที่ 2 ในระดับ นายจ้างด้านไอทีที่ดีที่สุดในบรรดาบริษัทไอทีที่ใหญ่ที่สุดในรัสเซีย (TAdviser) ปี 2022",
-  aboutList10: "10 อันดับบริษัทไอทีที่เติบโตเร็วที่สุด (CNews) ปี 2021",
-  aboutList11:
-    "อันดับที่ 4 ในการจัดอันดับซัพพลายเออร์ไอทีในภาครัฐของรัสเซีย (CNews) ปี 2021",
-  aboutList12:
-    "ซัพพลายเออร์โซลูชัน BI ที่ใหญ่ที่สุด 10 อันดับแรกในรัสเซีย (TAdviser) ปี 2021",
-  aboutList13:
-    "โครงการสร้างระบบการชำระเงินคงคลังสำหรับ Federal Treasury ได้รับการประกาศให้เป็น “โครงการไอทีที่ไม่ซ้ำใครแห่งปี” ปี 2021",
-  aboutList14:
-    "Universal Security Server รวมอยู่ใน Unified Register of Russian Software, 2021",
-  aboutList15:
-    "อันดับที่ 2 ในระดับ นายจ้างด้านไอทีที่ดีที่สุดในบรรดาบริษัทไอทีที่ใหญ่ที่สุดในรัสเซีย (TAdviser), 2021",
-  /* Our products */
+  aboutHeading: "เกี่ยวกับบริษัทของเรา",
+  aboutText:
+    "เราพัฒนาโซลูชันดิจิทัลที่มีเอกลักษณ์เฉพาะตัว เราครอบคลุมทุกระดับ: ตั้งแต่การวิเคราะห์ความต้องการและการออกแบบระบบไปจนถึงการสนับสนุนและการบำรุงรักษา เรารับประกันความโปร่งใสและความน่าเชื่อถือของโซลูชันที่ซับซ้อน เราบูรณาการข้อมูล กระบวนการ และบริการต่างๆ ลงในพื้นที่ข้อมูลที่เป็นหนึ่งเดียว บริการสนับสนุนแบบครบวงจรของเราช่วยให้มั่นใจถึงการทำงานของระบบข้อมูลอย่างต่อเนื่อง เราดำเนินการตามเป้าหมายครบวงจร เรารับประกันคุณภาพของงาน ความปลอดภัยของข้อมูล และการปฏิบัติตามโครงการของคุณ กระบวนการพัฒนามีความโปร่งใสอย่างสมบูรณ์และอยู่ภายใต้การควบคุมของคุณ เราเสริมความแข็งแกร่งให้กับทีมงานภายในของคุณด้วยผู้เชี่ยวชาญที่มีความเชี่ยวชาญหลากหลาย ตามความต้องการของคุณ เราเพิ่มประสิทธิภาพทรัพยากรของบริษัท แก้ไขปัญหาที่ไม่ได้มาตรฐานและซับซ้อน",
+  /* Our Products */
   ourProductsTitle: "ผลิตภัณฑ์ของเรา",
   ourProductsDescription:
     "โซลูชันแอปพลิเคชันสำเร็จรูปที่ปรับให้เข้ากับงานทางธุรกิจของอุตสาหกรรมต่างๆ",
@@ -846,23 +776,32 @@ export const Thai = {
     "สร้างความตระหนักรู้แก่ผู้อยู่อาศัยเกี่ยวกับการจัดกิจกรรมด้านสิ่งแวดล้อมในเมือง",
   /* Archimedes */
   archimedesTitle: "อาร์คิมีดีส",
-  archimedesText1: "หน้าที่หลักของซอฟต์แวร์นี้คือการได้มาจากอุปกรณ์ต่างๆ ที่แสดงภาพดิจิทัลด้วยตนเอง (X-ray, CT, MRI, ฟลูออโรกราฟฟี) และช่วยวิเคราะห์โดยใช้เครื่องมือต่างๆ ระบบมีฐานข้อมูลเดียวที่เชื่อมต่อกับเครื่องเอ็กซเรย์ในโรงพยาบาล และเครื่องแต่ละเครื่องสามารถเข้าถึงภาพที่ได้รับจากโรงพยาบาลอื่นที่เชื่อมต่อกับเครือข่าย",
-  archimedesText2: "คุณสามารถเชื่อมต่อฟังก์ชันปัญญาประดิษฐ์ได้ และในสำนักงานแพทย์ จะสามารถวิเคราะห์ภาพโดยอัตโนมัติตามภาพอื่นในฐานข้อมูลและทำการวินิจฉัยได้",
-  archimedesText3: "คุณสามารถจัดระบบการให้คำปรึกษาทางการแพทย์ทางไกลได้ โดยที่ภาพจะถูกถ่ายในที่เดียวและส่งไปยังอีกที่หนึ่งทันที เช่น ไปที่โรงพยาบาลในเมืองหลวง และวิเคราะห์ที่นั่นโดยแพทย์ที่มีประสบการณ์มากกว่า",
-  archimedesText4: "สามารถบูรณาการเข้ากับระบบต่างๆ ได้ เช่น บริการทางการแพทย์ในท้องถิ่น เว็บไซต์ และบริการของบุคคลที่สาม มีนักพัฒนาจำนวนมากในบริษัท และพวกเขามีความสามารถและทรัพยากรในการบูรณาการและปรับซอฟต์แวร์ให้เข้ากับผู้ใช้ปลายทาง",
+  archimedesText1:
+    "หน้าที่หลักของซอฟต์แวร์นี้คือการได้มาจากอุปกรณ์ต่างๆ ที่แสดงภาพดิจิทัลด้วยตนเอง (X-ray, CT, MRI, ฟลูออโรกราฟฟี) และช่วยวิเคราะห์โดยใช้เครื่องมือต่างๆ ระบบมีฐานข้อมูลเดียวที่เชื่อมต่อกับเครื่องเอ็กซเรย์ในโรงพยาบาล และเครื่องแต่ละเครื่องสามารถเข้าถึงภาพที่ได้รับจากโรงพยาบาลอื่นที่เชื่อมต่อกับเครือข่าย",
+  archimedesText2:
+    "คุณสามารถเชื่อมต่อฟังก์ชันปัญญาประดิษฐ์ได้ และในสำนักงานแพทย์ จะสามารถวิเคราะห์ภาพโดยอัตโนมัติตามภาพอื่นในฐานข้อมูลและทำการวินิจฉัยได้",
+  archimedesText3:
+    "คุณสามารถจัดระบบการให้คำปรึกษาทางการแพทย์ทางไกลได้ โดยที่ภาพจะถูกถ่ายในที่เดียวและส่งไปยังอีกที่หนึ่งทันที เช่น ไปที่โรงพยาบาลในเมืองหลวง และวิเคราะห์ที่นั่นโดยแพทย์ที่มีประสบการณ์มากกว่า",
+  archimedesText4:
+    "สามารถบูรณาการเข้ากับระบบต่างๆ ได้ เช่น บริการทางการแพทย์ในท้องถิ่น เว็บไซต์ และบริการของบุคคลที่สาม มีนักพัฒนาจำนวนมากในบริษัท และพวกเขามีความสามารถและทรัพยากรในการบูรณาการและปรับซอฟต์แวร์ให้เข้ากับผู้ใช้ปลายทาง",
   archimedesText5: "บริการนี้มีการสนับสนุนทางเทคนิคที่ใช้งานอยู่",
-  archimedesText6: "ตัวซอฟต์แวร์ไม่ได้มีไว้ขาย แต่มีใบอนุญาตให้เชื่อมต่อกับระบบ เช่นเดียวกับระบบ Windows 1 ลิขสิทธิ์สำหรับ 1 สถานที่ทำงาน ไม่จำเป็นต้องต่ออายุใบอนุญาตเพิ่มเติม",
+  archimedesText6:
+    "ตัวซอฟต์แวร์ไม่ได้มีไว้ขาย แต่มีใบอนุญาตให้เชื่อมต่อกับระบบ เช่นเดียวกับระบบ Windows 1 ลิขสิทธิ์สำหรับ 1 สถานที่ทำงาน ไม่จำเป็นต้องต่ออายุใบอนุญาตเพิ่มเติม",
   archimedesText7: "ระบบนี้สามารถเชื่อมต่อกับอุปกรณ์ได้เกือบทุกชนิด",
   /* Media */
   mediaTitle: "การตรวจสอบอินเทอร์เน็ต",
-  mediaText1: "บริการนี้จะรวบรวมข้อมูลในหัวข้อที่ต้องการจากอินเทอร์เน็ตและจัดเก็บไว้ คุณสามารถตรวจสอบสถานการณ์ที่วัตถุใดๆ ผ่านทางแผนที่เชิงโต้ตอบสำหรับการตรวจสอบสื่อและโอเพ่นซอร์สอื่นๆ ระบบยังมีโมดูลการติดตามเหตุการณ์ ซึ่งช่วยให้คุณสามารถแจ้งบริการ รองผู้กำกับดูแล และควบคุมการดำเนินกิจกรรมและคำแนะนำที่ดำเนินการโดยเป็นส่วนหนึ่งของเหตุการณ์ที่เกิดขึ้น",
-  mediaText2: "หากการชุมนุมโดยไม่ได้รับอนุญาตเริ่มขึ้น การชุมนุมนั้นจะมองเห็นได้ทันทีในระบบ และกิจกรรมที่เข้มข้นจะเริ่มบนโซเชียลเน็ตเวิร์ก",
+  mediaText1:
+    "บริการนี้จะรวบรวมข้อมูลในหัวข้อที่ต้องการจากอินเทอร์เน็ตและจัดเก็บไว้ คุณสามารถตรวจสอบสถานการณ์ที่วัตถุใดๆ ผ่านทางแผนที่เชิงโต้ตอบสำหรับการตรวจสอบสื่อและโอเพ่นซอร์สอื่นๆ ระบบยังมีโมดูลการติดตามเหตุการณ์ ซึ่งช่วยให้คุณสามารถแจ้งบริการ รองผู้กำกับดูแล และควบคุมการดำเนินกิจกรรมและคำแนะนำที่ดำเนินการโดยเป็นส่วนหนึ่งของเหตุการณ์ที่เกิดขึ้น",
+  mediaText2:
+    "หากการชุมนุมโดยไม่ได้รับอนุญาตเริ่มขึ้น การชุมนุมนั้นจะมองเห็นได้ทันทีในระบบ และกิจกรรมที่เข้มข้นจะเริ่มบนโซเชียลเน็ตเวิร์ก",
   mediaText3: "การตรวจสอบและรวบรวมไฟล์มีเดีย:",
   mediaText4: "-  การตรวจสอบและรวบรวมไฟล์มีเดียที่โพสต์บนอินเทอร์เน็ต",
   mediaText5: "-  การประมวลผลและการวิเคราะห์ (การแปล การถอดความ ฯลฯ)",
-  mediaText6: "-  การจัดเก็บเนื้อหาวิดีโอและผลการประมวลผล (ไฟล์คำบรรยาย, เฟรม, ใบหน้า)",
+  mediaText6:
+    "-  การจัดเก็บเนื้อหาวิดีโอและผลการประมวลผล (ไฟล์คำบรรยาย, เฟรม, ใบหน้า)",
   mediaText7: "-  ค้นหา ดู เลือกวิดีโอตามคำบรรยาย ใบหน้า และการตัดต่อวิดีโอ",
-  mediaText8: "Internet Archive มีความซับซ้อนในการรวบรวม จัดเก็บ ประมวลผล และค้นหาอาร์เรย์ขนาดใหญ่ของข้อความและตัวระบุ สามารถเชื่อมต่อกับระบบหลัก เก็บข้อมูลทั้งหมดว่าใครส่งอะไร ส่งที่ไหน ส่งผ่านผู้ส่งสารรายใด ฯลฯ",
+  mediaText8:
+    "Internet Archive มีความซับซ้อนในการรวบรวม จัดเก็บ ประมวลผล และค้นหาอาร์เรย์ขนาดใหญ่ของข้อความและตัวระบุ สามารถเชื่อมต่อกับระบบหลัก เก็บข้อมูลทั้งหมดว่าใครส่งอะไร ส่งที่ไหน ส่งผ่านผู้ส่งสารรายใด ฯลฯ",
   mediaText9: "วัตถุประสงค์ที่ซับซ้อน:",
   mediaText10: "-  การเลือกข้อความตามหัวข้อและช่องทาง",
   mediaText11: "-  ค้นหาแหล่งที่มาดั้งเดิมของข้อความที่แจกจ่าย",
