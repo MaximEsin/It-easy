@@ -14,6 +14,7 @@ import Button from "../UI/button/Button";
 import img1 from "../images/News1.jpeg";
 import img2 from "../images/News2.jpg";
 import img3 from "../images/News3.1.jpg";
+import img4 from "../images/News4.jpeg";
 import News from "../components/News";
 import introPic from "../images/introPic.png";
 import Clients from "../components/Clients";
@@ -74,14 +75,14 @@ const Main = () => {
           heading={data.cardThreeHeading}
           description={data.cardThreeText}
           img={image3}
-          text={data.cardButton3}
-          link={"/contacts"}
+          text={data.cardButton2}
+          link={"/media"}
         />
         <Card
           heading={data.cardFourHeading}
           description={data.cardFourText}
           img={image4}
-          text={data.cardButton1}
+          text={data.cardButton2}
           link={"/goverment"}
         />
         <Card
@@ -95,13 +96,14 @@ const Main = () => {
           heading={data.cardSixHeading}
           description={data.cardSixText}
           img={image6}
-          text={data.cardButton3}
+          text={data.cardButton2}
           link={"/fire-alarm"}
         />
       </div>
       <section className={styles.news}>
         <h2 className={styles.news__title}>{data.news}</h2>
         <div className={styles.news__box}>
+          <News date="29/09/2023" image={img4} about={data.newsTitle4} />
           <News date="22/09/2023" image={img3} about={data.newsTitle3} />
           <News date="21/09/2023" image={img2} about={data.newsTitle2} />
           <News

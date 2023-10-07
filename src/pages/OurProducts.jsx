@@ -40,14 +40,14 @@ const OurProducts = () => {
           heading={data.cardThreeHeading}
           description={data.cardThreeText}
           img={image3}
-          text={data.cardButton3}
-          link={"/contacts"}
+          text={data.cardButton2}
+          link={"/media"}
         />
         <Card
           heading={data.cardFourHeading}
           description={data.cardFourText}
           img={image4}
-          text={data.cardButton1}
+          text={data.cardButton2}
           link={"/goverment"}
         />
         <Card
@@ -61,14 +61,14 @@ const OurProducts = () => {
           heading={data.cardSixHeading}
           description={data.cardSixText}
           img={image6}
-          text={data.cardButton3}
+          text={data.cardButton2}
           link={"/fire-alarm"}
         />
         <Card
           heading={data.cardSevenHeading}
           description={data.cardSevenText}
           img={image7}
-          text={data.cardButton3}
+          text={data.cardButton2}
           link={"/security"}
         />
       </div>

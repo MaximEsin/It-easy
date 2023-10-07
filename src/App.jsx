@@ -18,6 +18,7 @@ import Security from "./pages/projects/Security";
 import DigitalEmployee from "./pages/projects/DigitalEmployee";
 import Goverment from "./pages/projects/Goverment";
 import Archimedes from "./pages/projects/Archimedes";
+import Media from "./pages/projects/Media";
 
 function App() {
   const dispatch = useDispatch();
@@ -53,6 +54,7 @@ function App() {
         <Route path="/digital-employee" element={<DigitalEmployee />} />
         <Route path="/goverment" element={<Goverment />} />
         <Route path="/archimedes" element={<Archimedes />} />
+        <Route path="/media" element={<Media />} />
       </Routes>
       <Footer />
     </div>

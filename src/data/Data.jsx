@@ -20,7 +20,7 @@ export const Russian = {
   cardsText1: "РЕШЕНИЯ",
   cardsText2: "Наши цифровые продукты",
   cardButton1: "Заказать",
-  cardButton2: "Стоимость",
+  cardButton2: "Подробнее",
   cardButton3: "Связаться",
   cardOneHeading: "Мотошеринг",
   cardOneText:
@@ -153,6 +153,7 @@ export const Russian = {
   newsTitle2: "ПОЛИЦИЯ ПРИШЛА С ПРОВЕРКОЙ В РУССКИЙ МОТОПРОКАТ НА ПХУКЕТЕ",
   newsTitle3:
     "У нас прошла встреча в полициейском участке Phuket Tourist Police по вопросу подготовки к высокому сизону и аренде мотобайков и машин",
+  newsTitle4: "Регистрируем мотобайки на Пхукете",
   newsDescription:
     "Подразделение дорожной полиции одобрила после проверки русский мотошеринг на острове Пхукет",
   /* Security */
@@ -270,6 +271,21 @@ export const Russian = {
   archimedesText5: "У сервиса активная техническая поддержка.",
   archimedesText6: "Сам софт не продается, но продается лицензия на подключение к системе. Аналогично с системой windows 1 лицензия на 1 рабочее место. Дополнительные продления лицензии не требуются. ",
   archimedesText7: "Эту систему можно подключить практически к любой аппаратуре.",
+  /* Media */
+  mediaTitle: "Интернет-мониторинг",
+  mediaText1: "Этот сервис собирает информацию по нужной теме со всего интернета и хранит ее в себе. Можно мониторить обстановку у какого-либо объекта через интерактивную карту мониторинга СМИ и других открытых источников. В системе также есть модуль контроля происшествий, который позволяет оповещать службы,  курирующего заместителя и контроля исполнения мероприятий и поручений проводимых в рамках случившихся происшествий. ",
+  mediaText2: "Если начнется несанкционированный митинг, в системе это будет сразу видно, начнется бурная активность в соц. сетях.",
+  mediaText3: "Мониторинг и сбор медиа-файлов:",
+  mediaText4: "-  Мониторинг и сбор медиа-файлов размещенных в сети интернет.",
+  mediaText5: "-  Обработка и анализ(перевод, транскрибирование и т.д)",
+  mediaText6: "-  Хранение видео материалов и результатов обработки(файлы субтитров, кадры, лица)",
+  mediaText7: "-  Поиск, просмотр, отбор видео по субтитрам, лицам и редактирование видео.",
+  mediaText8: "Интернет-архив - это комплекс для сбора, хранения, обработки и поиска больших массивов сообщений и идентификаторов. Его можно подключить к основной системе, он хранит всю информацию о том, кто отправляет, что, куда отправляет, через какие мессенджеры  и т.д.",
+  mediaText9: "Задачи комплекса:",
+  mediaText10: "-  Отбор сообщений по тематике и каналам",
+  mediaText11: "-  Поиск первоисточников распространяемых сообщений",
+  mediaText12: "-  Поиск сообщений с упоминанием человека или события",
+  mediaText13: "-  Обеспечение возможностей анализа авторов и каналов",
   /* Clients */
   clientsText: "ОТЗЫВЫ",
   clientsTitle: "Что говорят наши клиенты",
@@ -302,7 +318,7 @@ export const English = {
   cardsText1: "SOLUTIONS",
   cardsText2: "Our digital products",
   cardButton1: "Order",
-  cardButton2: "Price",
+  cardButton2: "Details",
   cardButton3: "Contact",
   cardOneHeading: "Motosharing",
   cardOneText:
@@ -431,6 +447,7 @@ export const English = {
   newsTitle2: "THE POLICE CAME TO CHECK A RUSSIAN MOTOR RENTAL IN PHUKET",
   newsTitle3:
     "We had a meeting at the Phuket Tourist Police station on the issue of preparing for the high season and renting motorbikes and cars",
+  newsTitle4: "We register motobikes in Phuket",
   newsDescription:
     "The traffic police unit approved, after an inspection, Russian motorcycle sharing on the island of Phuket",
   /* Security */
@@ -550,6 +567,21 @@ export const English = {
   archimedesText5: "The service has active technical support.",
   archimedesText6: "The software itself is not for sale, but a license to connect to the system is. Similarly with the Windows system, 1 license for 1 workplace. No additional license renewals are required.",
   archimedesText7: "This system can be connected to almost any equipment.",
+  /* Media */
+  mediaTitle: "Internet monitoring",
+  mediaText1: "This service collects information on the desired topic from all over the Internet and stores it. You can monitor the situation at any object through an interactive map of monitoring the media and other open sources. The system also has an incident monitoring module, which allows you to notify services, the supervising deputy and control the execution of activities and instructions carried out as part of incidents that have occurred.",
+  mediaText2: "If an unauthorized rally starts, it will be immediately visible in the system, and vigorous activity will begin on social networks.",
+  mediaText3: "Monitoring and collecting media files:",
+  mediaText4: "-  Monitoring and collection of media files posted on the Internet.",
+  mediaText5: "-  Processing and analysis (translation, transcription, etc.)",
+  mediaText6: "-  Storage of video materials and processing results (subtitle files, frames, faces)",
+  mediaText7: "-  Search, view, select videos by subtitles, faces and video editing.",
+  mediaText8: "The Internet Archive is a complex for collecting, storing, processing and searching large arrays of messages and identifiers. It can be connected to the main system, it stores all the information about who sends what, where it sends it, through which messengers, etc.",
+  mediaText9: "Complex objectives:",
+  mediaText10: "-  Selection of messages by topic and channel",
+  mediaText11: "-  Finding the original sources of distributed messages",
+  mediaText12: "-  Search for messages mentioning a person or event",
+  mediaText13: "-  Provide author and channel analysis capabilities",
   /* Clients */
   clientsText: "REVIEWS",
   clientsTitle: "What our clients say",
@@ -582,7 +614,7 @@ export const Thai = {
   cardsText1: "โซลูชั่นส์",
   cardsText2: "ผลิตภัณฑ์ดิจิทัลของเรา",
   cardButton1: "สั่งซื้อสินค้า",
-  cardButton2: "ราคา",
+  cardButton2: "รายละเอียดเพิ่มเติม",
   cardButton3: "เชื่อมต่อกับเรา",
   cardOneHeading: "การแชร์มอเตอร์ไซต์",
   cardOneText:
@@ -707,6 +739,7 @@ export const Thai = {
   newsTitle2: "ตำรวจมาตรวจสอบการเช่ามอเตอร์รัสเซียในภูเก็ต",
   newsTitle3:
     "เรามีนัดกันที่ สภ.ท่องเที่ยวภูเก็ต ในประเด็นการเตรียมความพร้อมช่วงไฮซีซั่นและการเช่ารถจักรยานยนต์และรถยนต์",
+  newsTitle4: "เราจดทะเบียนรถมอเตอร์ไซค์ที่ภูเก็ต",
   newsDescription:
     "หน่วยตำรวจจราจรอนุมัติหลังจากการตรวจสอบแล้ว โดยรัสเซียสามารถแบ่งปันรถจักรยานยนต์บนเกาะภูเก็ตได้",
   /* Security */
@@ -812,7 +845,7 @@ export const Thai = {
   govermentContentlist21:
     "สร้างความตระหนักรู้แก่ผู้อยู่อาศัยเกี่ยวกับการจัดกิจกรรมด้านสิ่งแวดล้อมในเมือง",
   /* Archimedes */
-  archimedesTitle: "Archimedes",
+  archimedesTitle: "อาร์คิมีดีส",
   archimedesText1: "หน้าที่หลักของซอฟต์แวร์นี้คือการได้มาจากอุปกรณ์ต่างๆ ที่แสดงภาพดิจิทัลด้วยตนเอง (X-ray, CT, MRI, ฟลูออโรกราฟฟี) และช่วยวิเคราะห์โดยใช้เครื่องมือต่างๆ ระบบมีฐานข้อมูลเดียวที่เชื่อมต่อกับเครื่องเอ็กซเรย์ในโรงพยาบาล และเครื่องแต่ละเครื่องสามารถเข้าถึงภาพที่ได้รับจากโรงพยาบาลอื่นที่เชื่อมต่อกับเครือข่าย",
   archimedesText2: "คุณสามารถเชื่อมต่อฟังก์ชันปัญญาประดิษฐ์ได้ และในสำนักงานแพทย์ จะสามารถวิเคราะห์ภาพโดยอัตโนมัติตามภาพอื่นในฐานข้อมูลและทำการวินิจฉัยได้",
   archimedesText3: "คุณสามารถจัดระบบการให้คำปรึกษาทางการแพทย์ทางไกลได้ โดยที่ภาพจะถูกถ่ายในที่เดียวและส่งไปยังอีกที่หนึ่งทันที เช่น ไปที่โรงพยาบาลในเมืองหลวง และวิเคราะห์ที่นั่นโดยแพทย์ที่มีประสบการณ์มากกว่า",
@@ -820,6 +853,21 @@ export const Thai = {
   archimedesText5: "บริการนี้มีการสนับสนุนทางเทคนิคที่ใช้งานอยู่",
   archimedesText6: "ตัวซอฟต์แวร์ไม่ได้มีไว้ขาย แต่มีใบอนุญาตให้เชื่อมต่อกับระบบ เช่นเดียวกับระบบ Windows 1 ลิขสิทธิ์สำหรับ 1 สถานที่ทำงาน ไม่จำเป็นต้องต่ออายุใบอนุญาตเพิ่มเติม",
   archimedesText7: "ระบบนี้สามารถเชื่อมต่อกับอุปกรณ์ได้เกือบทุกชนิด",
+  /* Media */
+  mediaTitle: "การตรวจสอบอินเทอร์เน็ต",
+  mediaText1: "บริการนี้จะรวบรวมข้อมูลในหัวข้อที่ต้องการจากอินเทอร์เน็ตและจัดเก็บไว้ คุณสามารถตรวจสอบสถานการณ์ที่วัตถุใดๆ ผ่านทางแผนที่เชิงโต้ตอบสำหรับการตรวจสอบสื่อและโอเพ่นซอร์สอื่นๆ ระบบยังมีโมดูลการติดตามเหตุการณ์ ซึ่งช่วยให้คุณสามารถแจ้งบริการ รองผู้กำกับดูแล และควบคุมการดำเนินกิจกรรมและคำแนะนำที่ดำเนินการโดยเป็นส่วนหนึ่งของเหตุการณ์ที่เกิดขึ้น",
+  mediaText2: "หากการชุมนุมโดยไม่ได้รับอนุญาตเริ่มขึ้น การชุมนุมนั้นจะมองเห็นได้ทันทีในระบบ และกิจกรรมที่เข้มข้นจะเริ่มบนโซเชียลเน็ตเวิร์ก",
+  mediaText3: "การตรวจสอบและรวบรวมไฟล์มีเดีย:",
+  mediaText4: "-  การตรวจสอบและรวบรวมไฟล์มีเดียที่โพสต์บนอินเทอร์เน็ต",
+  mediaText5: "-  การประมวลผลและการวิเคราะห์ (การแปล การถอดความ ฯลฯ)",
+  mediaText6: "-  การจัดเก็บเนื้อหาวิดีโอและผลการประมวลผล (ไฟล์คำบรรยาย, เฟรม, ใบหน้า)",
+  mediaText7: "-  ค้นหา ดู เลือกวิดีโอตามคำบรรยาย ใบหน้า และการตัดต่อวิดีโอ",
+  mediaText8: "Internet Archive มีความซับซ้อนในการรวบรวม จัดเก็บ ประมวลผล และค้นหาอาร์เรย์ขนาดใหญ่ของข้อความและตัวระบุ สามารถเชื่อมต่อกับระบบหลัก เก็บข้อมูลทั้งหมดว่าใครส่งอะไร ส่งที่ไหน ส่งผ่านผู้ส่งสารรายใด ฯลฯ",
+  mediaText9: "วัตถุประสงค์ที่ซับซ้อน:",
+  mediaText10: "-  การเลือกข้อความตามหัวข้อและช่องทาง",
+  mediaText11: "-  ค้นหาแหล่งที่มาดั้งเดิมของข้อความที่แจกจ่าย",
+  mediaText12: "-  ค้นหาข้อความที่กล่าวถึงบุคคลหรือเหตุการณ์",
+  mediaText13: "-  ให้ความสามารถในการวิเคราะห์ผู้เขียนและช่อง",
   /* Clients */
   clientsText: "บทวิจารณ์",
   clientsTitle: "สิ่งที่ลูกค้าของเราพูด",
