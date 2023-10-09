@@ -42,7 +42,7 @@ const Header = () => {
                 : styles.header__burgerContainerClosed
             }
           >
-            <Link className={styles.header__navItem} to="/services">
+            <Link className={styles.header__disabled} to="/services">
               <span
                 onClick={() => toggleBurger()}
                 className={styles.header__span}
@@ -93,7 +93,7 @@ const Header = () => {
         </Link>
         <nav className={styles.header__nav}>
           <ul className={styles.header__navList}>
-            <li className={styles.header__navItem}>
+            <li className={styles.header__disabled}>
               <Link className={styles.header__navItem} to="/services">
                 {data.navOne}
               </Link>

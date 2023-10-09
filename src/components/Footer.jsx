@@ -19,7 +19,7 @@ const Footer = () => {
           © 2023 IT-easy. All rights reserved.
         </p>
         <nav className={styles.footer__nav}>
-          <Link className={styles.footer__link} to="/services">
+          <Link className={styles.footer__disabled} to="/services">
             <p className={styles.footer__navItem}>{data.footerOne}</p>
           </Link>
           <Link className={styles.footer__link} to="/products">
