@@ -9,6 +9,7 @@ import image4 from "../images/Government.svg";
 import image5 from "../images/Bot.svg";
 import image6 from "../images/FierAlarm.svg";
 import image7 from "../images/Authorization.svg";
+import image8 from "../images/Reanimation.svg";
 
 const OurProducts = () => {
   const { data } = useSelector((state) => state.dataReducer);
@@ -70,6 +71,13 @@ const OurProducts = () => {
           img={image7}
           text={data.cardButton2}
           link={"/security"}
+        />
+        <Card
+          heading={data.cardEightHeading}
+          description={data.cardEightText}
+          img={image8}
+          text={data.cardButton2}
+          link={"/reanimation"}
         />
       </div>
     </div>
