@@ -21,6 +21,7 @@ const Contacts = () => {
       <div className={styles.contacts__infoContainer}>
         <p className={styles.contacts__name}>{data.contactsTwo}</p>
         <p className={styles.contacts__text}>bikesharingtai@gmail.com</p>
+        <p className={styles.contacts__text}>WhatsApp: +66-84-241-0046</p>
       </div>
     </div>
   );
