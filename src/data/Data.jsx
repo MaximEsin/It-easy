@@ -24,7 +24,7 @@ export const Russian = {
   cardButton3: "Связаться",
   cardOneHeading: "Мотошеринг",
   cardOneText:
-    "Краткосрочная аренда мотоциклов (скутеров, мопедов) без залога и  посещения офиса",
+    "Краткосрочная аренда мотоциклов (скутеров, мопедов) через наше приложение в телефоне без залога и  посещения офиса",
   cardTwoHeading: "ИИ в медицине",
   cardTwoText:
     "Помощник для врача радиолога, умеет определять до 200 различных паталогий в автоматическом режиме",
@@ -40,7 +40,8 @@ export const Russian = {
   cardSevenHeading: "Управление  записями и правами доступа",
   cardSevenText: "Централизованное управление доступом и контроль",
   cardEightHeading: "Цифровая реанимация",
-  cardEightText: "Автоматизация процессов создания и выполнения медикаментозных назначений и манипуляций",
+  cardEightText:
+    "Автоматизация процессов создания и выполнения медикаментозных назначений и манипуляций",
   achievementsDescription1: "Лет разработки",
   achievementsDescription2: "Успешных проекта",
   achievementsDescription3: "Довольных клиентов",
@@ -270,23 +271,37 @@ export const Russian = {
   mediaText13: "-  Обеспечение возможностей анализа авторов и каналов",
   /* Reanimation */
   reanimationTitle: "Цифровая реанимация",
-  reanimationDescription: "Это система со специальными медицинскими протоколами которая работает с уже установленным программным обеспечением на медицинском устройстве. С использованием этой системы у врача есть полная картина пациента 24/7, по каждому пациенту фиксируются все превышения определенных нормативных показателей. Также можно подключить еще 1 систему которая помогает в назначении препаратов. Если вдруг у пациента какой-то показатель не в норме, система сразу в онлайн режиме присылает врачу уведомление об этом и рекомендации. ",
+  reanimationDescription:
+    "Это система со специальными медицинскими протоколами которая работает с уже установленным программным обеспечением на медицинском устройстве. С использованием этой системы у врача есть полная картина пациента 24/7, по каждому пациенту фиксируются все превышения определенных нормативных показателей. Также можно подключить еще 1 систему которая помогает в назначении препаратов. Если вдруг у пациента какой-то показатель не в норме, система сразу в онлайн режиме присылает врачу уведомление об этом и рекомендации. ",
   reanimationText1: "Проблематика",
-  reanimationText2: "-  Отсутствие инструмента для оперативного мониторинга состояния пациентов;",
-  reanimationText3: "-  Большие временные затраты персонала отделения реанимации при фиксировании в бумажных документах данных объективного наблюдения;",
-  reanimationText4: "-  Отсутствие удобного инструмента ведения и учета документов истории болезни пациентов в электронном виде;",
-  reanimationText5: "-  Низкая информативность взаимодействия специалистов отделения реанимации с диагностическими службами, лабораториями и профильными врачами-специалистами;",
-  reanimationText6: "-  Отсутствие полноты клинической картины в момент медикаментозных назначений;",
-  reanimationText7: "-  Низкая оперативность внесения изменений в план лечения.",
+  reanimationText2:
+    "-  Отсутствие инструмента для оперативного мониторинга состояния пациентов;",
+  reanimationText3:
+    "-  Большие временные затраты персонала отделения реанимации при фиксировании в бумажных документах данных объективного наблюдения;",
+  reanimationText4:
+    "-  Отсутствие удобного инструмента ведения и учета документов истории болезни пациентов в электронном виде;",
+  reanimationText5:
+    "-  Низкая информативность взаимодействия специалистов отделения реанимации с диагностическими службами, лабораториями и профильными врачами-специалистами;",
+  reanimationText6:
+    "-  Отсутствие полноты клинической картины в момент медикаментозных назначений;",
+  reanimationText7:
+    "-  Низкая оперативность внесения изменений в план лечения.",
   reanimationText8: "Решение",
-  reanimationText9: "-  Интеграция с прикроватным медицинским оборудованием разных производителей",
-  reanimationText10: "-  Создание и ведение карты интенсивной терапии в электронном виде",
-  reanimationText11: "-  Автоматизация процессов создания и выполнения медикаментозных назначений и манипуляций",
+  reanimationText9:
+    "-  Интеграция с прикроватным медицинским оборудованием разных производителей",
+  reanimationText10:
+    "-  Создание и ведение карты интенсивной терапии в электронном виде",
+  reanimationText11:
+    "-  Автоматизация процессов создания и выполнения медикаментозных назначений и манипуляций",
   reanimationText12: "Результат",
-  reanimationText13: "-  Автоматизирован сбор данных с прикроватного оборудования в режиме онлайн 24/7",
-  reanimationText14: "-  Создана платформа для оперативного мониторинга состояния пациентов на основе данных с прикроватного оборудования",
-  reanimationText15: "-  Обеспечена возможность ведения истории болезни, карт интенсивной терапии в электронном виде",
-  reanimationText16: "-  Разработан механизм информационного взаимодействия специалистов отделения реанимации с диагностическими службами, лабораториями и профильными врачами-специалистами",
+  reanimationText13:
+    "-  Автоматизирован сбор данных с прикроватного оборудования в режиме онлайн 24/7",
+  reanimationText14:
+    "-  Создана платформа для оперативного мониторинга состояния пациентов на основе данных с прикроватного оборудования",
+  reanimationText15:
+    "-  Обеспечена возможность ведения истории болезни, карт интенсивной терапии в электронном виде",
+  reanimationText16:
+    "-  Разработан механизм информационного взаимодействия специалистов отделения реанимации с диагностическими службами, лабораториями и профильными врачами-специалистами",
   /* Clients */
   clientsText: "ОТЗЫВЫ",
   clientsTitle: "Что говорят наши клиенты",
@@ -323,7 +338,7 @@ export const English = {
   cardButton3: "Contact",
   cardOneHeading: "Motosharing",
   cardOneText:
-    "Short-term rental of motorcycles (scooters, mopeds) without deposit and office visit",
+    "Short-term rental of motorcycles (scooters, mopeds) using our mobile app without deposit and office visit",
   cardTwoHeading: "AI in medicine",
   cardTwoText:
     "Assistant for a radiologist, can detect up to 200 different pathologies automatically",
@@ -339,7 +354,8 @@ export const English = {
   cardSevenHeading: "Manage records and access rights",
   cardSevenText: "Centralized access management and control",
   cardEightHeading: "Digital intensive care",
-  cardEightText: "Automation of the processes of creating and executing medication prescriptions and manipulations",
+  cardEightText:
+    "Automation of the processes of creating and executing medication prescriptions and manipulations",
   achievementsDescription1: "Years of development",
   achievementsDescription2: "Successful projects",
   achievementsDescription3: "Satisfied clients",
@@ -567,23 +583,37 @@ export const English = {
   mediaText13: "-  Provide author and channel analysis capabilities",
   /* Reanimation */
   reanimationTitle: "Digital intensive care",
-  reanimationDescription: "This is a system with special medical protocols that works with already installed software on a medical device. Using this system, the doctor has a complete picture of the patient 24/7; for each patient, all excesses of certain standard indicators are recorded. You can also connect 1 more system that helps in prescribing medications. If suddenly a patient’s indicator is not normal, the system immediately sends the doctor a notification about this and recommendations online.",
+  reanimationDescription:
+    "This is a system with special medical protocols that works with already installed software on a medical device. Using this system, the doctor has a complete picture of the patient 24/7; for each patient, all excesses of certain standard indicators are recorded. You can also connect 1 more system that helps in prescribing medications. If suddenly a patient’s indicator is not normal, the system immediately sends the doctor a notification about this and recommendations online.",
   reanimationText1: "Issues",
-  reanimationText2: "-  Lack of a tool for prompt monitoring of patients' condition;",
-  reanimationText3: "-  Large amounts of time spent by intensive care unit staff when recording objective observation data in paper documents;",
-  reanimationText4: "-  Lack of a convenient tool for maintaining and recording patient medical history documents in electronic form;",
-  reanimationText5: "-  Low information content of interaction between intensive care unit specialists and diagnostic services, laboratories and specialized medical specialists;",
-  reanimationText6: "-  Lack of completeness of the clinical picture at the time of medication prescription;",
-  reanimationText7: "-  Low efficiency of making changes to the treatment plan.",
+  reanimationText2:
+    "-  Lack of a tool for prompt monitoring of patients' condition;",
+  reanimationText3:
+    "-  Large amounts of time spent by intensive care unit staff when recording objective observation data in paper documents;",
+  reanimationText4:
+    "-  Lack of a convenient tool for maintaining and recording patient medical history documents in electronic form;",
+  reanimationText5:
+    "-  Low information content of interaction between intensive care unit specialists and diagnostic services, laboratories and specialized medical specialists;",
+  reanimationText6:
+    "-  Lack of completeness of the clinical picture at the time of medication prescription;",
+  reanimationText7:
+    "-  Low efficiency of making changes to the treatment plan.",
   reanimationText8: "Solutions",
-  reanimationText9: "-  Integration with bedside medical equipment from different manufacturers",
-  reanimationText10: "-  Creation and maintenance of an intensive care card in electronic form",
-  reanimationText11: "-  Automation of the processes of creating and executing medication prescriptions and manipulations",
+  reanimationText9:
+    "-  Integration with bedside medical equipment from different manufacturers",
+  reanimationText10:
+    "-  Creation and maintenance of an intensive care card in electronic form",
+  reanimationText11:
+    "-  Automation of the processes of creating and executing medication prescriptions and manipulations",
   reanimationText12: "Results",
-  reanimationText13: "-  Automated data collection from bedside equipment online 24/7",
-  reanimationText14: "-  A platform has been created for operational monitoring of patients' condition based on data from bedside equipment",
-  reanimationText15: "-  Provides the ability to maintain medical history and intensive care cards in electronic form",
-  reanimationText16: "-  A mechanism for information interaction between intensive care unit specialists and diagnostic services, laboratories and specialized medical specialists has been developed.",
+  reanimationText13:
+    "-  Automated data collection from bedside equipment online 24/7",
+  reanimationText14:
+    "-  A platform has been created for operational monitoring of patients' condition based on data from bedside equipment",
+  reanimationText15:
+    "-  Provides the ability to maintain medical history and intensive care cards in electronic form",
+  reanimationText16:
+    "-  A mechanism for information interaction between intensive care unit specialists and diagnostic services, laboratories and specialized medical specialists has been developed.",
   /* Clients */
   clientsText: "REVIEWS",
   clientsTitle: "What our clients say",
@@ -620,7 +650,7 @@ export const Thai = {
   cardButton3: "เชื่อมต่อกับเรา",
   cardOneHeading: "การแชร์มอเตอร์ไซต์",
   cardOneText:
-    "การเช่ารถจักรยานยนต์ระยะสั้น (สกู๊ตเตอร์ โมเพด) โดยไม่ต้องวางเงินมัดจำและเยี่ยมชมสำนักงาน",
+    "การเช่ารถจักรยานยนต์ระยะสั้น (สกู๊ตเตอร์ โมเพด) ผ่านแอปพลิเคชันโทรศัพท์ของเรา โดยไม่ต้องวางเงินมัดจำและเยี่ยมชมสำนักงาน",
   cardTwoHeading: "เอไอในทางการแพทย์",
   cardTwoText:
     "ผู้ช่วยนักรังสีวิทยาสามารถตรวจจับโรคได้มากถึง 200 โรคโดยอัตโนมัติ",
@@ -635,7 +665,8 @@ export const Thai = {
   cardSevenHeading: "จัดการบันทึกและสิทธิ์การเข้าถึง",
   cardSevenText: "การจัดการและการควบคุมการเข้าถึงแบบรวมศูนย์",
   cardEightHeading: "การช่วยชีวิตแบบดิจิทัล",
-  cardEightText: "ระบบอัตโนมัติของกระบวนการสร้างและดำเนินการใบสั่งยาและการจัดการยา",
+  cardEightText:
+    "ระบบอัตโนมัติของกระบวนการสร้างและดำเนินการใบสั่งยาและการจัดการยา",
   achievementsDescription1: "ปีแห่งการพัฒนา",
   achievementsDescription2: "โครงการที่สำเร็จ",
   achievementsDescription3: "ลูกค้าพึงพอใจ",
@@ -853,23 +884,33 @@ export const Thai = {
   mediaText13: "-  ให้ความสามารถในการวิเคราะห์ผู้เขียนและช่อง",
   /* Reanimation */
   reanimationTitle: "การดูแลผู้ป่วยหนักแบบดิจิทัล",
-  reanimationDescription: "นี่คือระบบที่มีโปรโตคอลทางการแพทย์พิเศษที่ทำงานร่วมกับซอฟต์แวร์ที่ติดตั้งไว้แล้วในอุปกรณ์ทางการแพทย์ ด้วยระบบนี้แพทย์สามารถเห็นภาพผู้ป่วยได้ครบถ้วนตลอด 24 ชั่วโมงทุกวัน สำหรับผู้ป่วยแต่ละราย จะมีการบันทึกตัวบ่งชี้มาตรฐานบางอย่างที่มากเกินไปทั้งหมด คุณยังสามารถเชื่อมต่ออีก 1 ระบบที่ช่วยในการสั่งจ่ายยา หากจู่ๆ ตัวบ่งชี้ของผู้ป่วยไม่ปกติ ระบบจะส่งการแจ้งเตือนเกี่ยวกับเรื่องนี้และคำแนะนำออนไลน์ให้แพทย์ทันที",
+  reanimationDescription:
+    "นี่คือระบบที่มีโปรโตคอลทางการแพทย์พิเศษที่ทำงานร่วมกับซอฟต์แวร์ที่ติดตั้งไว้แล้วในอุปกรณ์ทางการแพทย์ ด้วยระบบนี้แพทย์สามารถเห็นภาพผู้ป่วยได้ครบถ้วนตลอด 24 ชั่วโมงทุกวัน สำหรับผู้ป่วยแต่ละราย จะมีการบันทึกตัวบ่งชี้มาตรฐานบางอย่างที่มากเกินไปทั้งหมด คุณยังสามารถเชื่อมต่ออีก 1 ระบบที่ช่วยในการสั่งจ่ายยา หากจู่ๆ ตัวบ่งชี้ของผู้ป่วยไม่ปกติ ระบบจะส่งการแจ้งเตือนเกี่ยวกับเรื่องนี้และคำแนะนำออนไลน์ให้แพทย์ทันที",
   reanimationText1: "ปัญหา",
   reanimationText2: "-  ขาดเครื่องมือในการติดตามอาการของผู้ป่วยอย่างทันท่วงที",
-  reanimationText3: "-  เวลาจำนวนมากที่เจ้าหน้าที่หน่วยดูแลผู้ป่วยหนักใช้ในการบันทึกข้อมูลการสังเกตตามวัตถุประสงค์ในเอกสารกระดาษ",
-  reanimationText4: "-  ขาดเครื่องมือที่สะดวกในการเก็บรักษาและบันทึกเอกสารประวัติทางการแพทย์ของผู้ป่วยในรูปแบบอิเล็กทรอนิกส์",
-  reanimationText5: "-  เนื้อหาที่มีข้อมูลน้อยของการมีปฏิสัมพันธ์ระหว่างผู้เชี่ยวชาญในหอผู้ป่วยหนักและบริการวินิจฉัย ห้องปฏิบัติการ และผู้เชี่ยวชาญทางการแพทย์เฉพาะทาง",
+  reanimationText3:
+    "-  เวลาจำนวนมากที่เจ้าหน้าที่หน่วยดูแลผู้ป่วยหนักใช้ในการบันทึกข้อมูลการสังเกตตามวัตถุประสงค์ในเอกสารกระดาษ",
+  reanimationText4:
+    "-  ขาดเครื่องมือที่สะดวกในการเก็บรักษาและบันทึกเอกสารประวัติทางการแพทย์ของผู้ป่วยในรูปแบบอิเล็กทรอนิกส์",
+  reanimationText5:
+    "-  เนื้อหาที่มีข้อมูลน้อยของการมีปฏิสัมพันธ์ระหว่างผู้เชี่ยวชาญในหอผู้ป่วยหนักและบริการวินิจฉัย ห้องปฏิบัติการ และผู้เชี่ยวชาญทางการแพทย์เฉพาะทาง",
   reanimationText6: "-  ขาดความครบถ้วนของภาพทางคลินิกในขณะที่สั่งยา;",
   reanimationText7: "-  ประสิทธิภาพต่ำในการเปลี่ยนแปลงแผนการรักษา",
   reanimationText8: "โซลูชั่นส์",
   reanimationText9: "-  บูรณาการกับอุปกรณ์การแพทย์ข้างเตียงจากผู้ผลิตหลายราย",
-  reanimationText10: "-  การสร้างและบำรุงรักษาบัตรผู้ป่วยหนักในรูปแบบอิเล็กทรอนิกส์",
-  reanimationText11: "-  ระบบอัตโนมัติของกระบวนการสร้างและดำเนินการใบสั่งยาและการจัดการยา",
+  reanimationText10:
+    "-  การสร้างและบำรุงรักษาบัตรผู้ป่วยหนักในรูปแบบอิเล็กทรอนิกส์",
+  reanimationText11:
+    "-  ระบบอัตโนมัติของกระบวนการสร้างและดำเนินการใบสั่งยาและการจัดการยา",
   reanimationText12: "ผลลัพธ์",
-  reanimationText13: "-  รวบรวมข้อมูลอัตโนมัติจากอุปกรณ์ข้างเตียงออนไลน์ตลอด 24 ชั่วโมงทุกวัน",
-  reanimationText14: "-  แพลตฟอร์มถูกสร้างขึ้นสำหรับการตรวจสอบการปฏิบัติงานของผู้ป่วยตามข้อมูลจากอุปกรณ์ข้างเตียง",
-  reanimationText15: "-  ให้ความสามารถในการรักษาประวัติทางการแพทย์และบัตรผู้ป่วยหนักในรูปแบบอิเล็กทรอนิกส์",
-  reanimationText16: "-  ได้มีการพัฒนากลไกสำหรับการโต้ตอบข้อมูลระหว่างผู้เชี่ยวชาญในหอผู้ป่วยหนักและบริการวินิจฉัย ห้องปฏิบัติการ และผู้เชี่ยวชาญทางการแพทย์เฉพาะทาง",
+  reanimationText13:
+    "-  รวบรวมข้อมูลอัตโนมัติจากอุปกรณ์ข้างเตียงออนไลน์ตลอด 24 ชั่วโมงทุกวัน",
+  reanimationText14:
+    "-  แพลตฟอร์มถูกสร้างขึ้นสำหรับการตรวจสอบการปฏิบัติงานของผู้ป่วยตามข้อมูลจากอุปกรณ์ข้างเตียง",
+  reanimationText15:
+    "-  ให้ความสามารถในการรักษาประวัติทางการแพทย์และบัตรผู้ป่วยหนักในรูปแบบอิเล็กทรอนิกส์",
+  reanimationText16:
+    "-  ได้มีการพัฒนากลไกสำหรับการโต้ตอบข้อมูลระหว่างผู้เชี่ยวชาญในหอผู้ป่วยหนักและบริการวินิจฉัย ห้องปฏิบัติการ และผู้เชี่ยวชาญทางการแพทย์เฉพาะทาง",
   /* Clients */
   clientsText: "บทวิจารณ์",
   clientsTitle: "สิ่งที่ลูกค้าของเราพูด",
