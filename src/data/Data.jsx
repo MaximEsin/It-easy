@@ -36,7 +36,7 @@ export const Russian = {
   cardFiveText: "Автоматизация коммуникации и бизнес-процессов",
   cardSixHeading: "Сигнализация",
   cardSixText:
-    "В рейтинге крупнейших поставщиков услуг разработки программного обеспечения России",
+    "Обнаружение неисправностей и оповещение о них пользователя в непрерывном режиме.",
   cardSevenHeading: "Управление  записями и правами доступа",
   cardSevenText: "Централизованное управление доступом и контроль",
   cardEightHeading: "Цифровая реанимация",
@@ -350,7 +350,7 @@ export const English = {
   cardFiveText: "Automation of communication and business processes",
   cardSixHeading: "Alarm",
   cardSixText:
-    "In the ranking of the largest software development service providers in Russia",
+    "Detection of faults and notification of them to the user in a continuous mode.",
   cardSevenHeading: "Manage records and access rights",
   cardSevenText: "Centralized access management and control",
   cardEightHeading: "Digital intensive care",
@@ -660,7 +660,8 @@ export const Thai = {
   cardFourText: "ระบบรักษาความปลอดภัยและการแจ้งเตือนพลเมือง",
   cardFiveHeading: "ผู้ช่วยพนักงานดิจิทัล",
   cardFiveText: "ระบบอัตโนมัติของการสื่อสารและกระบวนการทางธุรกิจ",
-  cardSixHeading: "สัญญาณแจ้งเตือนเหตุเพลิงไหม้",
+  cardSixHeading:
+    "การตรวจจับข้อผิดพลาดและการแจ้งเตือนให้ผู้ใช้ทราบในโหมดต่อเนื่อง",
   cardSixText: "ในการจัดอันดับผู้ให้บริการพัฒนาซอฟต์แวร์ที่ใหญ่ที่สุดในรัสเซีย",
   cardSevenHeading: "จัดการบันทึกและสิทธิ์การเข้าถึง",
   cardSevenText: "การจัดการและการควบคุมการเข้าถึงแบบรวมศูนย์",
