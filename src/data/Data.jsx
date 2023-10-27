@@ -24,24 +24,28 @@ export const Russian = {
   cardButton3: "Связаться",
   cardOneHeading: "Мотошеринг",
   cardOneText:
-    "Краткосрочная аренда мотоциклов (скутеров, мопедов) через наше приложение в телефоне без залога и  посещения офиса",
+    "Приложение для краткосрочной поминутной аренды мотоциклов (скутеров, мопедов) без залога и посещения офиса.",
   cardTwoHeading: "ИИ в медицине",
   cardTwoText:
-    "Помощник для врача радиолога, умеет определять до 200 различных паталогий в автоматическом режиме",
+    "Приложение для медицинских диагностических центров. Помощник для врача радиолога, умеет определять до 200 различных патологий в автоматическом режиме.",
   cardThreeHeading: "Сбор и анализ информации СМИ",
-  cardThreeText: "Автоматический поиск в открытых источниках",
+  cardThreeText:
+    "Приложение для правительственных структур. Автоматический поиск в открытых источниках.",
   cardFourHeading: "Цифровая трансформация государства",
-  cardFourText: "Система безопасности и оповещения граждан",
+  cardFourText:
+    "Приложение для правительственных структур. Система безопасности и общения с гражданами.",
   cardFiveHeading: "Цифровой ассистент сотрудника",
-  cardFiveText: "Автоматизация коммуникации и бизнес-процессов",
+  cardFiveText:
+    "Приложение для фабрик, заводов и больших производств. Автоматизация коммуникации и бизнес-процессов.",
   cardSixHeading: "Сигнализация",
   cardSixText:
-    "Обнаружение неисправностей и оповещение о них пользователя в непрерывном режиме.",
+    "Приложение для обеспечения безопасности любого помещения, жилого, коммерческого, производственного. Обнаружение неисправностей и оповещение о них пользователя в непрерывном режиме.",
   cardSevenHeading: "Управление  записями и правами доступа",
-  cardSevenText: "Централизованное управление доступом и контроль",
+  cardSevenText:
+    "Приложение для правительственных структур, коммерческих и производственных предприятий. Централизованное управление доступом и контроль.",
   cardEightHeading: "Цифровая реанимация",
   cardEightText:
-    "Автоматизация процессов создания и выполнения медикаментозных назначений и манипуляций",
+    "Приложение для медицинской реанимации, скорой помощи человеку. Автоматизация процессов создания и выполнения медикаментозных назначений и манипуляций.",
   achievementsDescription1: "Лет разработки",
   achievementsDescription2: "Успешных проекта",
   achievementsDescription3: "Довольных клиентов",
@@ -338,24 +342,28 @@ export const English = {
   cardButton3: "Contact",
   cardOneHeading: "Motosharing",
   cardOneText:
-    "Short-term rental of motorcycles (scooters, mopeds) using our mobile app without deposit and office visit",
+    "An application for short-term, per-minute rental of motorcycles (scooters, mopeds) without a deposit or office visit.",
   cardTwoHeading: "AI in medicine",
   cardTwoText:
-    "Assistant for a radiologist, can detect up to 200 different pathologies automatically",
+    "Application for medical diagnostic centers. Assistant for a radiologist, can identify up to 200 different pathologies automatically.",
   cardThreeHeading: "Collection and analysis of media information",
-  cardThreeText: "Automatic search in open sources",
+  cardThreeText:
+    "Application for government agencies. Automatic search in open sources.",
   cardFourHeading: "Digital transformation of the government",
-  cardFourText: "Security and citizen notification system",
+  cardFourText:
+    "Application for government agencies. System of security and communication with citizens.",
   cardFiveHeading: "Digital employee assistant",
-  cardFiveText: "Automation of communication and business processes",
+  cardFiveText:
+    "Application for factories and large production facilities. Automation of communication and business processes.",
   cardSixHeading: "Alarm",
   cardSixText:
-    "Detection of faults and notification of them to the user in a continuous mode.",
+    "An application created to ensure the safety of anyone premises, residential, commercial, industrial. Detection faults and notifying the user about them in continuous mode.",
   cardSevenHeading: "Manage records and access rights",
-  cardSevenText: "Centralized access management and control",
+  cardSevenText:
+    "Application for government agencies, commercial and industrial enterprises.Centralized access management and control.",
   cardEightHeading: "Digital intensive care",
   cardEightText:
-    "Automation of the processes of creating and executing medication prescriptions and manipulations",
+    "Application for medical resuscitation, first aid to a person. Automation of the processes of creating and executing medication prescriptions and manipulations.",
   achievementsDescription1: "Years of development",
   achievementsDescription2: "Successful projects",
   achievementsDescription3: "Satisfied clients",
@@ -650,24 +658,28 @@ export const Thai = {
   cardButton3: "เชื่อมต่อกับเรา",
   cardOneHeading: "การแชร์มอเตอร์ไซต์",
   cardOneText:
-    "การเช่ารถจักรยานยนต์ระยะสั้น (สกู๊ตเตอร์ โมเพด) ผ่านแอปพลิเคชันโทรศัพท์ของเรา โดยไม่ต้องวางเงินมัดจำและเยี่ยมชมสำนักงาน",
+    "แอปพลิเคชันเช่ารถจักรยานยนต์ระยะสั้น (สกู๊ตเตอร์ โมเพด) ต่อนาที โดยไม่ต้องวางเงินมัดจำหรือเยี่ยมชมสำนักงาน",
   cardTwoHeading: "เอไอในทางการแพทย์",
   cardTwoText:
-    "ผู้ช่วยนักรังสีวิทยาสามารถตรวจจับโรคได้มากถึง 200 โรคโดยอัตโนมัติ",
+    "ใบสมัครสำหรับศูนย์วินิจฉัยทางการแพทย์ ผู้ช่วยนักรังสีวิทยาสามารถระบุโรคได้มากถึง 200 โรคโดยอัตโนมัติ",
   cardThreeHeading: "การรวบรวมและวิเคราะห์ข้อมูลสื่อ",
-  cardThreeText: "ค้นหาอัตโนมัติในโอเพ่นซอร์ส",
+  cardThreeText: "ใบสมัครสำหรับหน่วยงานราชการ ค้นหาอัตโนมัติในโอเพ่นซอร์ส",
   cardFourHeading: "การเปลี่ยนแปลงทางดิจิทัลของรัฐ",
-  cardFourText: "ระบบรักษาความปลอดภัยและการแจ้งเตือนพลเมือง",
+  cardFourText:
+    "ใบสมัครสำหรับหน่วยงานราชการ ระบบรักษาความปลอดภัยและการสื่อสารกับประชาชน",
   cardFiveHeading: "ผู้ช่วยพนักงานดิจิทัล",
-  cardFiveText: "ระบบอัตโนมัติของการสื่อสารและกระบวนการทางธุรกิจ",
+  cardFiveText:
+    "การประยุกต์ใช้งานสำหรับโรงงาน โรงงาน และโรงงานผลิตขนาดใหญ่ ระบบอัตโนมัติของการสื่อสารและกระบวนการทางธุรกิจ",
   cardSixHeading:
     "การตรวจจับข้อผิดพลาดและการแจ้งเตือนให้ผู้ใช้ทราบในโหมดต่อเนื่อง",
-  cardSixText: "ในการจัดอันดับผู้ให้บริการพัฒนาซอฟต์แวร์ที่ใหญ่ที่สุดในรัสเซีย",
+  cardSixText:
+    "แอปพลิเคชันที่สร้างขึ้นเพื่อความปลอดภัยของทุกสถานที่ ที่อยู่อาศัย อาคารพาณิชย์ อุตสาหกรรม การตรวจจับข้อผิดพลาดและแจ้งให้ผู้ใช้ทราบในโหมดต่อเนื่อง",
   cardSevenHeading: "จัดการบันทึกและสิทธิ์การเข้าถึง",
-  cardSevenText: "การจัดการและการควบคุมการเข้าถึงแบบรวมศูนย์",
+  cardSevenText:
+    "แอพพลิเคชั่นสำหรับหน่วยงานราชการ สถานประกอบการ พาณิชยกรรม และอุตสาหกรรม การจัดการและการควบคุมการเข้าถึงแบบรวมศูนย์",
   cardEightHeading: "การช่วยชีวิตแบบดิจิทัล",
   cardEightText:
-    "ระบบอัตโนมัติของกระบวนการสร้างและดำเนินการใบสั่งยาและการจัดการยา",
+    "ใบสมัครสำหรับการช่วยชีวิตทางการแพทย์การปฐมพยาบาลบุคคล ระบบอัตโนมัติของกระบวนการสร้างและดำเนินการใบสั่งยาและการจัดการยา",
   achievementsDescription1: "ปีแห่งการพัฒนา",
   achievementsDescription2: "โครงการที่สำเร็จ",
   achievementsDescription3: "ลูกค้าพึงพอใจ",
