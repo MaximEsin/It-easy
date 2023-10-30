@@ -20,6 +20,7 @@ import Goverment from "./pages/projects/Goverment";
 import Archimedes from "./pages/projects/Archimedes";
 import Media from "./pages/projects/Media";
 import Reanimation from "./pages/projects/Reanimation";
+import Hiring from "./pages/Hiring";
 
 function App() {
   const dispatch = useDispatch();
@@ -57,6 +58,7 @@ function App() {
         <Route path="/archimedes" element={<Archimedes />} />
         <Route path="/media" element={<Media />} />
         <Route path="/reanimation" element={<Reanimation />} />
+        <Route path="/hiring" element={<Hiring />} />
       </Routes>
       <Footer />
     </div>

@@ -82,6 +82,14 @@ const Header = () => {
                 {data.navFour}
               </span>
             </Link>
+            <Link className={styles.header__navItem} to="/hiring">
+              <span
+                onClick={() => toggleBurger()}
+                className={styles.header__span}
+              >
+                {data.navSix}
+              </span>
+            </Link>
           </div>
         </div>
         <Link className={styles.header__logoContainer} to="/">
@@ -116,6 +124,11 @@ const Header = () => {
             <li className={styles.header__navItem}>
               <Link className={styles.header__navItem} to="/contacts">
                 {data.navFour}
+              </Link>
+            </li>
+            <li className={styles.header__navItem}>
+              <Link className={styles.header__navItem} to="/hiring">
+                {data.navSix}
               </Link>
             </li>
           </ul>

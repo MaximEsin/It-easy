@@ -34,6 +34,9 @@ const Footer = () => {
           <Link className={styles.footer__link} to="/contacts">
             <p className={styles.footer__navItem}>{data.footerFour}</p>
           </Link>
+          <Link className={styles.footer__link} to="/hiring">
+            <p className={styles.footer__navItem}>{data.footerFive}</p>
+          </Link>
         </nav>
       </div>
     </section>

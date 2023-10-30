@@ -5,11 +5,13 @@ export const Russian = {
   navThree: "О компании",
   navFour: "Контакты",
   navFive: "Регистрация ИС",
+  navSix: "Работа у нас",
   /* Footer */
   footerOne: "ИТ-Услуги",
   footerTwo: "Наши продукты",
   footerThree: "О компании",
   footerFour: "Контакты",
+  footerFive: "Работа у нас",
   /* Main */
   mainHeading: `Здесь ваши 
   идеи находят реализацию`,
@@ -314,6 +316,22 @@ export const Russian = {
     "Компания IT-easy проявила себя как профессиональный и отзывчивый партнер в области автоматизации бизнеса. Их экспертные знания и индивидуальный подход помогли достичь желаемых результатов.",
   clientsDescription2:
     "IT-easy – это надежный и компетентный партнер. С их помощью мы смогли значительно улучшить управление нашим бизнесом и повысить его эффективность. Рекомендую!",
+  /* JOIN US */
+  hiringTitle1: "ПРИСОЕДИНЯЙТЕСЬ К НАМ",
+  hiringTitle2: "Здесь, в IT-EASY",
+  hiringCardOneTitle1: "Офис",
+  hiringCardOneTitle2: "Офис-менеджер",
+  hiringCardOneResponsibilitys: "Обязанности:",
+  hiringCardOneDescription1: "- Иметь связи с государственными органами",
+  hiringCardOneDescription2: "- Офлайн-продвижение",
+  hiringCardOneDescription3: "- Онлайн-продвижение",
+  hiringCardOneDescription4: "- Набор и управление",
+  hiringCardOneDescription5: "- Мониторинг бухгалтерского учета",
+  hiringCardOneDescription6: "- Копирайтинг",
+  hiringCardOneDescription7: "- Знание английского языка",
+  hiringCardOnePayment: "от 25.000 bath",
+  hiringCardOnePlace: "Таиланд",
+  hiringCardOneDate: "Опубликовано 30.10.2023",
 };
 
 export const English = {
@@ -323,11 +341,13 @@ export const English = {
   navThree: "About",
   navFour: "Contacts",
   navFive: "Register IP",
+  navSix: "Join us",
   /* Footer */
   footerOne: "IT-Services",
   footerTwo: "Our products",
   footerThree: "About",
   footerFour: "Contacts",
+  footerFive: "Join us",
   /* Main */
   mainHeading: `Here yours
   ideas find implementation`,
@@ -630,6 +650,22 @@ export const English = {
     "IT-easy has proven itself to be a professional and responsive partner in the field of business automation. Their expert knowledge and personalized approach helped achieve the desired results.",
   clientsDescription2:
     "IT-easy is a reliable and competent partner. With their help, we were able to significantly improve the management of our business and increase its efficiency. I recommend!",
+  /* JOIN US */
+  hiringTitle1: "JOIN US",
+  hiringTitle2: "Here at IT-EASY",
+  hiringCardOneTitle1: "Office",
+  hiringCardOneTitle2: "Office-manager",
+  hiringCardOneResponsibilitys: "Responsibilities:",
+  hiringCardOneDescription1: "- Have connections with government agencies",
+  hiringCardOneDescription2: "- Offline promotion",
+  hiringCardOneDescription3: "- Online promotion",
+  hiringCardOneDescription4: "- Recruitment and management",
+  hiringCardOneDescription5: "- Accounting monitoring",
+  hiringCardOneDescription6: "- Copywriting",
+  hiringCardOneDescription7: "- Knowledge of English language",
+  hiringCardOnePayment: "from 25.000 bath",
+  hiringCardOnePlace: "Thailand",
+  hiringCardOneDate: "Posted, 30-10-2023",
 };
 
 export const Thai = {
@@ -639,11 +675,13 @@ export const Thai = {
   navThree: "เกี่ยวกับ",
   navFour: "รายชื่อผู้ติดต่อ",
   navFive: "ลงทะเบียนไอพี",
+  navSix: "ทำงานกับเรา",
   /* Footer */
   footerOne: "บริการด้านไอที",
   footerTwo: "ผลิตภัณฑ์ของเรา",
   footerThree: "เกี่ยวกับ",
   footerFour: "รายชื่อผู้ติดต่อ",
+  footerFive: "ทำงานกับเรา",
   /* Main */
   mainHeading: `นี่ของคุณ
   แนวคิดต่างๆ นำไปสู่การนำไปปฏิบัติ`,
@@ -932,4 +970,20 @@ export const Thai = {
     "IT-easy ได้พิสูจน์ตัวเองแล้วว่าเป็นพันธมิตรมืออาชีพและตอบสนองในด้านระบบธุรกิจอัตโนมัติ ความรู้จากผู้เชี่ยวชาญและวิธีการเฉพาะบุคคลช่วยให้บรรลุผลตามที่ต้องการ",
   clientsDescription2:
     "IT-easy เป็นพันธมิตรที่เชื่อถือได้และมีความสามารถ ด้วยความช่วยเหลือของพวกเขา เราสามารถปรับปรุงการจัดการธุรกิจของเราได้อย่างมีนัยสำคัญและเพิ่มประสิทธิภาพ ฉันแนะนำ!",
+  /* JOIN US */
+  hiringTitle1: "ร่วมงานกับเรา",
+  hiringTitle2: "ที่นี่ที่ IT-EASY",
+  hiringCardOneTitle1: "สำนักงาน",
+  hiringCardOneTitle2: "ผู้จัดการออฟฟิศ",
+  hiringCardOneResponsibilitys: "ความรับผิดชอบ:",
+  hiringCardOneDescription1: "- มีความเชื่อมโยงกับหน่วยงานของรัฐ",
+  hiringCardOneDescription2: "- โปรโมชั่นออฟไลน์",
+  hiringCardOneDescription3: "- โปรโมชั่นออนไลน์",
+  hiringCardOneDescription4: "- การสรรหาและการจัดการ",
+  hiringCardOneDescription5: "- การติดตามการบัญชี",
+  hiringCardOneDescription6: "- การเขียนคำโฆษณา",
+  hiringCardOneDescription7: "- ความรู้ภาษาอังกฤษ",
+  hiringCardOnePayment: "จาก 25.000 บาท",
+  hiringCardOnePlace: "ประเทศไทย",
+  hiringCardOneDate: "โพสต์เมื่อ 30-10-2023",
 };
