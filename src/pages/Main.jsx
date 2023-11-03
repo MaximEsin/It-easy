@@ -15,6 +15,7 @@ import img1 from "../images/News1.jpeg";
 import img2 from "../images/News2.jpg";
 import img3 from "../images/News3.1.jpg";
 import img4 from "../images/News4.jpeg";
+import img5 from "../images/News5.jpeg"
 import News from "../components/News";
 import introPic from "../images/introPic.png";
 import Clients from "../components/Clients";
@@ -103,15 +104,16 @@ const Main = () => {
       <section className={styles.news}>
         <h2 className={styles.news__title}>{data.news}</h2>
         <div className={styles.news__box}>
-          <News date="29/09/2023" image={img4} about={data.newsTitle4} />
-          <News date="22/09/2023" image={img3} about={data.newsTitle3} />
-          <News date="21/09/2023" image={img2} about={data.newsTitle2} />
+          <News date="31/10/2023" image={img5} about={data.newsTitle5} description={data.newsDescription5} />
+          <News date="29/09/2023" image={img4} about={data.newsTitle4} description={data.newsDescription4} />
+          <News date="22/09/2023" image={img3} about={data.newsTitle3} description={data.newsDescription3} />
+          <News date="21/09/2023" image={img2} about={data.newsTitle2} description={data.newsDescription2} />
           <News
             date="15/09/2023"
             link="https://www.novostiphuketa.com/policiya-prishla-s-proverkoy-v-russkiy-motoprokat-na-phukete-18281.php?PDPA_accept=1"
             image={img1}
             about={data.newsTitle1}
-            description={data.newsDescription}
+            description={data.newsDescription1}
           />
         </div>
       </section>

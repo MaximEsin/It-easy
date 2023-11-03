@@ -130,10 +130,19 @@ export const Russian = {
     "ИММИГРАЦИОННАЯ ПОЛИЦИЯ ПРИШЛА С ПРОВЕРКОЙ В РУССКИЙ МОТОПРОКАТ НА ПХУКЕТЕ",
   newsTitle2: "ПОЛИЦИЯ ПРИШЛА С ПРОВЕРКОЙ В РУССКИЙ МОТОПРОКАТ НА ПХУКЕТЕ",
   newsTitle3:
-    "У нас прошла встреча в полицейском участке Phuket Tourist Police по вопросу подготовки к высокому сeзону и аренде мотобайков и машин",
+    "У нас прошла встреча в полицейском участке Phuket Tourist Police",
   newsTitle4: "Регистрируем мотобайки на Пхукете",
-  newsDescription:
+  newsTitle5: "Мы посетили выставку SWITCH в Сингапуре!",
+  newsDescription1:
     "Подразделение дорожной полиции одобрила после проверки русский мотошеринг на острове Пхукет",
+  newsDescription2:
+    "Нас приехали проверить сотрудники дорожной полиции. Нарушений не выявлено",
+  newsDescription3:
+    "У нас была встреча в туристической полиции Пхукета по вопросу подготовки к высокому сезону и аренде мотобайков и автомобилей.",
+  newsDescription4:
+    "Также мы перерегистрируем мотобайков, купленные в Бангкоке, и получаем на них номера Пхукета",
+  newsDescription5:
+    "Нам удалось познакомиться с компаниями занимающихся инновациями и технологиями.",
   /* Security */
   securityTitle: "Управление учетными записями и правами доступа пользователей",
   securityDescription:
@@ -462,10 +471,19 @@ export const English = {
     "THE immigration POLICE CAME TO CHECK A RUSSIAN MOTOR RENTAL IN PHUKET",
   newsTitle2: "THE POLICE CAME TO CHECK A RUSSIAN MOTOR RENTAL IN PHUKET",
   newsTitle3:
-    "We had a meeting at the Phuket Tourist Police station on the issue of preparing for the high season and renting motorbikes and cars",
+    "We had a meeting at the Phuket Tourist Police station",
   newsTitle4: "We register motobikes in Phuket",
-  newsDescription:
+  newsTitle5: "We visited the SWITCH exhibition in Singapore!",
+  newsDescription1:
     "The traffic police unit approved, after an inspection, Russian motorcycle sharing on the island of Phuket",
+  newsDescription2:
+    "The traffic police unit came to check us. No violations were identified",
+  newsDescription3:
+    "We had a meeting at the Phuket Tourist Police station on the issue of preparing for the high season and renting motorbikes and cars",
+  newsDescription4:
+    "We also re-register motobikes purchased in Bangkok and get Phuket license plates for them",
+  newsDescription5:
+    "We were able to meet companies engaged in innovation and technology",
   /* Security */
   securityTitle: "Managing user accounts and access rights",
   securityDescription:
@@ -794,10 +812,19 @@ export const Thai = {
   newsTitle1: "ตำรวจตรวจคนเข้าเมืองมาตรวจสอบการเช่ามอเตอร์รัสเซียในภูเก็ต",
   newsTitle2: "ตำรวจมาตรวจสอบการเช่ามอเตอร์รัสเซียในภูเก็ต",
   newsTitle3:
-    "เรามีนัดกันที่ สภ.ท่องเที่ยวภูเก็ต ในประเด็นการเตรียมความพร้อมช่วงไฮซีซั่นและการเช่ารถจักรยานยนต์และรถยนต์",
+    "เรามีนัดกับตำรวจท่องเที่ยวภูเก็ต",
   newsTitle4: "เราจดทะเบียนรถมอเตอร์ไซค์ที่ภูเก็ต",
-  newsDescription:
+  newsTitle5: "เราไปเยี่ยมชมนิทรรศการ SWITCH ที่สิงคโปร์!",
+  newsDescription1:
     "หน่วยตำรวจจราจรอนุมัติหลังจากการตรวจสอบแล้ว โดยรัสเซียสามารถแบ่งปันรถจักรยานยนต์บนเกาะภูเก็ตได้",
+  newsDescription2:
+    "หน่วยตำรวจจราจรมาตรวจสอบเรา ไม่มีการระบุการละเมิด",
+  newsDescription3:
+    "เรามีนัดกันที่ สภ.ท่องเที่ยวภูเก็ต ในประเด็นการเตรียมความพร้อมช่วงไฮซีซั่นและการเช่ารถจักรยานยนต์และรถยนต์",
+  newsDescription4:
+    "นอกจากนี้เรายังจดทะเบียนจักรยานที่ซื้อในกรุงเทพฯ อีกครั้งและรับป้ายทะเบียนภูเก็ตสำหรับจักรยานเหล่านั้น",
+  newsDescription5:
+    "เราได้พบกับบริษัทที่เกี่ยวข้องกับนวัตกรรมและเทคโนโลยี",
   /* Security */
   securityTitle: "การจัดการบัญชีผู้ใช้และสิทธิ์การเข้าถึง",
   securityDescription:
