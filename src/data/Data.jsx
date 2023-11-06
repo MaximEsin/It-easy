@@ -142,7 +142,7 @@ export const Russian = {
   newsDescription4:
     "Также мы перерегистрируем мотобайков, купленные в Бангкоке, и получаем на них номера Пхукета",
   newsDescription5:
-    "Нам удалось познакомиться с компаниями занимающихся инновациями и технологиями.",
+    "На этой выставке мы обзавелись новыми бизнес контактами для возможного сотрудничества в будущем.",
   /* Security */
   securityTitle: "Управление учетными записями и правами доступа пользователей",
   securityDescription:
@@ -483,7 +483,7 @@ export const English = {
   newsDescription4:
     "We also re-register motobikes purchased in Bangkok and get Phuket license plates for them",
   newsDescription5:
-    "We were able to meet companies engaged in innovation and technology",
+    "At this exhibition we acquired new business contacts for possible cooperation in the future.",
   /* Security */
   securityTitle: "Managing user accounts and access rights",
   securityDescription:
@@ -824,7 +824,7 @@ export const Thai = {
   newsDescription4:
     "นอกจากนี้เรายังจดทะเบียนจักรยานที่ซื้อในกรุงเทพฯ อีกครั้งและรับป้ายทะเบียนภูเก็ตสำหรับจักรยานเหล่านั้น",
   newsDescription5:
-    "เราได้พบกับบริษัทที่เกี่ยวข้องกับนวัตกรรมและเทคโนโลยี",
+    "ในงานนิทรรศการนี้ เราได้รับข้อมูลติดต่อทางธุรกิจใหม่ๆ สำหรับความร่วมมือที่เป็นไปได้ในอนาคต",
   /* Security */
   securityTitle: "การจัดการบัญชีผู้ใช้และสิทธิ์การเข้าถึง",
   securityDescription:
