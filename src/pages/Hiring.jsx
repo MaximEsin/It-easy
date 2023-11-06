@@ -8,9 +8,8 @@ const Hiring = () => {
     return(
         <section className={styles.hiring__container}>
             <div className={styles.hiring__heading}>
-		  	  <h1 className={styles.hiring__title}>{data.hiringTitle1}</h1>
-              <br></br>
-              <p className={styles.hiring__text}>{data.hiringTitle2}</p>
+		  	      <h1 className={styles.hiring__title}>{data.hiringTitle1}</h1> 
+              <p className={styles.hiring__title}>{data.hiringTitle2}</p>
             </div>
             <div className={styles.hiring__card}>
                 <div className={styles.hiring__content}>
