@@ -22,12 +22,12 @@ const OurProducts = () => {
         </p>
       </div>
       <div className={styles.cards}>
-          <Card
+        <Card
           heading={data.cardOneHeading}
           description={data.cardOneText}
           img={image1}
           text={data.cardButton1}
-          link={"https://www.bikesharingtai.com/"}
+          link={"https://www.msharing.org/"}
           target="_blank"
         />
         <Card
