@@ -52,6 +52,25 @@ const Main = () => {
           />
         </div>
       </div>
+      <div className={styles.video__container}>
+        <p className={styles.cards__heading}>{data.videoHeading}</p>
+        <iframe
+          className={styles.video}
+          src="https://www.youtube.com/embed/7vzDAqf2w6c?si=fWvsLnPPyZgSF4Q0"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+        <iframe
+          className={styles.video}
+          src="https://www.youtube.com/embed/BExDX8FXSJ0?si=Ii74WhvOstr5mAEu"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </div>
       <div className={styles.cards__container}>
         <p className={styles.cards__text}>{data.cardsText1}</p>
         <h2 className={styles.cards__heading}>{data.cardsText2}</h2>

@@ -112,7 +112,7 @@
     color: #0b1b35;
   }
   &__container {
-    margin-top: -80px;
+    margin-top: 80px;
     margin-bottom: 100px;
   }
 
@@ -277,6 +277,20 @@
   }
 }
 
+.video {
+  width: 90%;
+  margin-bottom: 20px;
+  height: 600px;
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
 @media all and (max-width: 1280px) {
   .intro {
     &__pic {
@@ -338,6 +352,11 @@
     flex-direction: column-reverse;
   }
 
+  .video {
+    height: 400px;
+    margin-top: 10px;
+  }
+
   .intro {
     &__heading {
       margin-top: -150px;
@@ -390,6 +409,10 @@
       flex-direction: column;
       margin-top: 18px;
       align-items: center;
+    }
+
+    .video {
+      height: 300px;
     }
 
     &__pic {

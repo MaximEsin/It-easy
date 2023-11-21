@@ -341,6 +341,9 @@ export const Russian = {
   hiringCardOnePayment: "от 25.000 bath",
   hiringCardOnePlace: "Таиланд",
   hiringCardOneDate: "Опубликовано 30.10.2023",
+
+  /* Video */
+  videoHeading: "Мир IT-Easy",
 };
 
 export const English = {
@@ -470,8 +473,7 @@ export const English = {
   newsTitle1:
     "THE immigration POLICE CAME TO CHECK A RUSSIAN MOTOR RENTAL IN PHUKET",
   newsTitle2: "THE POLICE CAME TO CHECK A RUSSIAN MOTOR RENTAL IN PHUKET",
-  newsTitle3:
-    "We had a meeting at the Phuket Tourist Police station",
+  newsTitle3: "We had a meeting at the Phuket Tourist Police station",
   newsTitle4: "We register motobikes in Phuket",
   newsTitle5: "We visited the SWITCH exhibition in Singapore!",
   newsDescription1:
@@ -684,6 +686,9 @@ export const English = {
   hiringCardOnePayment: "from 25.000 bath",
   hiringCardOnePlace: "Thailand",
   hiringCardOneDate: "Posted, 30-10-2023",
+
+  /* Video */
+  videoHeading: "World of IT-Easy",
 };
 
 export const Thai = {
@@ -811,14 +816,12 @@ export const Thai = {
   news: "ข่าว",
   newsTitle1: "ตำรวจตรวจคนเข้าเมืองมาตรวจสอบการเช่ามอเตอร์รัสเซียในภูเก็ต",
   newsTitle2: "ตำรวจมาตรวจสอบการเช่ามอเตอร์รัสเซียในภูเก็ต",
-  newsTitle3:
-    "เรามีนัดกับตำรวจท่องเที่ยวภูเก็ต",
+  newsTitle3: "เรามีนัดกับตำรวจท่องเที่ยวภูเก็ต",
   newsTitle4: "เราจดทะเบียนรถมอเตอร์ไซค์ที่ภูเก็ต",
   newsTitle5: "เราไปเยี่ยมชมนิทรรศการ SWITCH ที่สิงคโปร์!",
   newsDescription1:
     "หน่วยตำรวจจราจรอนุมัติหลังจากการตรวจสอบแล้ว โดยรัสเซียสามารถแบ่งปันรถจักรยานยนต์บนเกาะภูเก็ตได้",
-  newsDescription2:
-    "หน่วยตำรวจจราจรมาตรวจสอบเรา ไม่มีการระบุการละเมิด",
+  newsDescription2: "หน่วยตำรวจจราจรมาตรวจสอบเรา ไม่มีการระบุการละเมิด",
   newsDescription3:
     "เรามีนัดกันที่ สภ.ท่องเที่ยวภูเก็ต ในประเด็นการเตรียมความพร้อมช่วงไฮซีซั่นและการเช่ารถจักรยานยนต์และรถยนต์",
   newsDescription4:
@@ -1013,4 +1016,7 @@ export const Thai = {
   hiringCardOnePayment: "จาก 25.000 บาท",
   hiringCardOnePlace: "ประเทศไทย",
   hiringCardOneDate: "โพสต์เมื่อ 30-10-2023",
+
+  /* Video */
+  videoHeading: "โลกแห่ง IT-Easy",
 };
