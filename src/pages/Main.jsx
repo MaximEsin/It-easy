@@ -64,7 +64,7 @@ const Main = () => {
         ></iframe>
         <iframe
           className={styles.video}
-          src="https://www.youtube.com/embed/b0ReY3rPgBw?si=1WZvY0dEhR0yCFYU"
+          src="https://www.youtube.com/embed/SUc7dOnASZI?si=344W_iZUirJeHmiF"
           title="YouTube video player"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
